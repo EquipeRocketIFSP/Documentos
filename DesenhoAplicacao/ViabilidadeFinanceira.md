@@ -7,7 +7,7 @@ e o armazenamento da maioria destes por um tempo mínimo de dois anos.
 ## Geração de documentos com certificado digital
 
 Se fará paga a criação de documentos obrigatórios que usem a funcionalidade de certificado digital.
-Assim sendo, para cada ato médico registrado com certificado digital, em cada clínica veterinária que aderir ao sistema, haverá ganhos para o projeto.
+Assim sendo, para cada ato médico registrado com certificado digital, em cada clínica veterinária que aderir ao sistema, haverá ganhos para o projeto. 
 
 ## Armazenamento de documentos
 
