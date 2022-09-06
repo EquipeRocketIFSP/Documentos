@@ -52,7 +52,7 @@ Nesse sentido, identificamos a necessidade de avaliar a utilização de criptogr
 
 Como o projeto é desenvolvido para área de medicina veterinária, devem ser observadas legislações e decretos concernentes.
 
-- CÓDIGO DE ÉTICA PROFISSIONAL DO MÉDICO-VETERINÁRIO
+- Nosso projeto irá exigir login com CRMV para acessar áreas privativas dá área de medicina veterinária. (CÓDIGO DE ÉTICA PROFISSIONAL DO MÉDICO-VETERINÁRIO, capítulo 5°, art 9° insiso 2).
 - NORMA TÉCNICA ESPECIAL: anexo do artigo 1º do Decreto nº 40.400,de 24 de outubro de 1995
 - anexo 1 da RESOLUÇÃO CFMV Nº 1.000, DE 11 DE MAIO DE 2012
 - tem mais naquele MANUAL DE RESPONSABILIDADE TÉCNICA E LEGISLAÇÃO (4° revisão, 2019)
