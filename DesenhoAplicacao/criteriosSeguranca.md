@@ -28,12 +28,25 @@ Multinet Produtos]. - Rio de Janeiro : Elsevier, 2013. p.410 !!!
 
 Em diversos sistemas, tanto mobile como web, diversas informações são trocadas entre o usuário e o servidor a todo instante. Dentre essas informações podemos destacar documentos pessoais, senhas e informações sigilosas. Visto isso, uma das prioridades do sistema a ser desenvolvido será a privacidade de seus usuários e de suas informações. 
 
-Concebida com intuito de proteger os dados dos usuários, foi decretada em 14 de agosto de 2018 a lei número 13.709, conhecida como LGPD (Lei Geral de Proteção de Dados Pessoais).
+A lei 13.709/2018, conhecida como LGPD (Lei Geral de Proteção de Dados Pessoais) foi concebida com intuito de disciplinar o uso de dados pessoais por instituições, empoderando a pessoa física sobre os direitos fundamentais da liberdade e privacidade sobre seus dados.
+!!! (https://web.archive.org/web/20211018033354/https://www.tjsp.jus.br/LGPD/LGPD/ALGPD) !!!
 
-Quando se fala sobre a LGPD, o tratamento dos dados pessoais pode ser realizado por três agentes, denominados controlador, operador e encarregado, esse último indicado pelo controlador com intuito de atuar como canal de comunicação entre os outros dois, o titular dos dados e a ANPD (Autoridade Nacional de Proteção de Dados). A lei cita sobre qualquer atividade no qual haja o tratamento dos dados, como a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, entre outras atividades. O titular dos dados é o dono desses dados e toda a operação ou distribuição dos dados deverão estar dentro da lei e ser autorizados por este, com exceção única do compartilhamento desses dados dentro da administração pública no âmbito da execução de políticas públicas, entretanto tal órgão que coleta deverá informar com transparência quais dados serão compartilhados e com quais indivíduos, e o órgão receptor dos dados deverá informar o razão pela captação e utilização de tais informações de maneira clara. A distribuição indevida desses dados poderá acarretar ônus ao propagador.
+A lei dispõe sobre atividades em que ocorra "tratamento de dados". Como explica o tribunal de justiça de São Paulo (TJ-SP):
+> Considera-se “tratamento de dados” qualquer atividade que utilize um dado pessoal na execução da sua operação, como, por exemplo: coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração.
+
+Tanto a Serpro quanto o TJ-SP relatam que a lei prevê três agentes das instituições, listando suas respectivas responsabilidades principais:
+- Controlador: Responsável pelas decisões relativas ao tratamento dos dados
+- Operador: Delegado pelo Controlador, operacionaliza as decisões do Controlador
+- Encarregado: Atender às demandas dos titulares, interagir com a autoridade nacinal de proteção de dados (ANPD) e orientar funcionários e contratados sobre as práticas de proteção de dados.
+
+O titular dos dados é aquele que pode ter dados que identificam a pessoa natural, sendo tratados , distribuídos ou armazenados. Para que os dados possam ser armazenados nos termos da lei, é necessário que exista expressa autorização pelo titular dos dados, devidamente armazenados para fins de fiscalização.
+A distribuição indevida desses dados poderá acarretar ônus ao propagador.
+
 !!! https://web.archive.org/web/20220719020624/https://www.serpro.gov.br/lgpd/empresa/como-cumprir-a-lgpd/ !!!
 
-Portanto, pode-se dizer que a LGPD tem como principais objetivos assegurar o direito à privacidade e à proteção de dados pessoais, estabelecer regras sobre os tratamentos desses dados e fortalecer a segurança das relações jurídicas e a confiança do titular no tratamento de seus dados.
+Portanto, o mapeamento dos dados necessários para as atividades previstas pela aplicação e armazenamento de dados sensíveis é um ponto de atenção para ser considerado desde o desenvolvimento da modelagem de dados, passando pelo trânsito dos dados até a comunicação com os usuários que realizarão interação com a ferramenta.
+
+Nesse sentido, identificamos a necessidade de avaliar a utilização de criptografia em todas as etapas de trânsito de dados e armazenamento de banco de dados.
 
 ## Legislação
 
