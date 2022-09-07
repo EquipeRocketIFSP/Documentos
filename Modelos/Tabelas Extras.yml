@@ -1,0 +1,58 @@
+Cirurgia:
+    CategoriaPaciente:
+        - Asa1:
+            ExamesPreoperatorios:
+                - Hemograma
+                - FuncaoHepatica I
+                - FuncaoRenal
+        - Asa2:
+            ExamesPreoperatorios:
+                - Hemograma
+                - FuncaoHepatica II
+                - FuncaoRenal
+                - Eletrocardiograma
+        - Asa3:
+            ExamesPreoperatorios:
+                - Hemograma
+                - FuncaoHepatica II + proteína
+                - FuncaoRenal
+                - Eletrocardiograma
+                - EcoDoplerCardiograma
+        - Asa4:
+            ExamesPreoperatorios:
+    TipoCirurgia:
+        - Oncologica
+        - Ortopedicas
+        - TecidoMole
+        - Ovariohisterectomia
+        - Orquiectomia
+        - Odontologica
+        - Oftalmo
+        ...
+    Equipe:
+        Clinica
+        - participante:
+            id
+            presente
+            crmv
+    Agenda:
+        id
+    Medicacao:
+        MPA:
+            id
+        Inducao:
+            id
+        PlanoCirugico:
+            id
+        PosCirugico:
+            id
+Consulta:
+    ExamesEspecificos: []
+    Procedimentos:
+        - Curativo
+        - Medicacao
+        - Limpeza
+        - Vacina
+        ...
+
+Agenda
