@@ -48,7 +48,7 @@ Portanto, o mapeamento dos dados necessários para as atividades previstas pela 
 
 Nesse sentido, identificamos a necessidade de avaliar a utilização de criptografia em todas as etapas de trânsito de dados e armazenamento de banco de dados.
 
-## Legislação
+## Regulamentação
 
 Como o projeto é desenvolvido para área de medicina veterinária, devem ser observadas legislações e decretos concernentes.
 
