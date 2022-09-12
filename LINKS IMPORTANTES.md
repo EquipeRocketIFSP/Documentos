@@ -14,6 +14,7 @@
 <br>
 <a href="https://docs.google.com/spreadsheets/d/1SeCS2NJ72VIda-5KJV8JeAj_BR9An-ggKjX60_iicn0/edit?usp=drivesdk"> Planilhas</a>
 <br>
+<a href="https://www.overleaf.com/project/63042512518a163a04931e71"> Slides da Apresentação Inicial</a>
 
 
 
