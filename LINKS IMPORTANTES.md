@@ -4,7 +4,7 @@
 <br>
 <a href="https://pt.overleaf.com/project/630114456c0f22ebac52b12b"> Documento Overleaf </a>
 <br>
-<a href=" https://equipe-rocket-ifsp.blogspot.com/"> Blog </a>
+<a href="https://equipe-rocket-ifsp.blogspot.com/"> Blog </a>
 <br>
 <a href="https://meet.google.com/fzp-azka-jun"> Meet </a>
 <br>
