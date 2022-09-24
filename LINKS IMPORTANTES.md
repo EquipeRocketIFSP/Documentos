@@ -18,4 +18,13 @@
 <br>
 <a href="https://pt.overleaf.com/4156828685fvxrfvvkpcyd"> Slides Desenho da Aplicação</a>
 <br>
+<br> <br>
+Outros links úteis para edição dos documentos, utilização do Gource, SVNStatts, entre outros:<br>
+<br>
+1) Como <a href="https://blog.dyegomaas.com.br/posts/artigo-como-visualizar-desenvolvimento-com-gource/#:~:text=Para%20instalar%2C%20voc%C3%AA%20pode%20baixar,seu%20gerenciador%20de%20pacote%20favorito."> instalar</a> o Gource. <br>
 
+2) Como utilizar o <a href="https://aneisiata.blogspot.com/2019/04/gource.html">GOURCE</a> <br>
+3) Gerando o <a href="https://conexaoif.blogspot.com/2015/03/gerando-o-video-do-gource.html"> vídeo</a> no Gource.
+<br> <br>
+
+ 
