@@ -14,7 +14,7 @@
 <br>
 <a href="https://docs.google.com/spreadsheets/d/1SeCS2NJ72VIda-5KJV8JeAj_BR9An-ggKjX60_iicn0/edit?usp=drivesdk"> Planilhas</a>
 <br>
-<a href="https://www.overleaf.com/project/63042512518a163a04931e71"> Slides da Apresentação Inicial</a>
+<a href="https://pt.overleaf.com/1126636833rfwkjqvbkgrf"> Slides da Apresentação Inicial</a>
 <br>
 <a href="https://pt.overleaf.com/4156828685fvxrfvvkpcyd"> Slides Desenho da Aplicação</a>
 <br>
@@ -31,5 +31,8 @@ Outros links úteis para edição dos documentos, utilização do Gource, SVNSta
  <h3>SVN</h3><br>
  
  Link da nossa <a href="https://svn.spo.ifsp.edu.br/svn/a6pgp/S202202-PI-NOT/Rocket/"> pasta/repositório </a> no SVN.
-
- 
+<br> <br>
+Arquivo de <a href="https://svn.spo.ifsp.edu.br/svn/a6pgp/0-LEIA_ME.txt"> instruções</a> do Professor Ivan sobre a documentação do Projeto Integrado.
+<br>
+<br>
+Página da <a href="https://dicas.ivanfm.com/aulas/pi1a5.html"> matéria</a> contendo os requisitos de entrega, etapas e instruções referentes ao Projeto.
