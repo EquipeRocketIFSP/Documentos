@@ -35,4 +35,12 @@ Outros links úteis para edição dos documentos, utilização do Gource, SVNSta
 Arquivo de <a href="https://svn.spo.ifsp.edu.br/svn/a6pgp/0-LEIA_ME.txt"> instruções</a> do Professor Ivan sobre a documentação do Projeto Integrado.
 <br>
 <br>
-Página da <a href="https://dicas.ivanfm.com/aulas/pi1a5.html"> matéria</a> contendo os requisitos de entrega, etapas e instruções referentes ao Projeto.
+Página da <a href="https://dicas.ivanfm.com/aulas/pi1a5.html"> matéria</a> contendo os requisitos de entrega, etapas e instruções referentes ao Projeto.<br>
+<br>
+<br>
+
+<h3> Arquivo rascunho </h3><br>
+Doc do Google com rascunho das <a href="https://docs.google.com/document/d/1xkH9WeD0hj8BePG6ZJMT-ew3wNFZlXpmWU6QzqN96g4/edit?usp=sharing"> referencias bibliograficas</a> removidas do laTeX original <br>
+
+<br>
+Doc do Google com rascunho do <a href="https://docs.google.com/document/d/1gXXQxjXZy_gOR6iaEIRZ-SZhJ8Di9GLkTJ_2ToRS8HQ/edit#"> texto </a> <br>
