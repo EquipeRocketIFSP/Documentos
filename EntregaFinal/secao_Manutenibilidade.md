@@ -5,12 +5,15 @@ Visando garantir boa resposta dos clientes, atingindo um elevado nível de quali
 Buscando facilitar o fluxo de trabalho com um maior nível de legibilidade para todos os envolvidos no desenvolvimento do código e, consequentemente, simplificar a integração entre as diferentes partes do que está a ser desenvolvido, a equipe optou por adotar uma convenção de código. Visando o desenvolvimento de um código consistente e transparente, a convenção permite que os diferentes membros possam adicionar contribuições sem grandes dificuldades, aumentando a taxa de transferência e diminuindo o tempo de entrega, resultando em uma base de código mais uniforme e consequentemente impactando na facilidade da manutenção do código.
 
 ##### 3.1.1 Codificação geral
-A convenção adotada para a parte mais generalizada do código, é a mais comumente usada para o desenvolvimento utilizando a linguagem Java, sendo relativamente próxima dos padrões adotados em outras linguagens populares como JavaScript e Python. São elas:
+A convenção adotada para a parte mais generalizada do código, é a mais comumente usada para o desenvolvimento utilizando a linguagem Java, sendo relativamente próxima dos padrões adotados em outras linguagens populares como JavaScript e Python. As regras seguem como base as sugestões de Coding Convention da Oracle, mas foram adaptadas para as necessidades da equipe:
 - Declaração de atributos e variáveis em português.
-- Declarações globais preferencialmente no início do arquivo.
+- Nomes de atributos e váriaveis devem ser redigidos em camelCase.
 - Variáveis declaradas próximas de onde são inicializadas.
-- Métodos nomeados com camelCase e prefixados com verbo em inglês.
+- Declarações globais preferencialmente no início do arquivo.
 - Uso reduzido de variáveis, funções e objetos globais.
+- Métodos nomeados com camelCase e prefixados com verbo em inglês que deixe claro o que o método faz.
+- As constantes devem utilizar notação Upper case, utilizando underscore para separação das palavras em caso de nome composto.
+- Nomes de classes e interfaces redigidos em PascalCase.
 
 Somando-se a isso, a resolução do back-end é dividida em pacotes para melhor distribuição e visibilidade da mesma. Sendo eles, o pacote model contendo as classes de modelo, também usadas como entidades mapeadas do banco de dados, o pacote controller contendo o gerenciamento da lógica do negócio através dos controladores e endpoints do serviço, o pacote service contendo a implementação da lógica de negócio através dos serviços e o pacote repository para centralizar as regras de armazenamento dos beans de entidade no sistema.
 
