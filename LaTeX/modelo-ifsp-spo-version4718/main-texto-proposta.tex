@@ -1,0 +1,2039 @@
+%% Adaptado a partir de :
+%%    abtex2-modelo-trabalho-academico.tex, v-1.9.2 laurocesar
+%% para ser um modelo para os trabalhos no IFSP-SPO
+
+\documentclass[
+    % -- opções da classe memoir --
+    12pt,               % tamanho da fonte
+    openright,          % capítulos começam em pág ímpar (insere página vazia caso preciso)
+    %twoside,            % para impressão em verso e anverso. Oposto a oneside
+    oneside,
+    a4paper,            % tamanho do papel. 
+    BIBLATEX,           % indica para utilizar BIBLATEX em vez do abntex2cite
+    % -- opções da classe abntex2 --
+    %chapter=TITLE,     % títulos de capítulos convertidos em letras maiúsculas
+    %section=TITLE,     % títulos de seções convertidos em letras maiúsculas
+    %subsection=TITLE,  % títulos de subseções convertidos em letras maiúsculas
+    %subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+    % Opções que não devem ser utilizadas na versão final do documento
+    %draft,              % para compilar mais rápido, remover na versão final
+%   MODELO,             % indica que é um documento modelo então precisa dos geradores de texto
+    TODO,               % indica que deve apresentar lista de pendencias 
+    % -- opções do pacote babel --
+    english,            % idioma adicional para hifenização
+    brazil              % o último idioma é o principal do documento
+    ]{ifsp-spo-inf-ctds}
+
+        
+% ---
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+%\usepackage{etoolbox}
+%\patchcmd{\thebibliography}{\chapter*}{\section*}{}{}
+\usepackage{tabulary}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\setlength {\marginparwidth }{2cm} 
+\usepackage{float}
+% carregando aqui referencias quando utilizando BIBLATEX
+\IfPackageLoaded{biblatex}{%
+\addbibresource{referencias.bib}
+\addbibresource{exemplos/abntex2-doc-abnt-6023.bib}
+}{}
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{CertVet - Gerenciador de clínica veterinária}
+
+% Trabalho individual
+%\autor{JOSÉ BRAZ DE ARAUJO}
+
+% Trabalho em Equipe
+% ver também https://github.com/abntex/abntex2/wiki/FAQ#como-adicionar-mais-de-um-autor-ao-meu-projeto
+\renewcommand{\imprimirautor}{
+    \begin{tabular}{lr}
+        CAIQUE DANIEL FREITAS EUFRASIO DA SILVA & SP3046711 \\
+        HENRIQUE HIROMI SHIMADA                 & SP3039421 \\
+        IRINA CHANG GOUVEIA FERREIRA            & SP3058123 \\
+        LUIS RENATO MOREIRA DA COSTA            & SP3035531 \\
+        MARCOS QUERINO DOS SANTOS E SANTOS JUNIOR & SP3047245   \\
+        MURILO SANTOS PIRES                     & SP3052737 \\
+        WELEN MOTA SOUSA                        & SP146616X
+    \end{tabular}
+}
+
+
+\tipotrabalho{Projeto da Disciplina Projeto Integrado I}
+
+\disciplina{PI1A5 - Projeto Integrado I}
+
+\preambulo{Desenho da aplicação para disciplina Projeto Integrado I}
+
+\data{SETEMBRO DE 2022}
+
+% Definir o que for necessário e comentar o que não for necessário
+% Utilizar o Nome Completo, abntex tem orientador e coorientador
+% então vão ser utilizados na definição de professor
+\renewcommand{\orientadorname}{Professor:}
+\orientador{ANTONIO AIRTON PALLADINO}
+\renewcommand{\coorientadorname}{Professor:}
+\coorientador{JOSÉ BRAZ DE ARAUJO}
+
+
+
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+        %pagebackref=true,
+        pdftitle={\@title}, 
+        pdfauthor={\@author},
+        pdfsubject={\imprimirpreambulo},
+        pdfcreator={LaTeX with abnTeX2},
+        pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+        colorlinks=true,            % false: boxed links; true: colored links
+        linkcolor=blue,             % color of internal links
+        citecolor=blue,             % color of links to bibliography
+        filecolor=magenta,              % color of file links
+        urlcolor=blue,
+        bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% ---
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+ 
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+\pretextual
+
+% ---
+% Capa - Para proposta a folha de rosto é suficiente pois é mais completa.
+% ---
+\imprimirfolhaderosto
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ---
+
+%---
+% inserir lista de quadros
+%---
+\pdfbookmark[0]{\listofquadros}{lot}
+\listofquadros*
+\cleardoublepage
+%---
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\tableofcontents*
+\textual
+\chapter[Introdução]{Introdução}
+    
+    Dados do IBGE apontam que de 2013 a 2020 ocorreu aumento da população de animais de estimação (cães, gatos, aves e répteis) nos domicílios brasileiros, como mostra o gráfico da figura \ref{fig:grafico pet}, ainda que a quantidade de domicílios com animais tenha sofrido uma pequena queda \cite{ibge2013} \cite{pet2021}, o mercado pet no Brasil encontra-se em ascensão nos últimos anos.
+    
+    Ainda de acordo com o instituto, aproximadamente 45\% dos lares possuem algum cão, e 19\% possuem algum gato,\cite{cao2019,} \cite{gato2019} movimentando cerca de R\$5 bilhões de reais entre 2020-2021 apenas com serviços e produtos veterinários, não contabilizando as outras subáreas do mercado pet, que movimentaram, no total, R\$ 45 bilhões de reais durante o mesmo biênio \cite{pet2021}.
+    
+    Dados do censo do Programa Nacional de Saúde mostram que, dos domicílios em que exitem um cão ou gato, 72\% vacinaram seus animais contra a raiva \cite{vacina2019}. Esse dado sugere que mais da metade dos tutores se preocupam com a saúde dos seus animais e procuram o profissional médico veterinário para garantir a profilaxia \cite{vacina2019}.
+     
+    Observando tais dados referentes ao censo populacional de cães e gatos no país, é esperado que estabelecimentos veterinários estejam sujeitos a rigorosas leis e fiscalização por parte dos seus órgãos de classe e sanitários.
+    
+    O CFMV (Conselho Federal de Medicina Veterinária), responsável por fiscalizar, orientar, supervisionar e disciplinar o exercício profissional de médicos veterinários e zootecnistas em âmbito federal, e os CRMVs (Conselho Regional de Medicina Veterinária) que tem como principal escopo a fiscalização do exercício das profissões das áreas de medicina veterinária e de zootecnia, de extensão regional\cite{doc_obrig} têm a competência para fiscalizar a aderência das clínicas e profissionais às normas éticas e de  operacionais.
+     
+    Dentre as responsabilidades dos profissionais médicos veterinários esta a emissão de documentos obrigatórios que comprovem o estado de saúde dos animais atendidos, dados de identificação desse animal, procedimentos realizados, medicações utilizadas, assim como resultados de exames, laudos, emissão de documentos complementares ou quaisquer outros dados relevantes.
+    
+    Ainda como responsabilidade do médico, é necessário que os documentos sejam armazenados por um prazo pré-definido de 2 a 20 anos. Estes documentos são utilizados pelas unidades fiscalizadoras quando requisitados, em fins jurídicos em caso de processos, assim como devem estar disponíveis para o tutor do animal \cite{doc_obrig}.
+     
+     \begin{figure}[H]
+        \centering
+        \includegraphics{images/grafico_censopet.png}
+        \caption{Censo população Pet no Brasil\cite{ibge2013, ibge2018, pet2021}}
+        \label{fig:grafico pet}
+    \end{figure}
+
+    \section{Análise da situação atual}
+    
+    O documento obrigatório de maior valor durante o atendimento é, sem dúvidas, o prontuário veterinário. Atualmente são utilizados tanto versões físicas como versões digitais, ou eletrônicas, dos prontuários.
+    
+    Os prontuários eletrônicos são oferecidos por diversos sistemas de gerenciamento de clínicas veterinárias, sendo amplamente empregados por oferecerem armazenamento com acesso fácil aos dados dos prontuários. Apesar da fidelidade das versões virtuais, os dados armazenados não podem substituir documentos físicos em eventos judiciais por não serem devidamente disciplinados por órgão regulamentador, nesse caso, pelos órgãos de classe que atestem a validade \cite{pe_dig} \cite{prontuario}.
+
+    Além da questão regulatória, os sistemas de prontuários digitais atualmente disponíveis no mercado não torna os documentos imutáveis ou registram histórico de modificações. Assim, ao permitirem a alteração dos dados inseridos, não permitirem consultar o histórico de alterações ou meios de rastreá-las, sujeita o estabelecimento ao risco desamparo em caso de fiscalização por órgãos públicos ou perícias judiciais.
+    
+    Haja vista a falta de dificuldade dos sistemas atuais de dar apoio em caso de fiscalizações e a premissa da existência de arquivos físicos, torna-se necessário manter os registros físicos em pastas-fichários após serem carimbados e assinados pelo médico veterinário \cite{pe_dig}.
+    
+    O gerenciamento dos medicamentos controlados é realizado através de anotações manuais em um livro de registro. Esses registros devem ser realizadas periodicamente e com exatidão pelo profissional veterinário, orientando e definindo os procedimentos a serem adotados dentro da clínica, a fim de prevenir descumprimentos das orientações. No entanto, demandam reserva de tempo e atenção para a execução de alguns desses procedimentos, como a operação de cálculos manuais para cada valor ou a repetição de anotações de mesmos dados em diferentes documentos, podendo interferir na performance e exigindo mais esforço do profissional \cite{normativa}.
+    
+    Além das desvantagens supracitadas, o armazenamento desses arquivos ocupa espaço físico e estão sujeitos a danos e perdas por mau armazenamento, como incidentes gerados por umidade, fogo, roubos e etc. O preenchimento desses dados em versões físicas e depois transcritos para versões digitais, pode ser um processo demorado e é sujeito a falhas, demandando um tempo que poderia ser melhor aplicado pelos profissionais envolvidos. Além disso, torna-se necessário um grau elevado de organização por parte da clínica, de tal modo que não prejudique que a consulta aos arquivos seja possível de forma a facilitar o serviço do profissional\cite{pe_dig}.
+
+    \section{Objetivos}
+
+    A área de medicina veterinária ainda hoje opera de forma conservadora devido às suas necessidades burocráticas. E, por mais que o mercado ofereça algumas aplicações que têm a finalidade de automatizar o serviço, é difícil encontrar uma opção que ofereça funcionalidades que cumpram completamente as necessidades dos profissionais. Um dos motivos é que as soluções não são focadas em procedimentos específicos da veterinária, dividindo o ferramenta da aplicação com a gestão de Pet Shop.
+    
+    A aplicação, chamada de CertVet, tem como objetivo cobrir as principais necessidades de atuação do médico veterinário, automatizando os processos operacionais de atendimento e documentações clínicas, que hoje ainda demandam esforços manuais, cumprimento de normas legais e regulamentares e proponha um fluxo do trabalho eficiente, diminuindo o tempo gasto neste, a fim de melhorar o desempenho do profissional, do atendimento e consequentemente da clínica.
+
+
+    \section{Justificativa}
+
+    Assim como o número de animais de companhia cresce a cada ano, a quantidade de profissionais veterinários atuantes no mercado brasileiro também apresenta crescimento, com 164.549 médicos veterinários inscritos de acordo com a contabilização do órgão federal, indicado na figura \ref{fig:grafico vet} \cite{vets_SP, vets2020, vets2022}.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics{images/grafico_profissionais.png}
+        \caption{*Dados sem contabilizar os inscritos em SP; ** dados incluindo os inscritos em SP\cite{vets2020,vets2022} }
+        \label{fig:grafico vet}
+    \end{figure}
+    
+    De acordo com o último censo divulgado pelo CFMV (biênio 2021/2022), atualmente existem 46.947 registros ativos de estabelecimentos veterinários, sendo divididos entre clínicas, hospitais, consultórios e ambulatórios, como podemos ver na figura \ref{fig:grafico clinicas} \cite{clinicas2022}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics{images/grafico_estabelecimento.png}
+        \caption{Censo estabelecimentos veterinários no biênio 2021/2022\cite{clinicas2022}}
+        \label{fig:grafico clinicas}
+    \end{figure}
+    
+    Todos esses profissionais e estabelecimentos são fiscalizados e disciplinado pelas regras de conduta dos sistemas CFMV/CRMVs.
+    
+    Visando oferecer funcionalidades que permitam uma dinamização de todo o fluxo de trabalho do profissional veterinário, reduzir o tempo gasto com operações manuais, evitar a necessidades de anotações de informações repetidamente e reduzir o risco de erros de transcrição nas documentações, a CertVet consiste em um sistema que gerencia documentos com potencial valor legal e seus processos processos que se fazem necessários no fluxo de trabalho da medicina veterinária.
+    
+    Os processos automatizados agilizam os procedimentos fiscalizatórios e permitem que as alterações feitas sejam rastreadas, como é exigida pelo CFMV (Conselho Federal de Medicina Veterinária) e pelo CRMVs (Conselho Regional de Medicina Veterinária)\cite{teleMV}.
+    
+    A tecnologia da informação está modernizando a rotina de trabalho em áreas como automações de escritório, farmacêuticas e na medicina humana em estágios bem mais avançados que em relação ao atualmente aplicado na medicina veterinária. Entendemos que existe a oportunidade de propor ritmo mais acelerado sem impedir a legalidade dos processos dentro de uma clínica veterinária.
+    
+    A partir das verificações de ambiente, referencial regulatório e constatação da situação, verificamos que o desenvolvimento de uma aplicação focada na automação de processos operacionais que otimizando o tempo de execução das tarefas do profissional veterinário e confiabilidade dos registros inseridos.
+    
+    Em pesquisa bibliográfica, não foram identificados fatos referentes a quantidade de profissionais ou estabelecimentos que utilizam algum sistema eletrônico ou de gestão. Porém, os meios de comunicação comumente enfatizam o crescimento de relevância econômica de serviços para o mercado de animais de estimação ano a ano. O sistema CertVet tem potencial para crescer e se destacar entre os demais sistemas já existentes.
+    
+
+\chapter{Revisão da Literatura}
+
+    Este capítulo abordará uma breve revisão bibliográfica sobre a documentação obrigatória emitida por estabelecimentos veterinários, revisão das leis referentes a tais documentos, novos caminhos abordados pelo Conselho Federal de Medicina Veterinária e como esse aspectos são relevantes ao nosso projeto.
+
+
+    \section{Documentação Obrigatória e Legislação Pertinente}
+    
+        De acordo com a Resolução nº1321, de 24 de abril de 2020 \cite {doc_obrig}, todo estabelecimento veterinário e/ou médico veterinário deve emitir documentos específicos no âmbito de suas respectivas atividades profissionais.
+        
+        Tais documentos, de caráter obrigatório, deve seguir os padrões estabelecidos pelo Conselho Federal de Medicina Veterinária, que regulamenta a profissão do médico veterinário, de acordo com a Lei nº 5.517, alínea “f”, do artigo 16, de 23 de outubro de 1968. \cite {doc_obrig}.
+        
+        A Resolução 1321/2020, em seu Art. 2º, define o prontuário veterinário como \cite {doc_obrig}: 
+    
+        \begin{quote}
+            VIII - prontuário médico-veterinário: documento escrito e datado, sem rasuras ou emendas, emitido e assinado, privativamente por médico-veterinário que relata e detalha, cronologicamente, informações e dados acerca dos atendimentos ambulatoriais e clínicos, inclusive vacinações, exames diagnósticos e intervenções cirúrgicas realizados em animal, ou coletivo em se tratando de rebanho, garantida a autenticidade e integridade das informações;
+        \end{quote}
+    
+        Outros documentos obrigatórios são \cite{doc_obrig}.: 
+    
+        \begin{itemize}
+            \item
+            Atestado ou declaração de óbito,
+            \item
+            Atestado ou declaração de vacinação,
+            \item
+            Atestado sanitário,
+            \item
+            Prontuário médico-veterinário,
+            \item
+            Termo de consentimento livre esclarecido para realização de exames, 
+            \item
+            Termo de consentimento livre esclarecido para realização de procedimentos terapêuticos de risco ou experimental, 
+            \item
+            Termo de consentimento livre esclarecido para retirada de corpo de animal em óbito, 
+            \item
+            Termo de consentimento livre esclarecido para realização de procedimento cirúrgico, 
+            \item
+            Termo de consentimento livre esclarecido para realização de procedimento anestésico, 
+            \item
+            Termo de consentimento livre esclarecido para internação e tratamento clínico ou pós-cirúrgico, 
+            \item
+            Termo de consentimento livre esclarecido para realização de eutanásia, 
+            \item
+            Termo de consentimento livre esclarecido para retirada do serviço veterinário sem alta médica, 
+            \item
+            Termo de consentimento livre esclarecido para doação de corpo de animal para ensino e pesquisa, 
+            \item
+            Termo de consentimento livre esclarecido para realização de pesquisa clínica.
+        \end{itemize}
+    
+        Dentre as regras referidas na resolução nº 1321 de 2020, seu artigo 3º disciplina dados para a composição do prontuário médico:
+    
+        \begin{quote}
+            Os documentos emitidos por médicos-veterinários comporão o prontuário do paciente (...) conter os seguintes dados e informações: nome completo e assinatura do médico-veterinário, número de inscrição no Sistema CFMV/CRMVs, endereço, telefone, e-mail e, se for o caso, identificação do estabelecimento (razão social, CNPJ e número de registro no Sistema CFMV/CRMVs)
+        \end{quote}
+    
+        No inciso VI, especifica fatos relacionados ao animais que devem constar por observação física:
+        
+        \begin{quote}
+            (Deve) conter informações que permitam a identificação do paciente, tais como nome, sexo, raça, idade real ou presumida, cor de pelagem ou plumagem, sinais particulares, tatuagem, brinco, microchip, registro genealógico e, conforme o caso, resenha detalhada;(...) identificação do responsável pelo animal (nome completo, CPF e endereço completo)
+        \end{quote}
+    
+        Em seu inciso VII, § 2º, dispõe sobre requisitos para operação de através de mídias virtuais: 
+    
+        \begin{quote}
+            Os documentos expedidos eletronicamente deverão contar com sistemas capazes de garantir a segurança, autenticidade, confidencialidade e integridade de informações, bem como o armazenamento e compartilhamento dos dados.
+        \end{quote}
+    
+        Tais regulamentações garantem a legitimidade do sistema proposto pela equipe Rocket, sendo embasamento legal e diretrizes a serem seguidas.
+        
+        A autorização para se realizar a telemedicina na área veterinária também adere à tendência de modernização na profissão e viabiliza que soluções digitais sejam implementadas relativas a documentação obrigatória.\cite{teleMV}.
+        
+        Com relação a gestão de medicamentos controlados (de uso restrito e com retenção de receitas), de acordo com as leis vigentes da INSTRUÇÃO NORMATIVA Nº 35, DE 11 DE SETEMBRO DE 2017, Capítulo I, Art. 2º, § IV, Capitulo IV, § 11  \cite{normativa}, ela é realizada através de um caderno de capa dura, no formato brochura, no qual o médico veterinário responsável técnico (RT) anota a data de entrada dos medicamentos no estoque e quanto desse medicamento foi utilizado no dia, para cada procedimento. Este caderno é denominado Livro-Registro.
+
+
+\chapter[Metodologias]{Metodologias}
+
+    O projeto propõe a criação de um sistema de gerenciamento de processos e documentação exigidas pelo órgão de classe veterinária, além de implementar funcionalidades já existentes em outros sistemas de gestão de estabelecimentos veterinários. 
+
+    \section{Proposta}
+    
+        A solução inicial aplica a assinatura eletrônica aos arquivos gerados a partir da aplicação, utilizando um certificado digital válido padrão ICP-Brasil. Este processo garante a verificabilidade e rastreabilidade de alterações feitas, bem como os devidos registros de data e hora, sendo assim, passível de fiscalização.
+        
+        Complementarmente, para os registros de medicamentos controlados, é possível cruzar os dados movimentação de determinados medicamentos disponíveis no estoque, suas movimentações no livro-registro e valores desses medicamentos que estão sendo utilizados durante os procedimentos, atribuindo maior consistência aos registros e diminuindo o retrabalho de se adicionar as mesmas informações manualmente. O sistema realiza os cálculos de quantidade de medicamentos utilizados e atualizar no livro-registro digital.
+
+    \section{Funcionalidades}
+    
+        A partir do entendimento da concorrência e entendimento do dia a dia de uma clínica veterinária, serão implementadas as seguintes funcionalidades:
+    
+        \begin{itemize}
+            \item Cadastro de funcionários, clientes, animais e atendimentos.
+            \item Assinatura digital, ou similar, para rastrear e verificar alterações feitas no prontuário.
+            \item Validador de cadastro profissional para acessar área restrita do sistema.
+            \item Cruzamento de dados entre medicamentos utilizados e inseridos no Estoque.
+            \item Mapeamento Genealógico do animal.
+        \end{itemize}
+    
+        \subsection{Funcionalidades Futuras}
+            
+            Algumas possíveis implementações de funcionalidades futuras são a criptografia do dados, importação e exportação dos dados entre estabelecimentos que utilizam o mesmo sistema, digitalização das notificações de aquisição de medicamentos controlados com a nota fiscal da compra do produto, automatizando a entrada desses dados no estoque e permitindo a fiscalização.
+        
+        \subsection{Possíveis Integrações e Parcerias}
+        
+            O sistema CertVet deverá se integrar ao SISCAD (Sistemas de Cadastros do Conselho Federal de Medicina Veterinária) para validar o registros de profissionais ativos e sendo registrados na plataforma.
+            
+            Uma possível parceria seria os próprios órgãos de fiscalização regional de cada Estado, CRMVs.
+    
+    \section{Análise de Concorrência}
+
+        Nos últimos anos ocorreu modernização na dinâmica que rege a profissão do médico veterinário tanto pelo conselho federal, como por seus órgãos regionais \cite{art_digital} \cite{cart_digital} possibilitando que documentos obrigatoriamente físicos pudessem ser registrados em versões digitais válidos em todo território nacional. 
+        
+        A solicitação de tais documentos também podem ser realizados via navegação humana por sistema web disponibilizado publicamente pelo CFMV, utilizando meios de identificação e autenticação nos sistemas regentes \cite{art_digital}.
+        
+        Este mesmo dado também pode ser utilizado por interface de aplicação, uma vez liberado por usuário habilitado por intermédio do CFMV.
+    
+        Para fins de comparação, foram selecionadas as principais aplicações já presentes no mercado que atuam na mesma problemática da CertVet.
+
+\subsection{Tabela comparativa}
+\begin{center}
+    \begin{table}[H]
+    \begin{tabulary}{1.0\textwidth}{|L|L|L|L|L|L|L|L|L|}
+    \hline
+     & CertVet & Simples Vet & Vet work & Doctor Vet & Dr. Snoopy Smart & Vet soft & Beans Vet\\
+    \hline
+    Agenda & x & x & x & x & x & x & x\\
+    \hline
+    Prontuário clínico & x & x & x & x & x & x & x\\
+    \hline
+    Gerenciamento de medicação & x & x &  & x & x & x & x\\
+    \hline
+    Controle de vacina\c{c}ão & x &  &  & x & x & x & x\\
+    \hline
+    Mapeamento genealógico & x &  &  &  &  &  & \\
+    \hline
+    Rastreio de alterações & x &  &  &  &  &  & \\
+    \hline
+    \end{tabulary}
+    \caption{Análise Comparativa}
+    \label{tab:comparativa}
+    \end{table}
+\end{center}
+
+\subsection{SimplesVet}
+O SimplesVet se apresenta como um sistema para petshop e clínica veterinária que busca ajudar a simplificar a rotina da clínica. Consiste em um sistema acessado via WEB, permitindo o controle da clínica a qualquer hora ou lugar, contanto que tenha acesso a internet. Suas funcionalidades dividem-se em:
+
+\begin{itemize}
+    
+    \item Atendimento veterinário: permite o registro das fichas veterinárias em uma tela simples, com dados salvos na nuvem.
+    \item Agenda de serviços: possibilita a organização da agenda dos veterinários e envia lembretes sobre os próximos atendimentos.
+    \item Internação veterinária: organização dos prontuários e agendas de plantão.
+    \item Controle financeiro: possibilita a organização do fluxo de caixa da clínica e envia lembretes de contas a pagar no celular cadastrado.
+    \item Gestão de estoque: visualização dos produtos a repor, itens próximos ao vencimento, produtos parados e etc.
+    \item Análise de vendas: visualização de um dashboard voltado à estratégias de marketing, listando produtos mais vendidos, ticket médio, horários de pico e etc.
+    \item Notas fiscais: emissão de notas fiscais de produto (NFC-e), serviço (NFS-e) e nota grande (NF-e).
+    \item App para tutores: um app feito para o cliente com datas de vacinação, exames e informações do pet.
+    \item Mensagens automáticas: envio de lembrete de consultas e vacinas para os tutores e agenda para veterinários.
+    \item SMS Marketing: envio de campanhas via SMS para os clientes.
+    \item Pesquisa e satisfação: possibilita o recebimento de avaliações dos clientes para fins comparativos com o mercado.
+\end{itemize}
+
+A SimplesVet possui mais features voltadas à gerência de assuntos de PetShop, como controle de estoque e de vendas, cumprindo de forma básica apenas uma das demandas da clínica veterinária. Enquanto a Certvet tem como principal objetivo resolver de forma simples as demandas do ambiente clínico, voltadas principalmente ao trabalho realizado pelo veterinário, como: manutenção de prontuário digital, controle de internação, controle da medicação e da autenticação de receitas, dentre outras, resolvendo demandas que não são contempladas pelo SimplesVet.
+
+\subsection{Vetwork}
+O Vetwork destaca-se entre os usuários pela sua interface intuitiva sendo algo que auxilia na produtividade do trabalho, trata-se de um sistema de gestão baseado na nuvem, não fazendo necessária a instalação de hardware ou software, pois funciona nativo SaaS. Seus 2.744 usuários dispõem das seguintes funcionalidades:
+
+\begin{itemize}
+    \item Agenda vinculada ao caixa: um controle geral das atividades realizadas nos pets, como consultas médicas, retornos, exames, cirurgias, banhos, tosas e todos os outros procedimentos, sem limite de datas.
+    \item Gestão de Documentos: permite a inclusão de documentos e arquivos à ficha clínica do animal, como laudos, fotografias, exames de imagem e outros, que são armazenados na internet e podem ser acessados de qualquer lugar.
+    \item Calendário: uma forma de controle das datas e horários em que os animais passaram por procedimentos como banhos, tosas, exames, consultas, vacinas ou quaisquer outros realizados no estabelecimento.
+    \item Gestão clínica: criação de prontuário eletrônico com as informações médicas do pet, como controle de registros clínicos, exames, vacinas e doses adicionais.
+    \item Gestão Financeira: controle de caixa, pacotes, contas a pagar e a receber, pagamentos pendentes e pré-vendas, cálculo de comissionamento e geração de relatórios financeiros da empresa.
+    \item Relacionamento com o Cliente: armazenamento de todas as informações dos clientes para possibilitar um relacionamento mais próximo com o mesmo.
+    \item E-mail Inclusos: mensagens automáticas, através de e-mail, para comunicação instantânea.
+\end{itemize}
+
+Apesar de ser uma aplicação mais completa em relação à anterior, ainda assim o prontuário eletrônico é o ponto forte desse serviço, no que tange à funcionalidades para o fluxo clínico veterinário. A CertVet busca resolver de forma eficaz e mais completa, o controle de medicamentos, não só o seu cadastro e quantidade em estoque, mas o uso de uma chave de autenticação para receitas e a aplicação dos mesmos. De forma resumida, o Vetwork é sim uma ferramenta bem útil mas a aplicação aqui proposta resolve demandas que não são resolvidas por esse serviço, por mais que suas avaliações no mercado sejam positivas.
+
+\subsection{DoctorVet}
+O DoctorVet é um sistema totalmente voltado à gestão de clínicas e hospitais veterinários e apresenta duas versões: uma standard com módulos para controle de consultas, vacinas, pequenas cirurgias, assuntos de pet shop e também financeiro. E uma versão enterprise que contempla todos os módulos standard e adicionalmente um controle de internação e hospedagem e concentra informações do centro cirúrgico e laboratório.  Funcionalidades da versão Enterprise do DoctorVet:
+
+\begin{itemize}
+    \item Módulo de Cadastro: realiza o cadastro de veterinários, funcionários, animais, clientes e planos de atendimento.
+    \item Módulo Farmacológico: permite o cadastro de vacinas, vermífugos e o cadastro de procedimentos ou interações medicamentosas.
+    \item Módulo Atendimento: criação de ficha de atendimento, lista de espera, curadoria de orçamentos, central de   agendamentos e controle de status do veterinário.
+    \item Módulo Caixa: utilizado pelos atendentes de caixa, controle das formas de recebimento, abertura e fechamento do caixa e manutenção.
+    \item Módulo Consultório: consultas generalistas e especialistas, histórico de consultas e atendimentos, pedidos de exames, receituários e prontuário eletrônico.
+    \item Módulo Pet Shop: permite televendas, consulta de preços e relatórios e emissão de cupom fiscal.
+    \item Módulo Internação Básica/ Avançada: admissão de internação, controle da evolução do quadro clínico, alta veterinária, manter prontuários, cadastro de prescrições.
+    \item Módulo Estoque: cadastro de fornecedores, cadastro e etiquetação de produtos, gerenciamento de lotes, requisições à farmácia e requisições internas, controle de compras e relatórios.
+    \item Módulo Exames: controle de exames laboratoriais e seus resultados.
+    \item Módulo Laboratório: cadastros, central de coleta e composição de exames.
+    \item Módulo Centro Diagnóstico: preparo para exames e suas composições.
+    \item Módulo Relatórios: criação de relatórios operacionais, gerenciais e estratégicos (CRM, SPED Fiscal e Pis, Cofins)
+    \item Módulo Segurança: cadastro de usuários e permissões de acesso de acordo com níveis.
+\end{itemize}
+
+É a aplicação mais recente das selecionadas e também a mais completa, no entanto, reforça-se aqui que não contempla o controle de medicamentos, oferecido pela Certvet.
+
+\subsection{Dr. Snoopy Smart}
+O Dr. Snoopy Smart se apresenta como um sistema completo de gestão exclusivo para Pet Shop e clínicas veterinárias, automatizando processos clínicos, na tentativa de agilizar as tarefas e tendo o aumento das vendas como foco do módulo de pet shop. Consiste em um software com as seguintes funcionalidades:
+
+\begin{itemize}
+    \item Agendamento otimizado: permitindo o controle de agendamento dos pacientes.
+    \item Gerenciamento de estoque: visibilidade da quantidade de produtos e quais estão em falta.
+    \item Prontuário Clínico: possibilita a criação e consulta da ficha veterinária dos animais.
+    \item Emissão de Notas: emissão de NF-e, NFS-e e Cupons Fiscais.
+    \item Histórico de Pacientes: arquivação e consulta de informações dos atendimentos. 
+    \item Vacinas sempre em dia: controle de quando o paciente deve ser vacinado.
+    \item Agenda de Banho e Tosa: específica para tais, permitindo um maior controle do pet shop.
+    \item Gestão Integrada: permite acessar à determinados indicadores de gestão.
+    \item Notificações SMS: recebimento de lembretes importantes no celular dos usuários da aplicação
+    \item Relatórios Personalizados: geração de relatórios com facilidade.
+\end{itemize}
+
+Apesar de ser uma aplicação com muitas funcionalidades, ainda assim não apresenta as opções de modernidade que a aplicação aqui proposta oferece, haja vista que divide o escopo clínico com as necessidades de um pet shop, apresentando mais funcionalidades voltadas à gestão e estratégias de venda do que para o fluxo de trabalho do profissional veterinário.
+
+\subsection{Vetsoft}
+O programa VetSoft é oferecido nas versões Desktop e Web, sendo essa primeira uma versão instalada nos computadores em rede, permitindo o acesso mesmo com falta de conexão com a Internet. E a versão Web, um sistema em nuvem que permite ao usuário gerenciar o negócio através de diferentes dispositivos, como computador, smartphone, tablet, etc, contanto que tenha acesso à Internet. O VetSoft abrange serviços de clínica veterinária, hospital veterinário, pet shop / banho e tosa e veterinários autônomos com as seguintes funcionalidades:
+
+\begin{itemize}
+    \item Ficha do Tutor: ficha cadastral da conta do tutor e seus animais, visibilidade do histórico de pagamentos e envio de e-mail individual.
+    \item Ficha do Animal: ficha cadastral específica dos animais pacientes, álbum de fotos, agendamentos, agrupamento dos resultados de exames e histórico de vacinas e vermífugos.
+    \item Histórico Clínico: anamnese, diagnóstico, laudo clínico, receituário normal e especial e exames.
+    \item Gestão de Estoque: divisão de produtos por grupos, controle de produtos com estoque baixo, visibilidade dos produtos mais e menos vendidos e entrada de estoque manual e XML.
+    \item Financeiro: controle de caixa diário e seu fluxo, demonstrativo de resultados por área, centro de custos, controle de planos para clientes mensalistas.
+    \item Emissão Fiscal: possibilidade de emissão fiscal para todos os estados e todos os formatos: NFCe, SAT, MFe e PAF-ECF.
+    \item Farmácia/Materiais: controle de estoque de farmácia e materiais de uso interno.
+    \item Imunizações: controle da aplicação de vacinas e vermífugos na ficha do animal com agendamentos e aplicações realizadas.
+\end{itemize}
+
+É uma das aplicações mais completas, no entanto, o controle de medicamentos oferecido não atinge o mesmo grau de segurança que a chave de autenticação para as receitas que a CertVet oferece, assumindo um papel importante na modernização dessa autenticação nos dias atuais.
+
+\subsection{BensVet}
+O BensVet se diferencia dos demais apresentados por se tratar de um serviço que se divide em dois aplicativos, um para uso veterinário e um para uso dos tutores. O aplicativo para veterinários garante que o usuário poderá iniciar um atendimento a domicílio e conseguir  dar continuidade na clínica. E o aplicativo para tutores trata-se dos processos de envio  de promoções e alertas de retorno automáticos para os tutores, permitindo também a consulta de  informações sobre o animal e agendamento de atendimentos pelo app. As funcionalidades dividem-se em:
+
+\begin{itemize}
+    \item Agenda de atendimentos.
+    \item Acompanhamento de medicações na internação.
+    \item Criação de fichas clínicas personalizadas.
+    \item Notificar automaticamente consultas, retornos e vacinas aos clientes.
+    \item Consultar históricos de animais e seus tutores.
+    \item Controle dos comissionamentos de profissionais.
+    \item Emitir Notas Fiscais referente a venda de produtos.
+    \item Controle de estoque.
+\end{itemize}
+
+Trata-se de uma resolução que se aproxima bastante da CertVet no que tange à proximidade do profissional veterinário, esteja ele numa clínica ou trabalhando de forma autônoma, no entanto, observamos aqui que o controle de medicamentos oferecido, mais uma vez, não atinge o mesmo grau de segurança que a chave de autenticação aqui propostas, além da funcionalidade de mapeamento genealógico.
+
+
+\postextual
+
+    \section{Análise de Requisitos}
+    
+        Na etapa de análise de requisitos, a equipe passa a elaborar em maior nível de detalhamento as regras e características que a aplicação deve suportar, compreendendo de maneira mais assertiva as principais necessidades do cliente e definindo as prioridades do projeto.
+        
+        Esse é um processo evolutivo incremental em que a equipe deve se reunir com o Product Owner em frequência definida a fim de refinar os requisitos levantados para o andamento das histórias registradas como itens do Product Backlog. 
+        
+        Conforme as histórias são desenvolvidas, os membros da equipe criarão tarefas de acordo com o entendimento do refinamento discutido.
+        
+        Partindo das regras de negócio, são apresentados os requisitos funcionais, não funcionais e, por fim, as histórias de usuário.
+
+        \subsection{Regras de Negócio}
+        
+            As regras de negócio são as premissas necessárias para a modelagem do projeto e através delas serão definidas as regras básicas as quais o sistema deve concernir.
+            
+            Tem por objetivo explicitar as restrições a serem adotadas pelo sistema a fim de garantir assertividade ao escopo definido para completude das ferramentas e histórias em desenvolvimento, bem como as interdependências entre as ferramentas e histõrias relacionadas.
+            
+            O Quadro a seguir dispõe das informações referente às regras de negócios do CertVet:
+
+            \begin{center}
+                \begin{table}[H]
+                \begin{tabulary}{1.0\textwidth}{|C|p{23em}|C|}
+                \hline
+                 Código & Descrição & Requisito Relacionado\\
+                \hline
+                RN01 & Somente após efetuar cadastro contendo todas as informações obrigatórias, o usuário obterá acesso ao sistema. & RF01\\
+                \hline
+                RN02 & O usuário deve se autenticar informando seu e-mail e senha de cadastro. & RF02\\
+                \hline
+                RN03 & O usuário terá acesso às funcionalidades de acordo com o seu tipo de conta. & \\
+                \hline
+                RN04 & Apenas profissionais com número de CRMV válido devem ter acesso às funcionalidades clínicas. & \\
+                \hline
+                RN05 & Os prontuários digitais devem seguir o padrão dos modelos oficiais. & RF10\\
+                \hline
+                RN06 & Somente usuários com autorização podem realizar edições nos prontuários. & RF11\\
+                \hline
+                RN07 & Na gestão de medicamentos, a retirada deve ser feita apenas por profissionais veterinários autorizados. & RF14 e RF15\\
+                \hline
+                RN08 & O controle de vacinação deve ser visível por todas as partes envolvidas, profissionais e tutores. & RF16, RF17 e RF18\\
+                \hline
+                \end{tabulary}   \caption{Regra de Negócio}
+                \label{tab:regra}
+                \end{table}
+            \end{center}
+
+        \subsection{Requisitos Funcionais}
+        
+            No Quadro abaixo são apresentados os requisitos funcionais, detalhando as necessidades e especificações das ações que o sistema deve executar, ignorando as limitações físicas, focando apenas no comportamento de entrada e saída do sistema.
+            
+            \begin{center}
+                \begin{table}[h]
+                \centering
+                \begin{tabulary}{1.0\textwidth}{|p{5em}|p{8em}|p{18em}|}
+                \hline
+                Código & Requisito & Descrição\\
+                \hline
+                RF01 & Criar conta & O usuário deve criar uma conta de acordo com a sua ocupação (Veterinário | Auxiliar) e seus dados.\\
+                \hline
+                RF02 & Autenticar usuário & O sistema deve permitir que o usuário entre em sua conta já criada no sistema.\\
+                \hline
+                RF03 & Alterar senha & O sistema deve permitir que o usuário altere a sua senha.\\
+                \hline
+                RF04 & Redefinição de senha & O sistema deve permitir que o usuário solicite a redefinição de sua senha.\\
+                \hline
+                RF05 & Agendar consultas & O sistema deve permitir que o usuário autenticado agende consulta, informando data, horário, paciente e profissional responsável.\\
+                \hline
+                RF06 & Cancelar consulta & O sistema deve permitir que o usuário autenticado cancele uma consulta já agendada.\\
+                \hline
+                RF07 & Cadastrar tutor & O sistema deve permitir que o usuário autenticado cadastre os dados do tutor do paciente, permitindo também sua consulta e edição.\\
+                \hline
+                RF08 & Cadastrar paciente & O sistema deve permitir que o usuário autenticado cadastre os dados do paciente, permitindo também sua consulta e edição.\\
+                \hline
+                RF09 & Visualizar histórico de consultas & O sistema deve permitir que todos os usuários consultem o histórico de consultas já realizadas, informando dados do paciente.\\
+                \hline
+                RF10 & Criar prontuário & O sistema deve permitir que o veterinário crie o prontuário digital de atendimento do paciente.\\
+                \hline
+                RF11 & Editar prontuário de atendimento & O sistema deve permitir que o veterinário edite informações específicas do prontuário digital de atendimento do paciente.\\
+                \hline
+                RF12 & Verificar histórico de alterações no prontuário & O sistema deve permitir que todos os usuários consultem o histórico de alterações feitas no prontuário digital de atendimento do paciente.\\
+                \hline
+                \end{tabulary}
+                \caption{Requisitos Funcionais}
+                \label{tab:req_func}
+                \end{table}
+            \end{center}
+    
+            \begin{center}
+                \begin{table}[h]
+                \centering
+                \begin{tabulary}{1.0\textwidth}{|p{5em}|p{8em}|p{18em}|}
+                \hline
+                Código & Requisito & Descrição\\
+                \hline
+                RF13 & Visualizar mapeamento genealógico & O sistema deve permitir que seja visível, ao usuário autenticado, o mapeamento genealógico do animal, quando este possuí-lo.\\
+                \hline
+                RF14 & Registar consumo de medicamento & O sistema deve permitir que o veterinário autorizado registre o uso de medicamento no prontuário digital do paciente, quando usado no atendimento.\\
+                \hline
+                RF15 & Visualizar histórico de medicamento & O sistema deve permitir que o usuário consulte o histórico do uso de medicamento, quando usado no atendimento.\\
+                \hline
+                RF16 & Aplicar vacina & O sistema deve permitir que o veterinário preencha o prontuário específico para vacinação do paciente e que os dados sejam inseridos na ficha do animal.\\
+                \hline
+                RF17 & Visualizar carteirinha de vacinação & O sistema deve permitir a visualização das vacinas já aplicadas no paciente.\\
+                \hline
+                RF18 & Visualizar vacinas agendadas & O sistema deve permitir visualização das vacinas agendadas para aplicação no paciente.\\
+                \hline
+                \end{tabulary}
+                \end{table}
+            \end{center}
+
+        \subsection{Requisitos não Funcionais}
+
+            Os requisitos não funcionais tratam-se de restrições mais técnicas do projeto, são as necessidades que não são atendidas necessariamente através de funcionalidades, objetivando garantir níveis satisfatórios  de desempenho, disponibilidade, escalabilidade, dentre outras garantias que permitam a máxima usabilidade do sistema. Os requisitos não funcionais que compreendem ao CertVet são elencados no apresentado a seguir.
+
+            \begin{center}
+                \begin{table}[h]
+                \begin{tabulary}{1.0\textwidth}{|C|p{25em}|p{7em}|}
+                \hline
+                Código & Requisito & Categoria\\
+                \hline
+                RNF01 & O sistema deve estar disponível para o usuário de acordo com o funcionamento da clínica, podendo ser utilizado 24 horas por dia, 7 dias por semana, com tolerância de 0,1\% de falhas. & Confiabilidade\\
+                \hline
+                RNF02 & Os servidores do sistema devem estar online e com capacidade de absorver crescimento de demanda sem afetar a utilização dos usuários. & Desempenho\\
+                \hline
+                RNF03 & O sistema deve ser hospedado em uma plataforma que garanta sua disponibilidade na maior parte do tempo. & Disponibilidade\\
+                \hline
+                RNF04 & O sistema deve ser implementado de forma que seja apto para crescimento, visando suportar a entrada de novos usuários e novas funcionalidades, sem comprometer seu desempenho e segurança. & Escalabilidade, Portabilidade\\
+                \hline
+                RNF05 & O sistema deve atender ao Artigo 8 da Lei nº 5.517, prevendo a fiscalização do exercício profissional pelos Conselhos Federal e Regionais de Medicina Veterinária. & Legalidade\\
+                \hline
+                RNF06 & As documentações criadas e utilizadas no sistema devem seguir a padronização de elaboração, fornecimento e guarda, conforme Resolução 1071/2014, também do Conselho Federal de Medicina Veterinária. & Legalidade\\
+                \hline
+                RNF07 & O sistema deve atender às especificações da Lei Geral de Proteção de Dados (Lei 13.709/18), garantindo a segurança dos dados do usuário. & Legalidade\\
+                \hline
+                RNF08 & O sistema deve ter sua interface organizada de forma que o usuário consiga utilizar suas funcionalidades sem dificuldades de operá-las. & Usabilidade\\
+                \hline
+                RNF09 & O sistema deve compreender tecnologia de internacionalização, a fim de promover sua tradução para diferentes idiomas. & Usabilidade\\
+                \hline
+                RNF10 & O sistema deve contar com um protocolo criptografado e seguro de transferência de dados em sua implementação. & Segurança\\
+                \hline
+                RNF11 & O sistema deve apresentar um layout que seja adaptável para as dimensões de tela de diferentes dispositivos, garantindo responsividade. & Usabilidade\\
+                \hline
+                \end{tabulary}
+                \caption{Requisitos Não Funcionais}
+                \label{tab:req_nfunc}
+                \end{table}
+            \end{center}
+
+\subsection{Histórias de Usuários}
+    
+    \begin{center}
+        \begin{table}[H]
+        \centering
+        \begin{tabulary}{1.0\textwidth}{|p{5em}|p{8em}|p{18em}|}
+        \hline
+        Código & História & Descrição\\
+        \hline
+        HU-01 & Função gerar documento com assinatura digital/certificação & Eu como usuário autorizado, quero gerar um documento oficial com assinatura digital, que me permita rastrear todas suas versões anteriores, para que sejam rastreáveis e passíveis de identificação.\\
+        \hline
+        HU-02 & Função preencher prontuário & Eu como usuário autorizado, quero preencher um prontuário para um animal em atendimento, para que seus dados sejam salvos.\\
+        \hline
+        HU-03 & Função salvar prontuário & Eu como usuário autorizado, quero salvar o prontuário digital, para que seja possível sua leitura em momento posterior.\\
+        \hline
+        HU-04 & Função uso de medicamentos controlados & Eu como usuário autorizado, quero anotar os medicamentos controlados utilizados no atendimento, para que seja possível seu controle com os dados do estoque.\\
+        \hline
+        HU-05 & Função inserir medicamentos no estoque & Eu, como usuário autorizado, quero inserir no sistema a quantidade total de produtos no estoque, para que seja possível o controle de quantidade usada por atendimento, perdida e que ainda está disponível.\\
+        \hline
+        HU-06 & Função visualizar prontuários & Eu, como usuário autorizado, quero acessar os prontuários de determinado animal, para que seja possível acompanhar seu histórico ou quadro clínico.\\
+        \hline
+        HU-07 & Função salvar dados genealógicos &  Eu, como usuário autorizado, quero inserir dados sobre pais e descendentes (quando existentes), na ficha médica do animal, para que tais dados estejam disponíveis para consulta quando necessário.\\
+        \hline
+        HU-08 &  Função recuperar dados genealógico &  Eu, como usuário autorizado, quero consultar a árvore genealógica do animal (quando disponível), para obter informações úteis ao tratamento do mesmo.\\
+        \hline
+        HU-09 & Função inserir dados na agenda & Eu, como funcionário, quero inserir dados de um atendimento na agenda, para que os atendimentos futuros sejam planejados.\\
+        \hline
+        HU-10 & Função cadastrar cliente & Eu, como funcionário, quero cadastrar um cliente no sistema, para que seus dados estejam disponíveis para uso dentro da clínica\\
+        \hline
+        \end{tabulary}
+        \caption{Histórias de Usuário}
+        \label{tab:hist_usuario}
+        \end{table}
+    \end{center}
+
+    \section{Modelagem}
+    
+        \subsection{Modelo Entidade Relacionamento}
+        
+            \begin{figure}[H]
+                \centering
+                \includegraphics[ width=\linewidth]{images/ProjetoPI1.png}
+                \caption{Modelo Entidade Relacionamento}
+                \label{fig:MER}
+            \end{figure}
+    
+            \begin{center}
+                \begin{table}[H]
+                \centering
+                \caption{Entidades do \nameref{fig:MER} }
+                \begin{tabulary}{1.0\textwidth}{|p{10em}|p{26em}|}
+                \hline
+                Entidade & Descrição\\
+                \hline
+                Prontuário & Entidade em que é armazenado os dados do atendimento de um animal. \\
+                \hline
+                Veterinário & Entidade em que é armazenado os dados do profissional veterinário.\\
+                \hline
+                Animal & Entidade em que é armazenado os dados do animal.\\
+                \hline
+                Medicamento & Entidade em que é armazenado os dados do medicamento.\\
+                \hline
+                ProntuárioMedicamento & Entidade em que é associado o medicamente com a quantidade utilizada no atendimento.\\
+                \hline
+                Estoque & Entidade que armazena a quantidade disponível do medicamento.\\
+                \hline
+                Clínica & Entidade que armazena dados referentes ao estabelecimento veterinário.\\
+                \hline
+                Tutor & Entidade que armazena dados do tutor/proprietário do animal atendido.\\
+                \hline
+                AnimalTutor & Entidade que associa um animal com seu tutor.\\
+                \hline
+                Agendamento & Entidade que registra um animal com horario de atendimento, clínica e tipo de atendimento.\\
+                \hline
+                Funcionário & Entidade que armazena os dados dos funcionários do estabelecimento.\\
+                \hline
+                Documento & Entidade que armazena dados comuns referentes a documentos obrigatórios gerados pelo veterinário.\\
+                \hline
+                TipoDocumento & Entidade que armazena dados específicos de um documento obrigatório.\\
+                \hline
+                Procedimento & Entidade que armazena dados dos procedimentos realizados.\\
+                \hline
+                Cirurgia & Entidade que armazena dados do tipo de cirurgia realizada.\\
+                \hline
+                Exame & Entidade que armazena dados dos exames solicitados e resultados.\\
+                \hline
+                \end{tabulary}
+                 
+                \label{tab: entidades}
+                \end{table}
+            \end{center}
+
+            \begin{center}
+              \begin{quadro}[H]
+              \centering
+                  \caption{Dicionário de Dados - Prontuário}
+                  \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+                \hline
+                Atributos & Chave & NN & Tipo & Descrição\\
+                \hline
+                Clínica & FK & x & bigint & Identifica a qual clínica o prontuário pertence \\
+                \hline
+                Veterinário & FK & x & bigint & Identifica o veterinário responsável \\
+                \hline
+                Animal & FK & x & bigint & Identifica o animal atendido \\
+                \hline
+                Criado Em & & x & timestamp & registro de quando o prontuário foi feito \\
+                \hline
+                Prontuário & PK & x & bigint & Identificação do prontuário \\
+                \hline
+                \end{tabulary}
+                 
+                  \label{qd: md-prontuario}
+              \end{quadro}
+            \end{center}
+    
+            \begin{center}
+              \begin{quadro}[H]
+              \centering
+                  \caption{Dicionário de Dados - Veterinário}
+                  \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+                \hline
+                Atributos & Chave & NN & Tipo & Descrição\\
+                \hline
+                ID & PK & x & BIGINT & Atributo de Identificação do médico veterinário \\
+                \hline
+                CRMV & - & x & varchar & Atributo que guarda o registro do médico veterinário\\
+                \hline
+                Clínica & FK & x & BIGINT & Atributo que identifica a clínica onde o médico veterinário trabalha\\
+                \hline
+                \end{tabulary}
+                 
+                  \label{qd: md-veterinario}
+              \end{quadro}
+            \end{center}
+    
+            \begin{center}
+              \begin{quadro}[H]
+              \centering
+                  \caption{Dicionário de Dados - Animal}
+                  \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+                \hline
+                Atributos & Chave & NN & Tipo & Descrição\\
+                \hline
+                ID & PK & x & BIGINT & Identifica a chave do \\
+                \hline
+                Nome & - & x & varchar & Atributo que guarda o nome do animal\\
+                \hline
+                Espécie & - & x & varchar & Atributo que recebe a especie do animal\\
+                \hline
+                Raça & - & x & varchar & Atributo que recebe a raça do animal \\
+                \hline
+                Sexo & - & x & varchar & Atributo que recebe o sexo do animal\\
+                \hline
+                Idade & - & x & BIGINT & Atributo que recebe a idade do animal\\
+                \hline
+                Pelagem & - & - & varchar & Atributo que recebe o tipo de pelagem do animal \\
+                \hline
+                Clínica & FK & x & BIGINT & Atributo que identifica a clínica \\
+                \hline
+                Forma\_identificação & - & - & varchar & Atributo que recebe a identificação do animal\\
+                \hline
+                Mãe & FK & - & BIGINT & Atributo que identifica a mãe do animal \\
+                \hline
+                Pai & FK & - & BIGINT & Atributo que identifica o pai do animal \\
+                \hline
+                \end{tabulary}
+                 
+                  \label{qd: md-animal}
+              \end{quadro}
+            \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Medicamento}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        Id & PK & x & BIGINT & Atributo que identifica o medicamento\\
+        \hline
+        Código\_Registro & - & x & BIGINT & Atributo que identifica o código do medicamento\\
+        \hline
+        Nome & - & x & varchar & Atributo que identifica o nome do medicamento\\
+        \hline
+        Clínica & FK & x & BIGINT & Atributo que identifica a clínica que estoca o medicamento\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-medicamento}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - ProntuárioMedicamento}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        Prontuário & FK & x & BIGINT & Identificação do Prontuário \\
+        \hline
+        Medicamento & FK & x & BIGINT & Atributo que identifica o medicamento utilizado \\
+        \hline
+        Clínica & FK & x & BIGINT & Atributo que identifica a clinica do prontuário\\
+        \hline
+        Apresentação & - & x & varchar & Atributo que recebe o tipo de apresentação do medicamento\\
+        \hline
+        Quantidade & - & x & BIGINT & Atributo que recebe a quantidade do medicamento utilizada\\
+        \hline
+        Unidade & - & x & varchar & Atributo que recebe a unidade do medicamento \\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-prontuariomedicamento}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Estoque}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        Id & & & & \\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica qual Clínica o Estoque pertence\\
+        \hline
+        Medicamento & FK & x & BIGINT & Atributo que identifica o medicamento\\
+        \hline
+        Lote & - & x & BIGINT & Atributo que recebe o lote do medicamento\\
+        \hline
+        Validade & - & x & timestamp & Atributo que recebe a data de validade do medicamento \\
+        \hline
+        Entrada\_Quantidade & - & x & BIGINT & Atributo que recebe a quantidade do medicamento que entra no estoque\\
+        \hline
+        Quantidade & - & x & BIGINT & Atributo que recebe a quantidade de medicamento total do estoque \\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-estoque}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Clínica}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo que identifica a clínica \\
+        \hline
+        Razao Social & - & x & varchar & Atributo que guarda o nome da clínica\\
+        \hline
+        CNPJ & - & x & BIGINT & Atributo que guarda o CNPJ da clínica \\
+        \hline
+        Responsável Técnico & - & x & varchar & Atributo que recebe o nome do responsável técnico da clínica\\
+        \hline
+        Telefone & - & x & varchar & Atributo que recebe o telefone da clínica\\
+        \hline
+        Email & - & x & varchar & Atributo que recebe o email da clínica\\
+        \hline
+        Celular & - & x & varchar & Atributo que recebe o celular da clínica \\
+        \hline
+        Estado & - & x & varchar & Atributo que recebe o estado da clínica\\
+        \hline
+        Cidade & - & x & varchar & Atributo que recebe a cidade da clínica \\
+        \hline
+        Bairro & - & x & varchar & Atributo que recebe o bairro da clínica \\
+        \hline
+        Logradouro & - & x & varchar & Atributo que recebe o nome da rua da clínica\\
+        \hline
+        Número & - & x & varchar & Atributo que recebe o número da clínica \\
+        \hline
+        CEP & - & x & varchar &  Atributo que recebe o CEP da clinica\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-clinica}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Tutor}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo que identifica o tutor \\
+        \hline
+        Nome & - & x & varchar & Atributo que guarda o nome do tutor\\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica qual Clínica está registrado\\
+        \hline
+        Rg & - & x & varchar & Atributo que recebe o rg do tutor \\
+        \hline
+        CPF & - & x & varchar & Atributo que recebe o CPF do tutor\\
+        \hline
+        Email & - & x & varchar & Atributo que recebe o email do tutor\\
+        \hline
+        Telefone & - & x & varchar & Atributo que recebe o telefone do tutor\\
+        \hline
+        Celular & - & x & varchar & Atributo que recebe o celular do tutor\\
+        \hline
+        Estado & - & x & varchar & Atributo que recebe o estado do tutor\\
+        \hline
+        Cidade & - & x & varchar & Atributo que recebe a cidade do tutor\\
+        \hline
+        Bairro & - & x & varchar & Atributo que recebe o bairro do tutor\\
+        \hline
+        Logradouro & - & x & varchar & Atributo que recebe o nome da rua do tutor\\
+        \hline
+        Numero & - & x & varchar & Atributo que recebe o numero de residencia do tutor\\
+        \hline
+        CEP & - & x & varchar & Atributo que recebe o CEP do tutor\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-tutor}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - AnimalTutor}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        Tutor & FK & x & BIGINT & Atributo que identifica o tutor. \\
+        \hline
+        Animal & FK & x & BIGINT & Atributo que identifica o animal.\\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica qual Clínica está registrado.\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-animaltutor}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Agendamento}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo que identifica o agendamento \\
+        \hline
+        Animal & FK & x & BIGINT & Atributo que identifica o animal que passará por atendimento \\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica qual Clínica o Agendamento foi marcado\\
+        \hline
+        Tipo & - & x & varchar & Atributo que recebe o tipo de atendimento será realizado \\
+        \hline
+        Criado\_Em & - & x & timestamp & Atributo que guarda a data quando foi realizado o agendamento\\
+        \hline
+        Data\_Consulta & - & x & timestamp & Atributo que guarda a data a ser realizado o atendimento \\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-agendamento}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Funcionário}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo que identifica o funcionário no sistema \\
+        \hline
+        Nome & - & x & varchar & Atributo que recebe o nome do funcionário \\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica qual Clínica o Funcionário trabalha\\
+        \hline
+        RG & - & x & varchar & Atributo que recebe o RG do funcionário\\
+        \hline
+        CPF & - & x & varchar & Atributo que recebe o CPF do funcionário\\
+        \hline
+        Senha & - & x & varchar & Atributo da senha de acesso do funcionário ao sistema\\
+        \hline
+        Telefone & - & - & varchar & Atributo que recebe o contato telefônico do funcionário\\
+        \hline
+        Celular & - & x & varchar & Atributo que recebe o contato móvel do funcionário \\
+        \hline
+        Email & - & x & varchar & Atributo que recebe o endereço eletrônico do funcionário\\
+        \hline
+        Estado & - & - & varchar & Atributo que recebe o estado da residência do funcionário\\
+        \hline
+        Cidade & - & - & varchar & Atributo que recebe a cidade da residência do funcionário\\
+        \hline
+        Bairro & - & - & varchar & Atributo que recebe o bairro da residência do funcionário\\
+        \hline
+        Logradouro & - & - & varchar & Atributo que recebe a rua da residência do funcinário \\
+        \hline
+        Número & - & - & int & Atributo que recebe a numeração da residencia do funcionário\\
+        \hline
+        CEP & - & - & varchar & Atributo que recebe o CEP do funcionário\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-funcionario}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Documento}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo que identifica o documento \\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica qual Clínica o Documento pertence\\
+        \hline
+        Prontuário & FK & x & BIGINT & Identificação do Prontuário \\
+        \hline
+        Tipo\_Documento & FK & x & BIGINT & Atributo que identifica tipo  de autorização \\
+        \hline
+        Caminho\_Arquivo & - & x & varchar & identifica a url do arquivo na AWS\\
+        \hline
+        Criado\_Em & - & x & timestamp & Atributo que identifica a data de criação do documento\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-documento}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - TipoDocumento}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo que identifica o documento\\
+        \hline
+        Descrição & - & - & varchar & Descreve qual tipo de documento\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-tipodocumento}
+      \end{quadro}
+    \end{center}
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Procedimento}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x &BIGINT & Atributo de identificação do exame\\
+        \hline
+        Prontuário & FK & x & BIGINT & Identificação do Prontuário \\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica em qual Clínica o Procedimento foi realizado\\
+        \hline
+        Descrição & - & - & varchar & Descreve o procedimento realizado \\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-Procedimento}
+      \end{quadro}
+    \end{center}
+    
+   \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Cirurgia}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo de identificação da cirurgia\\
+        \hline
+        Prontuário & FK & x & BIGINT & Identificação do Prontuário \\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica em qual Clínica a Cirurgia foi realizada\\
+        \hline
+        Categoria\_Paciente & - & x & varchar & Identifica a categoria ASA do paciente \\
+        \hline
+        Tipo\_Cirurgia & - & x & varchar & Descrição da cirurgia a ser realizada \\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-Cirurgia}
+      \end{quadro}
+    \end{center}
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Dicionário de Dados - Exame}
+          \begin{tabulary}{1.0\textwidth}{|p{9em}|c|c|c|p{19em}|}
+        \hline
+        Atributos & Chave & NN & Tipo & Descrição\\
+        \hline
+        ID & PK & x & BIGINT & Atributo de identificação do Exame\\
+        \hline
+        Clínica & FK & x & BIGINT & Identifica a qual Clínica o Exame pertence\\
+        \hline
+        Prontuário & FK & x & BIGINT & Identificação do Prontuário \\
+        \hline
+        Descrição & - & - & varchar & Nome do Exame \\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: md-Exame}
+      \end{quadro}
+    \end{center}
+    
+        \subsection{Modelo lógico}
+        
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.7\textwidth]{images/Modelo Lógico.png}
+                \caption{Modelo Lógico}
+                \label{fig:DER}
+            \end{figure}
+
+    \section{Gestão e organização da equipe}
+
+        \subsection{Organização da Equipe}
+            
+            O guia do scrum declara explícitamente que o time deve ser pequeno suficiente para que seja ágil e grande o suficiente para que possa desempenhar trabalho relevante, recomendando o envolvimento de não mais que 10 integrantes.\cite{scrum2}
+            
+            Orientados pela recomendação de formação de papéis da equipe ágil scrum, foram definidos 3 papéis para ser desempenhado pelos membros da equipe: Product Owner (PO -  Dono do Produto), Scrum Master (SCM - Mestre do Scrum) e Developers, que foram denominados Team Members (TM - Membros da equipe). Esses papéis têm o objetivo de apontar facilitadores e atribuir responsabilidades em pontos específicos do projeto, não havendo um responsável isolado ou encarregado do bom desenvolvimento das atividades.\cite{scrum2} \cite{agile2}
+            
+            O PO é responsável por definir clara e objetivamente como as funcionalidades da aplicação devem se comportar, compreender e priorizar a necessidade de negócio que melhor atende a necessidade do usuário (stakeholders) e que o back log seja visível e disponível para todos os membros do time.\cite{agile2} O papel será desempenhado pela Irina Chang.
+            
+            O SCM tem a responsabilidade que o time consiga desenvolver autonomia, destravando entendimentos e facilitando a identificação de dinâmicas que resultem em melhor entregabilidade das atividades.\cite{agile2} O papel será desempenhado por Henrique.
+            
+            Team Member é a forma como foi decidido denominar o papel dos desenvolvedores. Estes serão os responsáveis pela implementação de código, padronização de commits, integrações, modelagem de banco de dados, além de verificar se as alterações propostas pelo PO são tecnicamente viáveis de serem implementadas, definindo os processos necessários para a implementação. Por consequência, são os maiores responsáveis pelo desenvolvimento da documentação do código e garantia da manutenibilidade. Independentemente do envolvimento anterior, são responsáveis por auxiliar em  manutenções futuras e realizar a entrega (deploy) da aplicação em produção.\cite{scrum2} Os team members são: Caique Daniel, Luis Renato, Marcos Querino, Murilo Pires e Welen Mota.
+            
+            Entretanto, diferentemente do papel do scrum, o time conta com indivíduos com conhecimentos e habilidades diversas e tempo limitado para o desenvolvimento do projeto. Dessa forma, os papeis servirão como referência, mas não limitam os indivíduos às atividades definidas pelos papéis do scrum. A tabela abaixo foi elaborada para facilitar a identificação da ênfase de atuação de cada indivíduo sobre as atividades desempenhadas.
+            
+            % Fonte: https://scrumguides.org/scrum-guide.html#scrum-team
+            % Fonte https://www.atlassian.com/br/agile/scrum/roles
+            % Revisão fim %
+    
+   \begin{center}
+        \begin{table}[h]
+        \centering
+        \resizebox{16cm}{!}{%
+            \begin{tabular}{|p {15}|rrrrrrrr|}
+            \hline
+            \multicolumn{1}{|c|}{Membro}      & \multicolumn{1}{c|}{Irina}   & \multicolumn{1}{r|}{Henrique} & \multicolumn{1}{r|}{Caique}       & \multicolumn{1}{r|}{Luís} &
+            \multicolumn{1}{r|}{\begin{tabular}[c]{@{}c@{}}Marcos \end{tabular}}  &
+            \multicolumn{1}{r|}{Murilo} & \multicolumn{1}{r|}{Welen}\\ \hline
+               
+    \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Documentação \end{tabular}} &
+         \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{x}            \\ \hline
+    \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Front-end \end{tabular}}&                 
+        \multicolumn{1}{c|}{ }  & \multicolumn{1}{c|}{ }  & \multicolumn{1}{c|}{ x }  & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{x}    & \multicolumn{1}{c|}{ }  & \multicolumn{1}{c|}{ }            \\ \hline
+ 
+    \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Back-end \end{tabular}} &
+        \multicolumn{1}{c|}{x} & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{x}  & \multicolumn{1}{c|}{}            \\ \hline
+                  
+  \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Banco de dados \end{tabular}} &
+        \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{x} & \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{}            \\ \hline
+  
+    \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Infraestrutura \end{tabular}} &
+        \multicolumn{1}{c|}{ }  & \multicolumn{1}{c|}{x} & \multicolumn{1}{c|}{ } & \multicolumn{1}{c|}{ } & \multicolumn{1}{c|}{ } & \multicolumn{1}{c|}{ }  & \multicolumn{1}{c|}{ }            \\ \hline
+
+   \end{tabular}%
+       }
+        \caption{Membros}
+        \label{tab:membros}
+        \end{table}
+    \end{center}
+    
+    
+     
+
+    \subsection{Gestão de projeto}
+    
+        % Revisão inicio %
+        %Estou com duvidas com relação a esse primeiro paragrafo
+        A partir da avaliação dos requisitos, considerou-se que não existem funcionalidades com processos claramente definidos até o início do desenvolvimento de cada processo e o tempo hábil para elaborar e documentar extensamente todos os processos para serem implementados não é suficiente para que exista código a ser implementado. Portanto, a abordagem de planejamento de projetos cascata não é adequada para desenvolver a solução.
+        
+        Em contrapartida, devido a característica mutável dos requisitos e restrição temporal definida pelo cronograma acadêmico, ocorreu o entendimento que adaptar elementos das metodologias Scrum \cite{scrum} e XP \cite{agile} seriam melhor adequados às necessidades do projeto. Enfatizando o emprego dos processos, rituais e cerimônias do Scrum e complementando com elementos do método XP para o dia a dia de desenvolvimento, favoreceu que os membros tenham maior propensão à colaboração e dinamismo de desenvolvimento, resultando em entregas com ritmo constante e incremental.
+        
+        Os ciclos para o desenvolvimento do projeto foram projetados com duração semanal, denominadas Sprint. Este processo é definido no Scrum como o período em que ocorrem os desenvolvimentos, sendo um dos conceitos centrais da metodologia. Define o escopo que será trabalhado, movendo os itens que passam do backlog para a etapa de refinamento e desenvolvimento pela equipe, analisa e desenvolve os elementos que comporão a solução, podendo negociar novos prazos com o PO conforme a equipe identifica novos aprendizados\cite{scrum}. Este processo permite melhor acompanhamento da evolução do desenvolvimento, permitindo manter os stakeholders atualizados e com expectativas alinhadas.
+        
+        Ao final de cada Sprint, ocorre a cerimônia de Sprint Review para discutir o processo de aprendizado do período, quais os resultados obtidos e avaliar a evolução da semana, através de debate sobre dificuldades, soluções e impedimentos encontrados no decorrer da Sprint. Também é realizado o planejamento da Sprint da semana seguinte, analisando e priorizando os próximos itens que passarão do backlog para serem trabalhados no próximo ciclo de desenvolvimento durante as Sprint Plannings, conforme a recomendações de \citeonline{scrum} para o Scrum.
+        
+        Como abordagem para o dia a dia provinda do método XP, a prática de pair programing é adotada para estimular o desenvolvimento colaborativo no time. Essa abordagem permite maior compartilhamento dos conhecimentos de cada indivíduo, de forma mais coesa e analisada por pares durante o desenvolvimento do código ou documento. Tal abordagem reduz possíveis atrasos no desenvolvimento decorrentes de dúvidas ou entraves individuais, tendo como consequência a entrega de código com consistência e validação por pares. A abordagem também aumenta o envolvimento do time em relação a entrega de código com qualidade, derivado do sentimento de responsabilidade coletiva que nasce da autonomia para modificações\cite{agile}.
+
+        A abordagem aprofunda o conhecimento específico da equipe sobre determinado assunto e da solução construída e incentiva o compartilhamento e comunicação entre os integrantes envolvidos imediatamente durante o desenvolvimento ou durante a Sprint Review.
+        
+        Abaixo estão relacionados as tabelas de desenvolvimento do projeto referentes as Sprints semanais, a divisão de tarefas Epics e o Product Backlog do desenvolvimento do projeto.
+        % Revisão fim %
+        \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Cronograma das Sprints}
+          \begin{tabulary}{1.0\textwidth}{|p{8em}|p{8em}|p{19em}|}
+        \hline
+        Início & Fim & Descrição\\
+        \hline
+        09/08/2022/ & 16/08/2022 & Definição de grupo e discussão inicial sobre temas. \\
+        \hline
+        16/08/2022 & 23/08/2022 & Apresentação das propostas aos professores e escolha do projeto.\\
+        \hline
+        23/08/2022 & 30/08/2022 & Apresentação inicial dos projetos, aprovação do tema e divisão das atividades.\\
+        \hline
+        30/08/2022 & 06/09/2022 & Início da modelagem da aplicação.\\
+        \hline
+        06/09/2022 & 13/09/2022 & Início do desenvolvimento da modelagem de dados.\\
+        \hline
+        13/09/2022 & 20/09/2022 & Escolha da arquitetura da aplicação.\\
+        \hline
+        20/09/2022 & 27/09/2022 & Discussão de Regras de negócio, Requisitos e Custo do Projeto. \\
+        \hline
+        27/09/2022 & 04/10/2022 & Apresentação do Desenho da aplicação e definição dos próximos passos. \\
+        \hline
+        04/10/2022 & 11/10/2022 & Semana de desenvolvimento e preparação para a apresentação da POC. \\
+        \hline
+        11/10/2022 & 18/10/2022 & Ajustes finais para a apresentação da POC. \\
+        \hline
+        18/10/2022 & 25/10/2022 & Hands on de implementações e ajustes de documentação.\\
+        \hline
+        25/10/2022 & 01/11/2022 & Discussão e desenvolvimento da documentação e evolução do MVP da aplicação. \\
+        \hline
+        01/11/2022 & 08/11/2022 & Desenvolvimento final da documentação e da aplicação do MVP.\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: sprints}
+      \end{quadro}
+    \end{center}
+    
+    %  Criação do BACKLOG  %
+    
+ \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Epics}
+          \begin{tabulary}{1.0\textwidth}{|p{12em}|p{25em}|}
+        \hline
+       Epic & Descrições  \\
+        \hline
+        Ajustes Documentação & Mudanças ao longo do projeto na documentação (documentação como um todo)\\
+        \hline
+        Ajustes Administrativos & Atualizações Gource, SVN, Métricas, posts no blog\\
+        \hline
+        Desenvolvimento POC & Front-end: funcionalidades front-end desenvolvidas na POC.
+        Back-end: funcionalidades back-end desenvolvidas na POC\\
+        \hline
+        Desenvolvimento MVP & Front-end: funcionalidades front end desenvolvidas no MVP.
+      Back-end: funcionalidades back end desenvolvidas no MVP\\
+        \hline
+        \end{tabulary}
+          \label{qd: epic}
+      \end{quadro}
+    \end{center}
+    
+    
+    \begin{center}
+      \begin{quadro}[H]
+      \centering
+          \caption{Product Backlog}
+          \begin{tabulary}{1.0\textwidth}{|p{6em}|p{5em}|p{24em}|}
+        \hline
+       Entregar até & Prioridade & Descrição \\
+        \hline
+         30/08/2022 & Alta & Definir tema final que será desenvolvido no projeto, realizar apresentação do tema definido\\
+         \hline
+         13/09/2022 & Alta & Realizar a modelagem do MER e DER para suportar a aplicação, validar com os clientes\\
+         \hline
+         20/09/2022 & Alta & Realizar o desenho de arquitetura do sistema, validar com os integrantes do time as tecnologias utilizadas, validar com os clientes.\\
+        \hline
+         27/09/2022 & Alta & Definir regras de negócios do sistema, definir requisitos funcionais, casos de uso, histórias de usuários, custos do projeto\\
+         \hline
+         27/09/2022 & Alta & Configurar ambiente RDS; Configurar Docker; Configurar aplicações em springboot; Configurar aplicações em React\\
+        \hline
+        11/10/2022 & Alta & Desenvolver funcionalidades de autenticar usuário e registrar usuário no banco de dados na AWS. \\
+        \hline
+        11/10/2022 & Media & Entregar funcionalidades registro CRMV, entendimento da viabilidade da funcionalidades, alinhar por e-mail com a CFMV.\\
+        \hline
+         18/10/2022 & Alta & Entregar funcionalidades levantadas no escopo da POC, apresentar para os clientes as funcionalidades.\\
+        \hline
+         25/10/2022 & Alta & Realizar ajustes e correções da POC, Realizar melhorias na proposta da aplicação, realizar ajustes na documentação com o feedback dos clientes \\
+        \hline
+        01/11/2022 & Alta & Realizar desenvolvimento funcionalidades x (MVP)
+        desenvolvimento funcionalidades y (MVP)
+        Ajustes finais na documentação\\
+        \hline
+         08/11/2022 & Alta & Entrega da documentação do projeto, feedbacks do cliente e definições para a apresentação do MVP\\
+        \hline
+        22/11/2022 & Alta & Entrega da apresentação do MVP e feedback dos clientes.\\
+        \hline
+        \end{tabulary}
+         
+          \label{qd: backlog}
+      \end{quadro}
+    \end{center}
+    
+    % % % %
+        
+    \subsection{Ferramenta de gestão}
+  
+        Após definir as funcionalidades que serão desenvolvidas, foi constatada a necessidade de geri-las a partir de uma ferramenta de gestão de projetos.
+        
+        Sistemas como Microsoft Project e similares são ideais para projetos que empregam a abordagem do modelo cascata. Como não proveem a flexibilidade para mudanças e velocidade de aprendizado que projetos ágeis exigem, foi optado pelo uso da ferramenta Jira Software, disponível no modelo gratuito e on cloud.
+        
+        Como ferramenta de mercado, o Jira Software é uma ferramenta de gestão de projetos flexível, reconhecida por dar suporte a diferentes abordagens de gestão de projeto, mas amplamente utilizado em projetos que envolvem metodologias ágeis\cite{jira}.
+        
+        No contexto do desenvolvimento da aplicação, as atividades serão divididas em Épicos, que conterão Histórias e Tarefas, que serão distribuídas por quadros Kanban. Estes quadros permitem maior flexibilidade nos processos de gestão das atividades, organizando o fluxo de trabalho com as tarefas planejadas, em progresso e entregues\cite{jira}.
+        
+        % Revisão fim %
+
+    \section{Arquitetura}
+        
+        % Revisão inicio %
+
+        %O sistema foi desenvolvido com base no modelo de arquitetura cliente-servidor, abordando a divisão de camadas e a separação no que consiste em back-end e front-end da aplicação. Por meio de um navegador web, os clientes fazem as requisições ao servidor, que é acessível através de uma API (Application Programming Interface) REST responsável por lidar com as regras de negócio e com a comunicação entre as camadas. O Elastic Load Balancing tem como responsabilidade distribuir esse tráfego de entrada entre as duas instâncias EC2, uma contendo o back end e outra o front end, ambas em ambientes isolados pelo Docker Container, onde o back end possui integrado a ele o CloudWatch Logs para monitoramento dos logs da aplicação. Toda essa parte de serviços operacionais do sistema está inclusa no AWS Elastic BeanStalk, provedor de máquina e serviços necessários de forma a abstrair detalhes de infraestrutura para a implementação da aplicação.
+        
+        %Como banco de dados relacional da aplicação, foi empregado o serviço gerenciado de banco de dados AWS RDS para MySQL. Este serviço permite o funcionamento do banco de forma abstraída, enquanto, para o armazenamento de arquivos estáticos da aplicação, como os documentos pdf emitidos pela aplicacão CertVet, foi empregado o serviço Amazon S3.
+        
+        
+
+        % Antes %
+        % ------------- %
+        % Depois %
+
+        A aplicação está hospedada na infra estrutura da provedora de nuvem pública AWS. A provedora fornece todos os recursos computacionais e serviços necessários para que a solução seja executada, além de prover VPC (Virtual Private Cloud), que atua como rede interna e Security Groups, que atua como firewall.
+        
+        O sistema foi desenvolvido com base no modelo de arquitetura cliente-servidor, empregando a abordagem de divisão em camadas back-end e front-end para maior desacoplamento.
+        
+        O cliente, ao fazer uma requisição via navegador web ao nosso endereço web, recebe a aplicação de front-end que está hospedada no container da aplicação React da respectiva instância EC2, que permitirá que seja processada pelo próprio navegador.
+        
+        Por meio da interface web, as diversas intâncias dos clientes fazem requisições ao servidor, utilizando o padrão REST APIs(Reprentational State Application Programming Interface).
+        Assim, o servidor presente na instância EC2 que roda o container da aplicação Java Spring boot fica responsável por resolver as regras de negócio e comunicar seus resultados entre as demais camadas.
+        
+        Como parte da integração com terceiros, a aplicação de back-end prevê realizar requisições ao servidor externo de domínio da entidade de classe CRMV.
+           
+        O serviço Elastic Load Balancing tem como responsabilidade distribuir o tráfego de dentro e fora da VPC entre as possíveis instâncias EC2 que processam as requisições da aplicação e seus clientes, em caso de escalonamento vertical ou horizontal da aplicação.
+        
+        Para que seja possível armazenar os logs da aplicação, o back-end está integrado ao serviço CloudWatch Logs. Este serviço permite que os logs da aplicação possam ser monitorados de fora do servidor de instalação da aplicação.
+        
+        O serviço operacional é provisionado pelo AWS Elastic BeanStalk, que abstrai o processo de requisição e reserva de recursos de infraestrutura que implementa da aplicação.
+        
+        O banco de dados relacional responsável pelo armazenamento dos dados da aplicação é o MySQL provido pelo AWS RDS, serviço gerenciado que persiste os estados gerados pela lógica de negócio de forma abstraída, enquanto, para o armazenamento de arquivos estáticos da aplicação, como os documentos gerados pela aplicação CertVet, fora utilizado o armazenamento de objetos Amazon S3 como banco de dados não relacional.
+        
+        Para armazenamento das imagens da solução, está previsto o serviço da provedora docker, mas não é restrito a este provedor.
+        
+        O esquema da arquitetura do sistema pode ser vista mais detalhadamente na figura abaixo.
+        
+        % Revisão fim %
+        
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.9\textwidth]{ArquiteturaAplicacao.png}
+            \caption{Infraestrutura}
+            \label{fig:infra}
+        \end{figure}
+        
+        \subsubsection{Elastic Load Balancing}
+        
+            Serviço que distribui o tráfego externo à infra estrutura entre instâncias de processamento da aplicação. Em diversos cenários de aplicações, a tecnologia permite que uma solução seja escalável de forma horizontal para um numero de instâncias de tamanhos variáveis de acordo com a parametrização do gestor da solução.
+        
+        \subsubsection{Docker Container}
+
+            Tecnologia que isola o ambiente da aplicação através da segregação de recursos em namespaces e imagem de aplicação, permitindo maior liberdade no uso dos recursos computacionais de execução em ambiente isolado e portabilidade.
+            
+            Normalmente toma como ponto de partida a distribuição Alpine Linux, que tem o objetivo de ter apenas os recursos necessários para o sistema operacional, aumentando o controle do desenvolvedor sobre os utilitários do sistema operacional.
+    
+            Para a aplicação back end, será empregada uma imagem baseada na pilha amazon linux e amazon correto 17.
+            
+        \subsubsection{AWS Elastic BeanStalk}
+
+            Serviço gerenciado que abstrai a necessidade de tomar decisão sobre recursos físicos da aplicação, provisionando máquina e serviços necessários para a implementação da solução. Provê suporte à tecnologia Docker container.
+            
+        \subsubsection{Amazon ECR - Amazon Elastic Container Registry}
+        
+            Similar ao serviço Docker Hub, é um serviço de armazenamento e registro de imagens de containers gerenciado pelo provedor AWS. Permite que seja possível realizar implantações (deploy) automatizados a partir da atualização da imagem Docker armazenada no diretório em nuvem.
+
+        \subsubsection{AWS RDS (Relational Database Service) - Amazon AWS}
+
+            Serviço gerenciado que provê banco de dados com redundância em infraestrutura abstraída, suporta implementações de banco de dados relacionais: Amazon Aurora, MySQL, MariaDB, PostgreSQL, Oracle e Microsoft SQL Server. Disponibiliza as funcionalidades de uso mais recorrentes por aplicações.
+            
+            Para a implementação da solução, identificou-se que o uso de uma instância MySQL se enquadra melhor às necessidades da aplicação por não existir necessidade imediata de atender altos volume de transações com o banco de dados.
+            
+        \subsubsection{Amazon S3}
+        
+            serviço de armazenamento de objetos (no caso da Certvet, documentos de resultado de exames) que oferece escalabilidade. 
+
+    \section{Tecnologias de Desenvolvimento}
+    
+        Aproveitando da maturidade de frameworks e bibliotecas front end e a complexicidade adicional do desenvolvimento de aplicações dedicadas para ambientes desktop e móveis, com ênfase me celulares (necessidade de permissão de máquina para instalação e configuração da aplicação em ambiente heterogêneo além de particularidades pontuais de cada cliente), o foco da aplicação foi voltado para a plataforma WEB (navegadores desktop e móveis).
+        
+        Para prototipação, foi utilizada a ferramenta Figma, um editor colaborativo online de design gráfico que permite a criação de interfaces de usuário. A ferramenta auxilia desenvolvedores a construir telas coesas e baseadas nos conceitos e práticas de User Experience (UX) e User Interface (UI). Como ferramenta de desenvolvimento, a plataforma GitHub será usada como principal ferramenta de versionamento dos  repositórios do projeto.
+        
+        Com o objetivo de facilitar o processo de implementação de uso da ferramenta nos estabelecimentos dos usuários, a instalação de um software como aplicação desktop poderia influenciar negativamente à adoção da aplicação. Ainda, de acordo com as habilidades técnicas dos membros da equipe, foi optado por utilizar tecnologias web baseadas em servidores de aplicação remotos e gerenciados, oferencendo o Software como serviço (SaaS).
+        
+        A oferta de software como serviço permite que atualizações e correções sejam implementadas mais rapidamente por não depender da interferência em infraestrutura de responsabilidade do cliente. Adicionalmente, reduz-se o risco de instalação do serviço de forma inadequada.
+
+    \subsection{Front-end}
+    
+        A pilha de tecnologias de desenvolvimento para o front end se concentram nas ferramentas e tecnologias:
+        
+        \begin{itemize}
+        
+            \item Figma: Editor colaborativo online de design gráfico que permite a criação de interfaces de usuário e que ajudará os desenvolvedores a construir telas coesas e baseadas nos conceitos e práticas de User Experience (UX) e User Interface (UI).
+        
+            \item Typescript:
+                Linguagem que permite programação fortemente tipada de código aberto desenvolvida pela Microsoft lançada em 1 de outubro de 2012. 
+    
+                É também um supertipo da linguagem  JavaScript, o que significa que possui todas as funcionalidades do JavaScript e além da adição de novos recursos. 
+                
+                Essa linguagem foi selecionada para desenvolver o front end devido a complexidade e escala da aplicação, que requer estruturas de dados mais complexas do que o JavaScript pode oferecer suporte, fazendo-se necessário a utilização de uma linguagem com tipagem de dados forte. 
+                
+                Outro motivo que colaborou para a escolha foi a segurança, já que graças a tipagem de dados, erros que podem causar vulnerabilidades e passam despercebidos em aplicações desenvolvidas com JavaScript serão identificados no momento da compilação do TypeScript para JavaScript.
+            
+            \item SCSS:
+                Linguagem de estilização para WEB compilada para CSS.
+    
+                Essa linguagem foi selecionada para estilizar o front end da aplicação pelo fato de possuir compatibilidade com o CSS e também uma melhor estrutura organizacional de código quando comparado com o CSS.
+        
+            \item ReactJS:
+                Biblioteca JavaScript/TypeScript desenvolvida pelo Facebook para a criação de interfaces WEB lançada em 29 de maio de 2013. O React foi escolhido graças a arquitetura baseada em componentes que permite a reutilização dos mesmo em diferentes partes da aplicação. Os componentes são escritos utilizando JSX que possui uma sintaxe semelhante ao HTML, o que o torna fácil de utilizar.
+        
+            \item Bootstrap:
+                Framework front end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples.
+    
+                Essa tecnologia foi escolhida pelo fato de reduzir consideravelmente o tempo de desenvolvimento da estilização da interface da aplicação com om usuário.
+        
+        \end{itemize}
+    
+        \subsection{Back-end}
+    
+            Para compor a pilha de tecnologias aplicadas no back end, foi definido utilizar as seguintes tecnologias:
+    
+            \begin{itemize}
+                \item Java 17: 
+                    Linguagem de programação fortemente tipada com ênfase no paradigma de desenvolvimento orientado a objeto. É amplamente empregada em aplicações comerciais e cientificas maduras, tanto open source como privadas.
+    
+                    A partir da comunidade de desenvolvimento, projetos open source de permissionamento livre permite acesso a bibliotecas e ferramentas como framework Demoiselle, para assinatura de documentos que cumprem a especificação ICP-Brasil.
+                    
+                    A versão 17 é uma versão LTS - Long Term Service, permite o emprego das tecnologias e funcionalidades mais recentes da linguagem, sem prejuízo às implementações mais antigas.
+        
+                \item Framework Spring Boot: 
+                    Framework mais amplamente utilizado da linguagem Java para aplicações de uso geral, permite integração sem quebras entre dependências de bibliotecas e frameworks especializados como Spring MVC, hibernate ou Apache Kafka.
+                    \begin{itemize}
+                        \item ORM - spring JPA (Hibernate)
+                        \item Spring Web - controllers
+                        \item Apache Tomcat - Servidor HTTP
+                        \item Hibernate Validator
+                        \item Mockito - Framework que auxilia o desenvolvimento de testes de unidade
+                        \item SL4J - Framework dedicado ao registro de logs
+                    \end{itemize}
+                \item Banco de dados Mysql:
+                    Banco de dados relacional com ampla implementação de provedores de tecnologias em nuvem aberta ou on premisses, tendo licença permissiva de uso e familiaridade aos membros da equipe.
+            \end{itemize}
+    
+        \subsection{Ferramentas de testes automatizados}
+        
+            Com o objetivo de testar a aplicação e também garantir que as funções retornem os resultados esperados de forma a garantir a integração das partes da mesma, teste unitários são fundamentais para alcançar esses objetivos. Portanto, a equipe utilizará as ferramentas de testes automatizados listados a seguir:
+            
+            \begin{itemize}
+                \item Jest: é um framework de testes para JavaScript/TypeScript desenvolvido a partir do framework Jasmine, também para testes automatizados.
+                \item JUnit: é um framework open-source de teste para a linguagem Java desenvolvido por Erich Gamma e Kent Beck. é assumido por padrão pelo framework Spring e suas ferramentas (Spring Boot).
+            \end{itemize}
+
+    
+
+    \section{Manutenibilidade}
+    Visando garantir boa resposta dos clientes, atingindo um elevado nível de qualidade, torna-se necessário estabelecer determinados requisitos e parâmetros de manutenibilidade e ferramentas que possam auxiliar esse processo. Partindo desses critérios, é possível mensurar o quanto o desenvolvimento do sistema apresenta conformidade com as boas práticas e, consequentemente, na qualidade do projeto.
+
+        \subsection{Code Convention}
+        Buscando facilitar o fluxo de trabalho com um maior nível de legibilidade para todos os envolvidos no desenvolvimento do código e, consequentemente, simplificar a integração entre as diferentes partes do que está a ser desenvolvido, a equipe optou por adotar uma convenção de código. Visando o desenvolvimento de um código consistente e transparente, a convenção permite que os diferentes membros possam adicionar contribuições sem grandes dificuldades, aumentando a taxa de transferência e diminuindo o tempo de entrega, resultando em uma base de código mais uniforme e consequentemente impactando na facilidade da manutenção do código.
+
+        \subsubsection{Codificação geral}
+        A convenção adotada para a parte mais generalizada do código, é a mais comumente usada para o desenvolvimento utilizando a linguagem Java, sendo relativamente próxima dos padrões adotados em outras linguagens populares como JavaScript e Python. As regras seguem como base as sugestões de Coding Convention da Oracle, mas foram adaptadas para as necessidades da equipe:
+
+        \begin{itemize}
+            \item
+            Declaração de atributos e variáveis em português.
+            \item
+            Nomes de atributos e váriaveis devem ser redigidos em camelCase.
+            \item
+            Variáveis declaradas próximas de onde são inicializadas.
+            \item
+            Declarações globais preferencialmente no início do arquivo.
+            \item
+            Uso reduzido de variáveis, funções e objetos globais.
+            \item
+            Métodos nomeados com camelCase e prefixados com verbo em inglês que deixe claro o que o método faz.
+            \item
+            As constantes devem utilizar notação Upper case, utilizando underscore para separação das palavras em caso de nome composto.
+            \item
+            Nomes de classes e interfaces redigidos em PascalCase.
+        \end{itemize}
+
+    Somando-se a isso, a resolução do back-end é dividida em pacotes para melhor distribuição e visibilidade da mesma. Sendo eles, o pacote model contendo as classes de modelo, também usadas como entidades mapeadas do banco de dados, o pacote controller contendo o gerenciamento da lógica do negócio através dos controladores e endpoints do serviço, o pacote service contendo a implementação da lógica de negócio através dos serviços e o pacote repository para centralizar as regras de armazenamento dos beans de entidade no sistema.
+
+    \subsubsection{Commits}
+    A equipe optou por adotar os prefixos gerados pelo Jira, ferramenta utilizada para o gerenciamento de tarefas, para nomear as branchs que serão commitadas tanto no front-end quanto no back-end.
+
+    ERI-X: sendo ERI o prefixo base gerado pelo Jira e X o número de identificação daquela tarefa no dashboard.
+
+    Somado à padronização, fora adotada a prática de efetuar pull requests e o code review por parte de um outro integrante do time, evitando que uma implementação ou alteração seja adicionada diretamente na branch principal do repositório.
+
+    \subsection{Design Patterns e boas práticas}
+    Visando a padronização do projeto, o time adotou dois padrões comumente usados pela comunidade de desenvolvedores: Builder e Facade, sendo este último adotado pensando na redução do acoplamento entre as diferentes camadas do projeto e na diminuição da complexidade da API e o padrão Builder para isolar a complexidade da criação dos objetos, facilitando a criação das diferentes implementações, todas baseadas em uma mesma interface.
+
+    \subsubsection{Clean Code}
+    Somado ao Code Convention abordado anteriormente, o Clean Code é um conjunto de práticas de desenvolvimento a fim de garantir que o código seja legível para todos e que, consequentemente, implique em uma manutenção mais ordenada e simplificada, evitando gargalos haja vista que propaga maior inteligibilidade por parte dos desenvolvedores. As práticas adotadas pela equipe podem ser lidas abaixo:
+
+    \begin{itemize}
+        \item 
+        Definição significativa dos nomes de classes, atributos, métodos, objetos e variáveis.
+        \item
+        Uso de ENUM e constantes para padronização de números que façam sentido no código.
+        \item
+        Criação de funções simples, de procedimentos transparentes e pequenas.
+        \item
+        Uso reduzido de comentários que não sejam necessários.
+        \item
+        Evitar a redundância e a repetição de código.
+        \item
+        Reduzir ao máximo as dependências, de forma a aumentar o desacoplamento e a independência entre as partes do projeto.
+        \item
+        Realizar o tratamento de erros para garantir que o código continuará fazendo o que foi programado para fazer.
+        \item
+        Cobrir e validar todos os processos sensíveis e importantes com testes limpos.
+    \end{itemize}
+
+    \subsubsection{SOLID}
+    O conjunto de cinco princípios básicos, denominado na área por SOLID, tem como principal objetivo garantir a maior qualidade no processo de desenvolvimento de software, resultando em uma aplicação mais fácil de ser testada, mantida, corrigida, haja vista a flexibilidade gerada no código em se adequar às possíveis mudanças e até mesmo escalada. No que tange ao entendimento da equipe sobre os princípios e como os mesmos serão aplicados no projeto:
+
+    \begin{itemize}
+        \item 
+        SRP (Single Responsability Principle), o princípio da responsabilidade única, basicamente determina que uma classe deve ter simplesmente um único motivo para existir, uma única responsabilidade.
+        \item 
+        OCP (Open-closed Principle), ou princípio aberto-fechado, o segundo princípio prevê que uma entidade deve ser aberta para a extensão e fechada para a modificações.
+        \item 
+        LSP (Liskov Substitution Principle), o terceiro
+        princípio, o de substituição de Liskov, determina que uma classe que seja derivada deve ser substituível por sua classe originária.
+        \item 
+        ISP (Interface Segregation Principle), o princípio da segregação da interface prevê que uma classe não deve implementar interfaces que possuem atributos e métodos que ela não utilizará.
+        \item 
+        DIP (Dependency Inversion Principle), o quinto princípio, o da inversão de dependência determina que uma classe deve sim depender de abstrações, no entanto, jamais depender de implementações.
+    \end{itemize}
+
+        \subsection{Logs}
+        A fim de monitorar o sistema em tempo real de execução, principalmente no que tange à camada do servidor, o time adotou o CloudWatch Logs, ferramenta da Amazon para visualização destes, tornando possível o monitoramento do estado dos objetos. Através de diferentes registros como: info, warn, debug e error, a equipe tem a sua disposição insumos para consultar os dados de log da aplicação, monitorar os logs de instâncias do Amazon EC2 e arquivá-los com segurança para futuras análises, quando necessário, de forma que, quando ocorrer falha do sistema, um log poderá ser consultado para devidas identificações, análises e resoluções.
+
+    
+    \section{Segurança}
+    
+        A aplicação, por tratar dados pessoais que podem identificar indivíduo, precisa utilizar métodos seguros e que cumpram regulamentação legal e específica como parte dos requisitos.
+    
+        \subsection{Comunicação}
+        
+            A aplicação utilizará interfaces de aplicação de transferência representacional de estado (REST API), tomando como base o protocolo HTTP.
+        
+            O protocolo HTTP (Hyper Text Transfer Protocol) realiza comunicação através de interfaces da arquitetura cliente-servidor. Tanto nos modelos conceituais TCP/IP e OSI (Open System Interconnection) está compreendido pela camada de aplicação. \cite{PetersonRedes}.
+        
+            Por permitir comunicação na arquitetura cliente-servidor sem criptografia (trafega dados através de texto simples pelas das camadas de rede), é considerado uma forma não segura de troca de dados.
+            
+            Para que a comunicação possa ocorrer sem perda de dados ou interceptação entre as partes, é necessário adicionar criptografia TLS (Transport Layer Security) ou SSL (Secure Socket Layer, base do TLS) na comunicação ponto a ponto, estendendo o protocolo para HTTPS (Hyper Text Transfer Protocol Secure). \cite{PetersonRedes}.
+            
+        \subsection{Privacidade}
+        
+            Em diversos sistemas, tanto mobile como web, diversas informações são trocadas entre o usuário e o servidor a todo instante. Dentre essas informações é possível destacar documentos pessoais, senhas e informações sigilosas. Visto isso, uma das prioridades do sistema a ser desenvolvido será a privacidade de seus usuários e de suas informações.
+        
+            A lei 13.709/2018, conhecida como LGPD (Lei Geral de Proteção de Dados Pessoais) foi concebida com intuito de disciplinar o uso de dados pessoais por instituições, empoderando a pessoa física sobre os direitos fundamentais da liberdade e privacidade sobre seus dados. \cite{lgpd}
+            
+            A lei dispõe sobre atividades em que ocorra "tratamento de dados". Como explica o tribunal de justiça de São Paulo (TJ-SP):
+            
+            \begin{quote}
+                Considera-se “tratamento de dados” qualquer atividade que utilize um dado pessoal na execução da sua operação, como, por exemplo: coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração.
+            \end{quote}
+            
+            Tanto a Serpro quanto o TJ-SP relatam que a lei prevê três agentes das instituições, listando suas respectivas responsabilidades principais:
+            
+            \begin{quote}
+                Controlador: Responsável pelas decisões relativas ao tratamento dos dados
+                Operador: Delegado pelo Controlador, operacionaliza as decisões do Controlador
+                Encarregado: Atender às demandas dos titulares, interagir com a autoridade nacional de proteção de dados (ANPD) e orientar funcionários e contratados sobre as práticas de proteção de dados.
+            \end{quote}
+            
+            O titular dos dados é aquele que pode ter dados que identificam a pessoa natural, sendo tratados , distribuídos ou armazenados. Para que os dados possam ser armazenados nos termos da lei, é necessário que exista expressa autorização pelo titular dos dados, devidamente armazenados para fins de fiscalização. A distribuição indevida desses dados poderá acarretar ônus ao propagador. \cite{lgpdComoCumprir}
+            
+            Portanto, o mapeamento dos dados necessários para as atividades previstas pela aplicação e armazenamento de dados sensíveis é um ponto de atenção para ser considerado desde o desenvolvimento da modelagem de dados, passando pelo trânsito dos dados até a comunicação com os usuários que realizarão interação com a ferramenta.
+            
+            Nesse sentido, foi identificada a necessidade de avaliar a utilização de criptografia e autenticação em todas as etapas de trânsito de dados e armazenamento de banco de dados.
+    
+        \subsection{Autenticação JWT}
+    
+            JSON Web Token (JWT) é um padrão de indústria para autenticação e troca de informações. Ele é um formato baseado em texto e amplamente aceito por diversas linguagens, visto a utilização do JSON como base. JWT é um dos elementos do JSON Object Signing and Encryption (JOSE). Outros elementos do JOSE são o JSON Web Encryption (JWE), que é o responsável pela criptografia para a assinatura do token, o JSON Web Algorithms (JWA), responsável pelo algoritmo, o JSON Web Keys (JWK), correspondente as chaves para a assinatura e, por fim, o JSON Web Signature (JWS), que consiste na assinatura do token, enquanto o JWT é o token em si.
+            
+            O JWT tem como objetivo realizar a autenticação entre duas partes por meio de um token assinado que autentica uma requisição Web. O token é um código, uma chave ou uma cadeia de caracteres que armazenam objetos JSON com os dados que permitirão a autenticação da requisição.
+            Em um sistema no qual o cliente deseja se autenticar, o cliente enviará na requisição seus dados de autenticação como o e-mail e a senha. Após o sistema ter verificado que os dados do cliente estão corretos, o servidor criará um token para o cliente. Com esse token, o cliente terá condições de acessar na aplicação informações nas quais este não conseguia, visto que ainda não havia se autenticado. 
+            
+            O JWT é composto por três componentes, sendo eles denominados de “Header”, “Payload” e “Signature”. O “Header” pode ser descrito como o cabeçalho do token e possui dois campos, sendo o primeiro campo denominado “alg”, que indica qual o algoritmo de criptografia usado, enquanto o outro campo, chamado “typ”, tem como objetivo indicar que se trata de um token JWT. 
+            O componente chamado de “Payload” carrega os dados referentes a autenticação. Nesse segmento pode-se diversos campos como “exp” que indica o tempo de expiração do JWT, “sub” que informa o assunto do token, “aud” que identifica quem deverá receber os dados do JWT, “iat” que identifica o tempo de existência do token, entre outros campos.
+            
+            Por fim, o componente “Signature” é a assinatura única de cada token que é gerada a partir de um algorito de criptografia e tem seu corpo com base no “Header”, “Payload” e no segredo definido pela aplicação. Em outras palavras, o “Signature” é a codificação do “Header”, “Payload” junto com uma palavra-chave.
+            
+            O token é uma chave de acesso assinada digitalmente e garante segurança e confiabilidade. Como os tokens são assinados, é possível o servidor verificar a legitimidade do token, visto que esse carrega consigo a informação de sua origem. O token completo consiste na junção dos três componentes separados única e exclusivamente por um ponto. Sendo assim, após a assinatura realizada, o token estará pronto. 
+            
+            Com o token codificado é impossível decodificar a assinatura deste sem que haja o segredo-chave da aplicação. Entretanto, havendo o segredo, o token poderá ser facilmente decodificado e verificado sua validade. 
+            
+            O JWT tem muita notoriedade por ser uma forma extremamente segura de compartilhamento de informações e autenticação de usuários. Ele é compacto, completo e fácil de se utilizar, além de ser aceito por diversas linguagens. Toda a informação necessária para a autenticação e autorização de acesso consta no token, isso significa que a requisição será atendida independentemente do servidor. Com o JWT é possível ter escala em performance, visto a necessidade do servidor de apenas calcular o hash, sem buscar nenhuma informação em alguma base ou tabela. Outro lado positivo na utilização do JWT é que é possível ter diversos servidores rodando em domínios diferentes e todos utilizando o mesmo token.
+            
+            O lado negativo do JWT está baseado em sua chave secreta. Se essa chave for em algum momento exposta, algum indivíduo mal intencionado poderá ter acesso aos dados ali armazenados.
+
+    
+        \subsection{Legislação}
+        
+            Sendo uma aplicação desenvolvida para área de medicina veterinária, devem ser observadas legislações e decretos concernentes.
+        
+            \begin{itemize}
+            
+                \item O projeto exigirá login com CRMV para acessar áreas privativas dá área de medicina veterinária. CÓDIGO DE ÉTICA PROFISSIONAL DO MÉDICO-VETERINÁRIO, capítulo 5°, Art. 9°. \cite{manual}.
+                
+                \item Será obrigatória a correlação da clínica com o médico-veterinário responsável. NORMA TÉCNICA ESPECIAL Art. 3°. \cite{manual}.
+                
+                \item Os métodos de eutanásia disponíveis no preenchimento das informações do sistema. RESOLUÇÃO CFMV Nº 1.000, DE 11 DE MAIO DE 2012, Art. 14, anexo 1. \cite{manual}.
+                
+            \end{itemize}
+        
+        \subsection{Regulamentação}
+        
+            Haja vista a seriedade dos procedimentos com os quais o profissional veterinário lida no seu dia a dia e que são parte do escopo da aplicação, o Código de Ética do Médico-Veterinário com a Resolução CFMV nº 1138, publicada no Diário Oficial da União em 25/01/2016, deve ser seguido como instrumento normativo referencial para todo o fluxo de exercício profissional, assegurando que a CertVet esteja em conformidade com os princípios fundamentais da profissão, deveres profissionais, direito dos médicos veterinários, responsabilidade e comportamento do profissional e honorários profissionais, além da relação com o cidadão consumidor de seus serviços, com o animal, o meio ambiente e também com a justiça.  \cite{etica}
+
+    \section{Viabilidade Financeira}
+    
+        A arrecadação de fundos do projeto se baseia em duas obrigações do CFMV: A formalização de atos médicos usando um termo de consentimento livre e esclarecimento, e o armazenamento da maioria destes por um tempo mínimo de dois anos.
+
+        \subsection{Serviços utilizados}
+        
+            Os serviços da provedora de nuvem foram considerados com base em custos sem pagamento antecipado ou reserva de recursos. Essa estimativa considera cenário real de armazenamento de dados e processamento da aplicação no Brasil, cumprindo com leis de privacidade de dados. Demais serviços acessórios como armazenamento de logs e dados de código da aplicação podem ser armazenados fora do país.
+
+            \begin{itemize}
+            
+                \item Amazon CloudWatch: 1.21 USD/mês em US East (N. Virginia) Standard Logs: Data Ingested (2 GB), Number of Dashboards (1), Number of Standard Resolution Alarm Metrics (2)
+                
+                \item Amazon EC2: 13.44 USD/mês em South America (Sao Paulo) Computing: Operating system (Linux), Quantity (1), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t2.micro)
+                
+                \item Amazon RDS for MySQL: 34.97 USD/mês em South America (Sao Paulo) Database Services: Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Quantity (1), Instance type (db.m1.small), Utilization (On-Demand only) (50\% Utilized/Month), Deployment option (Single-AZ), Pricing strategy (OnDemand), Additional backup storage (30 GB)
+                
+                \item Amazon Simple Storage Service (S3): 0.09 USD/mês em US East (N. Virginia) Storage: S3 Standard storage (4 GB per month)
+                
+                \item Elastic Load Balancing: 30.32 USD/mês em South America (Sao Paulo) Load Balancer: Number of Application Load Balancers (1)
+                
+            \end{itemize}
+    
+    
+            Assim, os custos estimados de serviços foi estimado em USD 80.03 mensais.
+        
+            \begin{table*}[h]
+                    % \centering
+                    \resizebox{\columnwidth}{!}{%
+                    \begin{tabular}{|lrrr|r|}
+                        \hline
+                        \multicolumn{1}{|l|}{Custo}
+                            & \multicolumn{1}{r|}{USD}
+                            & \multicolumn{1}{r|}{Câmbio}
+                            & \multicolumn{1}{r|}{BRL}
+                            & Total \\ \hline
+                        \multicolumn{1}{|l|}{Amazon CloudWatch}
+                            & \multicolumn{1}{r|}{1,21}
+                            & \multicolumn{1}{r|}{5,50}
+                            & \multicolumn{1}{r|}{6,655}
+                            & 6,66  \\ \hline
+                        \multicolumn{1}{|l|}{Amazon EC2}
+                            & \multicolumn{1}{r|}{13,44}
+                            & \multicolumn{1}{r|}{5,50}
+                            & \multicolumn{1}{r|}{74,592}
+                            & 74,59 \\ \hline
+                        \multicolumn{1}{|l|}{Amazon RDS for MySQL}
+                            & \multicolumn{1}{r|}{34,97}
+                            & \multicolumn{1}{r|}{5,50}
+                            & \multicolumn{1}{r|}{192,335}
+                           & 192,34  \\ \hline
+                        \multicolumn{1}{|l|}{Amazon Simple Storage Service (S3)}
+                            & \multicolumn{1}{r|}{0,09}
+                            & \multicolumn{1}{r|}{5,50}
+                            & \multicolumn{1}{r|}{0,495}
+                            & 0,50 \\ \hline
+                        \multicolumn{1}{|l|}{Elastic Load Balancing}
+                            & \multicolumn{1}{r|}{30,32}
+                            & \multicolumn{1}{r|}{5,50}
+                            & \multicolumn{1}{r|}{166,76}
+                            & 166,76 \\ \hline
+                        \multicolumn{4}{|l|}{Total de infraestrutura (Mês)}
+                            & 440,85   \\ \hline
+                    \end{tabular}%
+                    }
+                \caption{Custo mensal da infraestrutura do desenvolvimento}
+                \end{table*}
+         
+        \subsection{Tributação}
+        
+            % Impostos sobre serviços prestados com fato gerador ocorrido no município de São Paulo incide alíquota máxima para o imposto sobre serviço (ISS), incorrendo 5\% do valor de faturamento. Demais tributações dependerão do regime tributário a ser escolhido na constituição jurídica, não sendo prevista no momento da elaboração do projeto.
+
+            Para formar o custo base de mão de obra, foi considerado o salário mínimo nacional aproximado de R\$ 1.200,00 \cite{Senado} . Para efeitos práticos, considerou-se os custos relacionados à folha de pagamento para 200\%, a partir da proposta de metodologia de mensuração do custo do trabalho no Brasil, que aproxima o custo em 183\% em pesquisa realizada em 2012 pelo Centro de Microeconomia Aplicada (C-Micro) da Fundação Getúlio Vargas/Escola de Economia de São Paulo (FGV/EESP) \cite{FGV}.
+ 
+          
+        \subsection{Mão de obra}
+        
+            % Considerando a necessidade de remuneração dos envolvidos e importante medida para alcance do ponto de equilíbrio do negócio, foi considerada a seguinte remuneração mensal mínima com base nas atividades designadas de cada membro da equipe:
+
+            % \begin{itemize}
+            %     \item Product Owner: R\$ 1.200,00 + encargos de folha
+            %     \item Scrum Master: R\$ 1.200,00 + encargos de folha
+            %     \item Team Member: R\$ 1.200,00 + encargos de folha
+            % \end{itemize}
+
+            % \begin{table}[h]
+            %     \centering
+            %     \resizebox{8cm}{!}{%
+            %     \begin{tabular}{|l|r|r|r}
+            %         \hline
+            %         \multicolumn{1}{|l|}{Colaborador}
+            %             & \multicolumn{1}{r|}{Valor}
+            %             & \multicolumn{1}{r|}{Quantidade}
+            %             & \multicolumn{1}{r|}{Total}
+            %             \\ \hline
+            %         \multicolumn{1}{|l|}{Product Owner}
+            %             & \multicolumn{1}{r|}{2.400,00}
+            %             & \multicolumn{1}{r|}{1}
+            %             & \multicolumn{1}{r|}{2.400,00}
+            %             \\ \hline
+            %         \multicolumn{1}{|l|}{Scrum Master}
+            %             & \multicolumn{1}{r|}{2.400,00}
+            %             & \multicolumn{1}{r|}{1}
+            %             & \multicolumn{1}{r|}{2.400,00}
+            %             \\ \hline
+            %         \multicolumn{1}{|l|}{Team Member}
+            %             & \multicolumn{1}{r|}{2.400,00}
+            %             & \multicolumn{1}{r|}{5}
+            %             & \multicolumn{1}{r|}{12.000,00}
+            %             \\ \hline
+            %     \end{tabular}%
+            %     }
+            %     \caption{Custos de mão de obra}
+            %     \label{tab:custos-maodeobra}
+            % \end{table}
+
+            % Considerando que os encargos de folha são frequentemente aproximados a 100\% do valor bruto da remuneração, foi aplicado essa regra geral para facilitar o cálculo.
+            
+            % Portanto, os custos de remuneração são de aproximadamente R\$ 36.000,00.
+            
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{images/Mao-de-obra.png}
+                \caption{Mão de obra}
+                \label{fig:infra}
+            \end{figure}
+            
+            \item Custo-base: R\$ 2.400,00
+            \item Dias-base: 22 | Dia-hora: 8
+            \item Custo-hora R\$ 13,64
+
+        % \subsection{Destino dos Custos}
+        
+        %     Considerando as funcionalidades do projeto e o número de colaboradores, foram distribuídas tarefas para contabilizar as horas do projeto.
+
+        %     \begin{table*}[h]
+        %         % \centering
+                
+        %         \resizebox{\columnwidth}{80}{%
+        %         \begin{tabular}{|lrrr|r|}
+        %             \hline
+        %             \multicolumn{1}{|l|}{Funcionalidade}                & \multicolumn{1}{r|}{Dias de Trabalho}
+        %                 & \multicolumn{1}{r|}{Membros Atuando}
+        %                 & \multicolumn{1}{r|}{Horas Totais}
+        %                 &  Custo \\ \hline
+        %             \multicolumn{1}{|l|}{Módulo de autenticação}
+        %                 & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{2}
+        %                 & \multicolumn{1}{r|}{48} 
+        %                 & R\$ 654,55  \\ \hline
+        %             \multicolumn{1}{|l|}{Agendamento online}           & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{2}
+        %                 & \multicolumn{1}{r|}{48} 
+        %                 & R\$ 654,55  \\ \hline
+        %             \multicolumn{1}{|l|}{Prontuário clínico digital}
+        %                 & \multicolumn{1}{r|}{10}
+        %                 & \multicolumn{1}{r|}{6}
+        %                 & \multicolumn{1}{r|}{480} 
+        %                 & R\$ 6.545,45  \\ \hline
+        %              \multicolumn{1}{|l|}{Registro de alterações assinadas digitalmente}
+        %                 & \multicolumn{1}{r|}{10}
+        %                 & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{240} 
+        %                 & R\$ 3.272,73  \\ \hline
+        %             \multicolumn{1}{|l|}{Gerenciamento de medicação}
+        %                 & \multicolumn{1}{r|}{5}
+        %                 & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{120} 
+        %                 & R\$ 1.636,36  \\ \hline
+        %             \multicolumn{1}{|l|}{Mapeamento Genealógico}
+        %                 & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{72} 
+        %                 & R\$ 981,82  \\ \hline
+        %             \multicolumn{1}{|l|}{Controle de vacinação}
+        %                 & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{3}
+        %                 & \multicolumn{1}{r|}{72} 
+        %                 & R\$ 981,82  \\ \hline
+        %             \multicolumn{3}{|l|}{Total}
+        %                 & \multicolumn{1}{r|}{1080}
+        %                 & R\$ 14.727,27     \\ \hline
+        %         \end{tabular}%
+        %         }
+        %         \caption{Destinação dos custos de desenvolvimento}
+        %         \label{tab:custos_func}
+        %     \end{table*}
+
+        \subsection{Custos de Operação}
+        
+            Após o período de desenvolvimento, os custos para manter o projeto se devem exclusivamente a mensalidade dos servidores e da remuneração do Team Member responsável.
+
+
+            \begin{table*}[ht]
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|lrrrr|r|}
+        \hline
+        \multicolumn{1}{|l|}{Custo}                              & \multicolumn{1}{r|}{USD}   & \multicolumn{1}{r|}{Câmbio} & \multicolumn{1}{r|}{BRL}       & Quantidade & Total                            \\ \hline
+        \multicolumn{1}{|l|}{Amazon CloudWatch}                  & \multicolumn{1}{r|}{1,21}  & \multicolumn{1}{r|}{5,50}   & \multicolumn{1}{r|}{6,655}     & 1          & 6,66                            \\ \hline
+        \multicolumn{1}{|l|}{Amazon EC2}                         & \multicolumn{1}{r|}{13,44} & \multicolumn{1}{r|}{5,50}   & \multicolumn{1}{r|}{74,592}    & 1          & 74,59                           \\ \hline
+        \multicolumn{1}{|l|}{Amazon RDS for MySQL}               & \multicolumn{1}{r|}{34,97} & \multicolumn{1}{r|}{5,50}   & \multicolumn{1}{r|}{192,335}   & 1          & 192,34                          \\ \hline
+        \multicolumn{1}{|l|}{Amazon Simple Storage Service (S3)} & \multicolumn{1}{r|}{0,09}  & \multicolumn{1}{r|}{5,50}   & \multicolumn{1}{r|}{0,495}     & 1          & 0,50                            \\ \hline
+        \multicolumn{1}{|l|}{Elastic Load Balancing}             & \multicolumn{1}{r|}{30,32} & \multicolumn{1}{r|}{5,50}   & \multicolumn{1}{r|}{166,76}    & 1          & 166,76                           \\ \hline
+        \multicolumn{1}{|l|}{Team Member}                        & \multicolumn{1}{r|}{}      & \multicolumn{1}{r|}{}       & \multicolumn{1}{r|}{2.400,00}  & 1          & 2.400,00                        \\ \hline
+        \multicolumn{5}{|l|}{Total Mensal}                                                                                                                                & 2.840,85                       \\ \hline
+        \multicolumn{5}{|l|}{Total Anual}                                                                                                                                 & \multicolumn{1}{l|}{34.090,20} \\ \hline
+    \end{tabular}%
+    }
+\caption{Custos Totais Estimados}
+\label{tab:custos}
+\end{table*}
+    
+        \subsection{Receitas}
+            \begin{table}[H]
+                \resizebox{\columnwidth}{!}{%
+                \begin{tabular}{| p{5cm}|l|l|l|}
+                    \hline
+                    \multicolumn{1}{|c|}{} & \multicolumn{1}{|c|}{\textbf{Plano Básico  R\$110,00/mês}}  & \multicolumn{1}{c|}{\textbf{Plano Premium  R\$ 165,00/mês}} \\ \hline
+                    Agenda  &x &x \\ \hline
+                    
+                    Prontuário Clínico   &x &x\\ \hline
+                    
+                    Controle de Vacinação &x &x \\ \hline
+                    
+                    Gerenciador de Medicamentos &x &x \\ \hline
+                    
+                    Rastreio de Alterações &   &x  \\ \hline
+                    
+                    Mapeamentos Genealógico &  &x \\ \hline
+                \end{tabular}%
+                }
+            \caption{Captação de Recursos}
+            \label{tab:custos}
+            \end{table}
+            
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1 \textwidth]{images/REALISTA.png}
+                \caption{Cenário Realista}
+                \label{fig:grafico pet}
+            \end{figure}
+    
+        \subsection{Cenário Realista}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1 \textwidth]{images/CenárioRealista.png}
+                \caption{Cenário Realista}
+                \label{fig:grafico pet}
+            \end{figure}
+
+    \section{Fases de entrega}
+    
+        O desenvolvimento do projeto foi dividido em três fases de entregas recorrentes, de forma que atendesse à demanda recebida por parte dos clientes. A primeira delas consiste na POC, a segunda a apresentação do MVP e, para finalizar, a Entrega Final. A tabela a seguir relaciona as principais funcionalidades da CertVet com a fase em que a sua implementação é esperada.
+    
+        \subsubsection{Escopo do projeto}
+            \begin{table}[H]
+                \centering
+                \resizebox{\columnwidth}{!}{%
+                \begin{tabular}{|lrrrr|r|}
+                    \hline
+                    \multicolumn{1}{|l|}{Funcionalidades}                              & \multicolumn{1}{r|}{POC}   & \multicolumn{1}{r|}{MVP} & \multicolumn{1}{r|}{Produto Final}                                   \\ \hline\multicolumn{1}{|l|}{Processo de login}                  & \multicolumn{1}{c|}{X}  & \multicolumn{1}{c|}{X}   & \multicolumn{1}{c|}{X}                                 \\ \hline
+                    \multicolumn{1}{|l|}{Módulo de autenticação}                  & \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{X}   & \multicolumn{1}{c|}{X}                                 \\ \hline
+                    \multicolumn{1}{|l|}{Agendamento online}                         & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{X}   & \multicolumn{1}{c|}{X}                               \\ \hline
+                    \multicolumn{1}{|l|}{Prontuário clínico digital}               & \multicolumn{1}{r|}{} & \multicolumn{1}{c|}{X}   & \multicolumn{1}{c|}{X}                             \\ \hline
+                    \multicolumn{1}{|l|}{Registro de alterações assinados digitalmente} & \multicolumn{1}{r|}{}  & \multicolumn{1}{r|}{}   & \multicolumn{1}{c|}{X}                                 \\ \hline
+                    \multicolumn{1}{|l|}{Gerenciamento de medicação}             & \multicolumn{1}{r|}{} & \multicolumn{1}{r|}{}   & \multicolumn{1}{c|}{X}                               \\ \hline
+                    \multicolumn{1}{|l|}{Mapeamento genealógico}                      & \multicolumn{1}{r|}{}      & \multicolumn{1}{r|}{}       & \multicolumn{1}{c|}{X}                           \\ \hline
+                    \multicolumn{1}{|l|}{Controle de vacinação}                       & \multicolumn{1}{r|}{}      & \multicolumn{1}{r|}{}       & \multicolumn{1}{c|}{X}                           \\ \hline                  
+                \end{tabular}%
+                }
+            \caption{Escopo do Projeto}
+            \label{tab:escopo}
+            \end{table}
+        
+        \subsubsection{Prova de Conceito}
+        
+            A Prova de Conceito, POC, consiste na comprovação de viabilidade técnica da arquitetura proposta, sem considerar implementação de lógica de negócios. Oferece ao cliente uma demonstração de que o produto pode ser desenvolvido, visualizando uma a ideia abstrata de como a aplicação se comporta. 
+
+            Para a POC da CertVet, a equipe apresentou o desenho da arquitetura com as especificações propostas sendo um processo de cadastro de usuário e login e regras de negócio simples implementadas no back end. Este processo teve a finalidade de demonstrar o trânsito dos dados através de chamadas com sucesso à API implementada no servidor com respostas previamente esperadas, demonstrando a comunicação entre as camadas foi realizada com sucesso.
+    
+        \subsubsection{Produto Mínimo Viável}
+        
+            O MVP entregue na segunda fase consiste em uma primeira versão da aplicação com as funcionalidades essenciais identificadas pela análise do grupo junto à profissional devidamente habilitada e praticante.
+            
+            Após a liberação do MVP, será possível adicionar novas funcionalidades a partir do feedbacks dos usuários e implementação de funcionalidades previamente planejadas.
+            
+            A CertVet contempla em seu MVP, além dos processos de cadastro e login, a melhoria do módulo de autenticação do usuário, o serviço de agendamento on-line e a criação e manutenção de prontuário clínico digital.
+        
+        \subsubsection{Produto Final}
+        
+            A partir da finalização do MVP, será possível adicionar as funcionalidades de registro de alterações assinados digitalmente pelo veterinário, gerenciamento de medicação controlada, permitir mapeamento genealógico dos animais, controle de vacinação e validação de autenticidade de documento do veterinário junto ao órgão de classe.
+
+\chapter[Considerações Finais]{Considerações Finais}
+
+    A acessibilidade de tecnologias em nuvem e emprego de tecnologias portáveis de containerização permitem que aplicações sejam criadas e transportadas com mínimo de interferência para o mantenedor e seus clientes. Entretanto, ao utilizar soluções proprietárias, como o serviço Amazon S3, é necessário considerar o tipo de comprometimento por vendor lock in que corre-se o risco de expor a aplicação.
+
+    Em suma, as utilização e aproveitamento de recursos computacionais, principalmente em nuvem, na área de medicina veterinária faz-se não somente benéfica por eliminar o risco de perda de dados em mídias físicas e aumentar a velocidade de recuperação de dados importantes e sensíveis.
+
+    As normas que regulam as atividades médico-veterinárias, em especial sobre medicação controlada, podem sofrer alterações que nem sempre são acompanhadas pelo técnico no momento em que são publicadas. Uma ferramenta de gestão focada nesta atividade reduz o risco do negócio se enquadrar em uma situação de irregularidade.
+
+\chapter[Links do Projeto]{Links do Projeto}
+    % no momento este tópico fica como capitulo, mas na entrega final ele vai virar um tópico do capitulo de métricas
+    \begin{figure} [htb!]
+        \centering
+        \includegraphics[width=0.3\textwidth]{qrcode/qrcode_GIT.png}
+        \caption{Link Repositório no Github}
+        \label{fig:qrcode_GIT}
+    \end{figure}
+    
+    \begin{figure}[htb!]
+        \centering
+        \includegraphics [width=0.3\textwidth]{qrcode/qrcode_YT.png}
+        \caption{Link Página no YouTube}
+        \label{fig:qrcode_YT}
+    \end{figure}
+    
+    \begin{figure}[htb!]
+        \centering
+        \includegraphics[width=0.3\textwidth]{qrcode/qrcode_BLOG.png}
+        \caption{Link Página do Blog}
+        \label{fig:qrcode_BLOG}
+    \end{figure}
+    
+    \begin{figure}[htb!]
+        \centering
+        \includegraphics[width=0.3\textwidth]{qrcode/svn.png}
+        \caption{Link Repositório da Equipe no SVN}
+        \label{fig:svn}
+    \end{figure}
+
+%---
+% pós-textual
+% ---
+
+
+\postextual
+
+% quando não esta utilizando biblatex tem que carregar as referencias aqui
+\IfPackageLoaded{biblatex}{%
+\printbibliography
+
+\ifthenelse{\boolean{utilizarREFINDENT}}{%
+}
+
+}{%
+\bibliography{referencias,exemplos/abntex2-doc-abnt-6023}
+}
+
+%\input{pos-glossario.tex}
+
+
+\input{pos-anexos}
+
+\end{document}
+
