@@ -19,13 +19,13 @@ NOTAS DO HENRIQUE PARA:
 - Welen:
 
 NOTAS DA IRINA PARA:
-- Caique:
-- Henrique:
-- Irina:
-- Luís: 
-- Marcos:
-- Murilo:
-- Welen:
+- Caique:10
+- Henrique:10
+- Irina:8
+- Luís:8
+- Marcos:10
+- Murilo:10
+- Welen:8
 
 NOTAS DO LUÍS RENATO PARA:
 - Caique:
