@@ -1973,6 +1973,257 @@ Trata-se de uma resolução que se aproxima bastante da CertVet no que tange à 
         \subsubsection{Produto Final}
         
             A partir da finalização do MVP, será possível adicionar as funcionalidades de registro de alterações assinados digitalmente pelo veterinário, gerenciamento de medicação controlada, permitir mapeamento genealógico dos animais, controle de vacinação e validação de autenticidade de documento do veterinário junto ao órgão de classe.
+            
+            
+ \section{Métricas}
+
+    Foram geradas diferentes métricas para acompanhar o desenvolvimento do projeto, porém, devido a dificuldades enfrentadas pelos membros, as métricas não correspondem fielmente a contribuição de cada um dos envolvidos. Alguns integrantes encontraram barreiras em subir sua contribuição nos diferentes meios de controle de versionamento, como SVN e GitHub, e o trabalho foi repassado para que outro integrante fizesse o upload do arquivo gerado.
+    Tais barreiras prejudicaram a geração das métricas adequadas, e nota-se que muitos uploads e commits aparecem como picos após longos períodos de inatividade, porém a equipe trabalhou de forma contínua, durante as semanas que se desenvolveu o projeto. 
+    
+    Outro ponto de atenção é com relação ao período utilizado para gerar as métricas do GitStats, pois ele conta a partir das últimas 32 semanas, sendo que, até o momento de gerar as estatísticas, o projeto desenvolveu-se nas últimas 14 semanas.
+    
+    \subsection{GitStats}
+    
+    O Github foi o meio que a equipe encontrou de compartilhar seu progresso no projeto, por ser um serviço que todos estavam familiarizados. Apesar disso, cada integrante fazia seu upload de forma diferente, alguns fazendo o commit diretamente na interface do navegador, enquanto outros atualizavam seus commits utilizando a função pull request (principalmente na parte de desenvolver o código do sistema). Essa diferença entre formas de subir os dados na plataforma GitHub influenciou os resultados estatísticos obtidos com o GitStats. Nota-se que apesar de alguns integrantes desenvolverem muitas linhas de códigos, por serem dentro de um mesmo commit, isso reduziu a porcentagem calculada de contribuição dos integrantes em questão. 
+    
+    Novamente, deve-se observar que o pair programming feito em sala de aula, onde os integrantes criavam o código juntos, porém apenas um logado no sistema e enviando as linhas produzidas, interferiu no resultado das métricas, o que omitiu a participação de todos os integrantes envolvidos.
+    
+    Foram geradas métricas utilizando o GitStats para 3 diferentes repositórios, que levaram em conta a divisão macro do projeto: Documentos (todos os textos feitos pelos integrantes em LaTeX, no documento compartilhado no Overleaf, assim como as propostas iniciais e apresentações), Front-end (todos os commits de códigos referentes ao front-end tanto da POC, como do MVP) e Back-end (todos os commits de códigos referentes ao back-end tanto da POC, como do MVP).
+    
+    
+    \subsubsection{GitStats do Repositório Documentos}
+    
+    Neste repositório foram adicionados todo o desenvolvimento textual do projeto, assim como os slides das apresentações, propostas iniciais e foi o primeiro repositório da equipe a ser criado. 
+    
+    No gráfico referente a semanas contadas , é possível ver que as atividades iniciam-se de acordo com o semestre corrente, contando retrospectivamente a partir da geração da métrica (20/11/2022).
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Visão Geral do Documento - GitHub.}
+                \includegraphics[width=1 \textwidth]{Gitstats/documento/geralDoc.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:geralDoc}
+            \end{figure}
+    
+    
+      \begin{figure}[H]
+                \centering
+                \includegraphics[width=1 \textwidth]{Gitstats/documento/semanas contadas.png}
+                \caption{Gráfico das Semanas Contadas}
+                \label{fig:semanas contadas}
+            \end{figure}
+    
+      \begin{figure}[H]
+                \centering
+                \includegraphics[width=1 \textwidth]{Gitstats/documento/dias da semana.png}
+                \caption{Gráfico dos Dias da Semana}
+                \label{fig:diadasemana}
+            \end{figure}
+    
+    No gráfico de dias da semana nota-se o padrão de desenvolvimento coincidindo com os dias reuniões, indo de sábado até terça. A queda nos commits de quarta a sexta é justificada pelo fato dos integrantes cursarem outras matérias no curso, que também demandam dedicação.
+    
+      \begin{figure}[H]
+                \centering
+                \caption{Gráfico das Horas do Dia.}
+                \includegraphics[width=1 \textwidth]{Gitstats/documento/horasdodia.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:horadodia}
+            \end{figure}
+            
+    Com relação aos autores dos commits, nota-se que os integrantes aparecem duplicados na figura \ref{fig:listaautores}. Essa repetição se dá por causa da forma de envio dos dados. Na figura \ref{fig:dominio} é possível ver os diferentes domínios utilizados pelos autores, que impactou o resultado. O gráfico de commits por autor encontra-se na figura \ref{fig:commitautor}
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Lista de Autores.}
+                \includegraphics[width=1 \textwidth]{Gitstats/documento/lista de autores.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:listaautores}
+            \end{figure}
+            
+    \begin{figure}[H]
+                \centering
+                \caption{Domínio Utilizado pelos Autores.}
+                \includegraphics[scale = 1.5]{Gitstats/documento/dominios1.png}
+                
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:dominio}
+            \end{figure} 
+            
+            
+    \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Commits por Autor.}
+                \includegraphics[width=1 \textwidth]{Gitstats/documento/commitsPorAuthor.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:commitautor}
+            \end{figure}
+            
+
+
+\subsubsection{GitStats do Repositório Front-End}
+    Abaixo encontra-se as figuras das métricas geradas no repositório Front-End.
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Visão Geral do Front-End - GitHub.}
+                \includegraphics[width=1 \textwidth]{Gitstats/front-end/geralFront.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:geralFront}
+            \end{figure}
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Semanas Contadas.}
+                \includegraphics[width=1 \textwidth]{Gitstats/front-end/SemanasFront.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:semanasFront}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Dias da Semana do Front-End.}
+                \includegraphics[width=1 \textwidth]{Gitstats/front-end/DiasdaSemana.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:diasemanaFront}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Horas por Dia do Front-end.}
+                \includegraphics[width=1 \textwidth]{Gitstats/front-end/HorasdoDia.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:horasFront}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Lista de Autores do Front-End.}
+                \includegraphics[width=1 \textwidth]{Gitstats/front-end/ListaAutores.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:autorFront}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Commits por Autor.}
+                \includegraphics[width=1 \textwidth]{Gitstats/front-end/CommitsPorAutor.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:commitFront}
+            \end{figure}
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Extensões utilizadas no Front-End.}
+                \includegraphics[scale = 1.2]{Gitstats/front-end/ListadeExtensoes.png}
+                
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:extensaoFront}
+            \end{figure}
+    
+    
+    
+\subsubsection{GitStats do Repositório Back-End}
+
+    Neste repositório houve alguns erros na geração de dados coerentes. Devido o repositório encontrar-se como privado, os dados não estavam sendo gerados. Após tornarmos o mesmo para público, foi possível gerar as métricas, mas elas foram contabilizadas como um único dia. Não conseguimos descobrir a causa dessa incoerência de resultados. 
+    Pode-se conferir os resultados gerados na sequência de figuras abaixo.
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Visão Geral do Back-End - GitHub.}
+                \includegraphics[width=1 \textwidth]{Gitstats/back-end/GeralBack.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:geralBack}
+            \end{figure}
+    
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Semanas Contadas.}
+                \includegraphics[width=1 \textwidth]{Gitstats/back-end/SemanasBack.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:semanasBack}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Dias da Semana do Back-End.}
+                \includegraphics[width=1 \textwidth]{Gitstats/back-end/DiasBack.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:diasBack}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Horas por Dia do Back-End.}
+                \includegraphics[width=1 \textwidth]{Gitstats/back-end/HorasBack.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:HorasBack}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Lista de Autores do Back-End.}
+                \includegraphics[width=1 \textwidth]{Gitstats/back-end/AutorBack.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:AutorBack}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Gráfico de Commits por Autor.}
+                \includegraphics[width=1 \textwidth]{Gitstats/back-end/commitsAutorBack.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:commitBack}
+            \end{figure}
+            
+            \begin{figure}[H]
+                \centering
+                \caption{Lista de Extensões Utilizadas no Back-End.}
+                \includegraphics[scale = 1.2]{Gitstats/back-end/extensoesBack.png}
+                
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:extensoesBack}
+            \end{figure}
+    
+    
+\subsection{StatSVN}
+
+    O Subversion, ou SVN foi utilizado para controlar as entregas feitas pela equipe aos professores. Ressaltamos que apenas 3 integrantes conseguiram efetivamente realizar as entregas por esse sistema, o que gerou um resultado não fidedigno da realidade, visto que todos os integrantes participaram do desenvolvimento. 
+    
+    Abaixo encontram-se as figuras das métricas geradas pelo StatSVN.
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Visão Geral do Desenvolvimento no SVN.}
+                \includegraphics[width=1 \textwidth]{StatSVN/StatDesenvolvimento.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:desenvolvimentoSVN}
+            \end{figure}
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Gráfico Referentes as Linhas de Códigos.}
+                \includegraphics[width=1 \textwidth]{StatSVN/linha de codigo autor.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:linhaCod}
+            \end{figure}
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Gráfico Referente aos Dia da Semana.}
+                \includegraphics[width=1 \textwidth]{StatSVN/DiadaSemana.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:diaSemana}
+            \end{figure}
+    
+    \begin{figure}[H]
+                \centering
+                \caption{Gráfico Referentes as Horas do Dia.}
+                \includegraphics[width=1 \textwidth]{StatSVN/HoradoDia.png}
+                {\footnotesize Fonte: Elaborado pelos autores.}
+                \label{fig:horaDia}
+            \end{figure}
+ 
 
 \chapter[Considerações Finais]{Considerações Finais}
 
