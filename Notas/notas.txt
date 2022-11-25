@@ -46,13 +46,13 @@ NOTAS DO MARCOS PARA:
 - Welen:
 
 NOTAS DO MURILO PARA:
-- Caique: 10
-- Henrique: 10
-- Irina: 9
-- Luís: 8
-- Marcos: 9
-- Murilo: 9
-- Welen: 8
+- Caique:
+- Henrique:
+- Irina:
+- Luís:
+- Marcos:
+- Murilo:
+- Welen:
 
 NOTAS DA WELEN PARA:
 - Caique:
