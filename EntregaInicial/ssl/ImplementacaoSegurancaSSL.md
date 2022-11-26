@@ -12,9 +12,15 @@ Como referência de confiabilidade do certificado de segurança da aplicação, 
 
 O site é um esforço de pesquisa sem fins lucrativos de pessoas e entidades interessadas no desenvolvimento do SSL. Se declara um arcabolço de documentos, ferramentas e reflexões relacionadas ao Secure Socket Layer (SSL) com o objetivo de tentar melhorar o entendimento de como o SSL é entregue (deployed) e como melhora-lo.
 
-## Teste de segurança inicial
+## Teste inicial
 
 Antes de realizar qualquer tentativa de implementação, foi realizado um teste com a aplicação no estado atual (as is). Posteriormente, para documentar a situação, foi realizada uma nova consulta adicionada ao apêndice ([documento](./SSL%20Server%20Test_%20frontend-certvet.us-east-1.elasticbeanstalk.com%20(Powered%20by%20Qualys%20SSL%20Labs).pdf)).
 
-Como a porta 443 do servidor não estava liberada nas regras de ingresso de requisições (inbound rules), a requisição era bloqueada pela própria provedora de nuvem, antes de qualquer outra trativa ser tomada. 
+Como a porta 443 do servidor não estava liberada nem nas regras de ingresso de requisições (inbound rules), nem tinha um certificado SSL associado, a requisição era bloqueada pela própria provedora de nuvem, antes de qualquer outra trativa ser tomada. 
 
+## Análise de implementações possíveis
+
+Entre as possibilidades de implementação do protocolo identificadas, foram identificadas as seguintes possibilidades:
+
+- Associação de certificados diretamente no servidor web de cada elemento da aplicação
+- Associação de certificados seguindo a documentação recomendada da provedora de serviços de nuvem [aws](https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/configuring-https.html), em que se aplica a configuração na máquina virtual criada para gerenciar o recurso.
