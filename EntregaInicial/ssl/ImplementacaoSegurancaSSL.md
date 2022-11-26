@@ -45,7 +45,7 @@ A situação foi a mesma identificada ao realizar a tentativa de orquestração 
 
 A partir da leitura da documentação da provedora de nuvem. Para executar esse passo, foi necessário criar um certificado auto assinado que foi utilizado em todas as etapas.
 
-O certificado foi gerado a partir da aplicação Linux openssl, declarado na documentação da provedora de serviços. O certificado gerado foi, então, armazenado no serviço de gerenciamento de senhas da provedora, que será utilizado nas tentativas subsequentes
+O certificado foi gerado a partir da aplicação Linux openssl, declarado na documentação da provedora de serviços. O certificado foi gerado utilizando o algoritmo RSA 4096 e armazenado no serviço de gerenciamento de senhas da provedora, que será utilizado nas tentativas subsequentes
 
 ### Tentativa 2
 
@@ -69,4 +69,36 @@ Embora existam mais passos não automatizados, utilizar o console permite que da
 
 Após a configuração do processo, foi possível realizar a configuração do protocolo HTTPS, estando disponível para análise das ferramentas apontadas na referência da disciplina.
 
+## Avaliação de segurança do protocolo
+
+Ao executar a ferramenta, recebemos a nota [T](./SSL%20Server%20Test_%20certvet-front.us-east-1.elasticbeanstalk.com%20(Powered%20by%20Qualys%20SSL%20Labs).pdf), tendo as seguintes avaliações:
+
+![rating](rating.png)
+- Certificate: 0%
+- Protocol Support: 70%
+- Key Exchange: 90%
+- Cipher Strength: 90%
+
+Consultando a [referência](https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide) publicada na ferramenta sobre o método de graduação da aplicação, a nota T constata que existe um certificado auto assinado e que não está presente em nenhuma cadeia de certificado declarada na cadeia de certificação, portanto, não é possível atestar que seja um certificado de uma fonte válida.
+
+Assim, será considerada a avaliação que ignora problemas de confiabilidade (trust). Nesse escopo, a nota obtida foi B.
+
+Com base no objetivo apontado pela refrência do professor Ivan, buscando alcançar a nota A e prosseguimos com a análise dos criterios de avaliação publicado pela ferramenta.
+
+### Avaliação do quesito certificado (Certificate)
+
+![certificate](certificate.png)
+
+Para que o critério de avaliação seja melhorado, é necessário que o domínio declarado no certificado seja o mesmo do domínio acessado e que seja adicionado à cadeia de confiança de uma das autoridades de certificação (CA).
+Atualmente, não é possível cumprir com esse quesito por acarretar em custos não previstos para o momento.
+
+### Suporte a protocolos (Protocol Support)
+
+![protocol](protocol.png)
+
+Segundo o método de avaliação, as regras tendem a reduzir as notas conforme critérios sejam cumpridos ou não. A aplicação não suporta protocolos TLS 1.3, SSL 2 e SSL 3, bem como apresenta limitações de suporte a  por se tratar de uma implementação da provedora AWS.
+
+### Suporte a Cifras (Cipher Suites)
+
+![cipher](cipher.png)
 
