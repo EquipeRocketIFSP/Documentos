@@ -22,5 +22,51 @@ Como a porta 443 do servidor não estava liberada nem nas regras de ingresso de 
 
 Entre as possibilidades de implementação do protocolo identificadas, foram identificadas as seguintes possibilidades:
 
-- Associação de certificados diretamente no servidor web de cada elemento da aplicação
+- Associação de certificados diretamente no servidor web contido em cada container da aplicação
 - Associação de certificados seguindo a documentação recomendada da provedora de serviços de nuvem [aws](https://docs.aws.amazon.com/pt_br/elasticbeanstalk/latest/dg/configuring-https.html), em que se aplica a configuração na máquina virtual criada para gerenciar o recurso.
+
+## Tentativas de implementação
+
+Ambas as abordagens são similares, portanto, inicialmente foi tentada a abordagem de orquestração de containeres. 
+
+### Tentativa 1
+
+Na abordagem da primeira tentativa, foi identificada a imagem [http-portal](https://github.com/SteveLTN/https-portal), disponibilizada publicamente no repositório de imagens docker hub e de licença MIT, com código publicado no repositório [github](https://github.com/SteveLTN/https-portal).
+
+A imagem utiliza um servidor nginx e permite emissão de certificado de segurança Let's Encrypt a partir de uma imagem docker. A configuração a partir de um arquivo docker-compose é simples, sendo necessário apenas apontar o domínio que receberá o certificado.
+
+Teste em ambiente local demonstraram que tal abordagem utiliza um certificado auto assinado, emitindo um certificado de segurança https nas requisições.
+
+Entretanto, ao passar o arquivo docker-compose para o ambiente do serviço gerenciado Elasticbeanstalk, as requisições não eram passadas para a imagem que contém a aplicação de front-end. Conforme verificado nos logs da aplicação, o serviço gerenciado repassava as requisições sempre para o container de entrada, que não deveria receber requisições na porta 80.
+
+A situação foi a mesma identificada ao realizar a tentativa de orquestração interna de containeres para as aplicações de front end e back end. Portanto, a abordagem não teve sucesso.
+
+### Tentativas na provedora de nuvem
+
+A partir da leitura da documentação da provedora de nuvem. Para executar esse passo, foi necessário criar um certificado auto assinado que foi utilizado em todas as etapas.
+
+O certificado foi gerado a partir da aplicação Linux openssl, declarado na documentação da provedora de serviços. O certificado gerado foi, então, armazenado no serviço de gerenciamento de senhas da provedora, que será utilizado nas tentativas subsequentes
+
+### Tentativa 2
+
+Entre as abordagens publicadas pela provedora, foram identificadas as possibilidades de implementação através da implementação diretamente na instância que gerencia o container da aplicação.
+
+Essa abordagem descreve a criação de diretórios .ebextensions e .platform, bem como instrui a criação de arquivos que contém as chaves públicas e privadas entre os arquivos da aplicação que será containerizada.
+
+Nesse passo, identificamos riscos para a aplicação por associar certificados estáticamente em arquivos da aplicação, além de aumentar o acoplamento à plataforma de nuvem, pois as configurações são empregadas apenas por essa provedora.
+
+Outro passo necessário é a inclusão da porta 443, recebendo o protocolo HTTPS no grupo de segurança.
+
+Considerando o risco e a possível complexidade, será priorizada a próxima abordagem.
+
+### Tentantiva 3
+
+Considerando a abordagem empregando o balanceador de carga (load balancer), verificou-se maior simplicidade no processo de configuração do protocolo, sendo reproduzido com a mesma praticidade para ambos os ambientes da aplicação.
+
+A abordagem suporta tanto a implementação adicionando arquivos e diretórios na aplicação quanto alteração manual na interface de console.
+
+Embora existam mais passos não automatizados, utilizar o console permite que dados que não desejamos que sejam publicados sejam mantidos privados.
+
+Após a configuração do processo, foi possível realizar a configuração do protocolo HTTPS, estando disponível para análise das ferramentas apontadas na referência da disciplina.
+
+
