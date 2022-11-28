@@ -96,9 +96,20 @@ Atualmente, não é possível cumprir com esse quesito por acarretar em custos n
 
 ![protocol](protocol.png)
 
-Segundo o método de avaliação, as regras tendem a reduzir as notas conforme critérios sejam cumpridos ou não. A aplicação não suporta protocolos TLS 1.3, SSL 2 e SSL 3, bem como apresenta limitações de suporte a  por se tratar de uma implementação da provedora AWS.
+Segundo o método de avaliação, as regras tendem a reduzir as notas conforme critérios sejam cumpridos ou não. A aplicação não suporta protocolos TLS 1.3, SSL 2 e SSL 3, bem como apresenta limitações de suporte a algumas das versões 1.1 por se tratar de uma implementação da provedora AWS que não é suportada.
 
 ### Suporte a Cifras (Cipher Suites)
 
 ![cipher](cipher.png)
 
+A cifra empregada foi considerada forte pela avaliação da ferramenta, 
+
+
+### Processo de validação de chaves (Key Exchange)
+
+A aplicação utiliza um processo que utiliza uma chave de 2048 bits, sendo considerada forte pela ferramenta.
+
+
+## Avaliação final
+
+Considerando as restrições enfrentadas para a implementação de um certificado auto assinado e que não temos controle sobre os protocolos que são suportados, foi concluído que não mais seria possível aplicar alterações que permitissem aumentar a avaliação da ferramenta de referência.
