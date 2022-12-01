@@ -1,0 +1,15 @@
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.550081896Z" level=info msg="Starting up"
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.569666660Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.570032553Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.570860215Z" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.571140594Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.576654811Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.576985893Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.577373882Z" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.577683307Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.604449439Z" level=info msg="Loading containers: start."
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.906009145Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Nov 28 05:01:44 ip-172-31-0-100 docker: time="2022-11-28T05:01:44.961041524Z" level=info msg="Loading containers: done."
+Nov 28 05:01:45 ip-172-31-0-100 docker: time="2022-11-28T05:01:45.295766274Z" level=info msg="Docker daemon" commit=a89b842 graphdriver(s)=overlay2 version=20.10.17
+Nov 28 05:01:45 ip-172-31-0-100 docker: time="2022-11-28T05:01:45.296232402Z" level=info msg="Daemon has completed initialization"
+Nov 28 05:01:45 ip-172-31-0-100 docker: time="2022-11-28T05:01:45.344291508Z" level=info msg="API listen on /run/docker.sock"

@@ -1,0 +1,2 @@
+2022-11-28 05:03:19.837809 container create e2cffdf9323064d6e94fe393e646654c65669b67ddd93ee6b50b5d2b67f2ff8b (image=equiperocket/poc-back:latest, name=current_back_1)
+2022-11-28 05:03:21.064182 container start e2cffdf9323064d6e94fe393e646654c65669b67ddd93ee6b50b5d2b67f2ff8b (image=equiperocket/poc-back:latest, name=current_back_1)
