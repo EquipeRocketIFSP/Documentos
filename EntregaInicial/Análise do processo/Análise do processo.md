@@ -24,6 +24,13 @@ Premissas:
 - _Estoque_ controla _Medicamento_
 - _Medicamento_ é prescrito em _Prontuario_
 
+
+Regras de negócios identificadas:
+
+- Não devem ocorrer duplicidades de registros
+- 
+
+
 ```yml
 process:
     _Dono_ cadastra clínica:

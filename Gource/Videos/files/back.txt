@@ -1,0 +1,697 @@
+1664144142|hshima|A|/.gitignore
+1664144142|hshima|A|/.mvn/wrapper/maven-wrapper.jar
+1664144142|hshima|A|/.mvn/wrapper/maven-wrapper.properties
+1664144142|hshima|A|/README.md
+1664144142|hshima|A|/mvnw
+1664144142|hshima|A|/mvnw.cmd
+1664144142|hshima|A|/pom.xml
+1664144142|hshima|A|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664144142|hshima|A|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664144142|hshima|A|/src/main/resources/application.properties
+1664144142|hshima|A|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664514444|hshima|D|/.gitignore
+1664514444|hshima|D|/.mvn/wrapper/maven-wrapper.jar
+1664514444|hshima|D|/.mvn/wrapper/maven-wrapper.properties
+1664514444|hshima|D|/README.md
+1664514444|hshima|A|/docker-compose-dev.yml
+1664514444|hshima|D|/mvnw
+1664514444|hshima|D|/mvnw.cmd
+1664514444|hshima|A|/mySqlApp/pocSpringApp/.gitignore
+1664514444|hshima|A|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.jar
+1664514444|hshima|A|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.properties
+1664514444|hshima|A|/mySqlApp/pocSpringApp/README.md
+1664514444|hshima|A|/mySqlApp/pocSpringApp/mvnw
+1664514444|hshima|A|/mySqlApp/pocSpringApp/mvnw.cmd
+1664514444|hshima|A|/mySqlApp/pocSpringApp/pom.xml
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/main/resources/application.properties
+1664514444|hshima|A|/mySqlApp/pocSpringApp/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664514444|hshima|D|/pom.xml
+1664514444|hshima|D|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664514444|hshima|D|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664514444|hshima|D|/src/main/resources/application.properties
+1664514444|hshima|D|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664680895|hshima|A|/.gitignore
+1664680895|hshima|A|/.mvn/wrapper/maven-wrapper.jar
+1664680895|hshima|A|/.mvn/wrapper/maven-wrapper.properties
+1664680895|hshima|A|/Dockerfile
+1664680895|hshima|A|/README.md
+1664680895|hshima|D|/docker-compose-dev.yml
+1664680895|hshima|A|/mvnw
+1664680895|hshima|A|/mvnw.cmd
+1664680895|hshima|D|/mySqlApp/pocSpringApp/.gitignore
+1664680895|hshima|D|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.jar
+1664680895|hshima|D|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.properties
+1664680895|hshima|D|/mySqlApp/pocSpringApp/README.md
+1664680895|hshima|D|/mySqlApp/pocSpringApp/mvnw
+1664680895|hshima|D|/mySqlApp/pocSpringApp/mvnw.cmd
+1664680895|hshima|D|/mySqlApp/pocSpringApp/pom.xml
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/main/resources/application.properties
+1664680895|hshima|D|/mySqlApp/pocSpringApp/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664680895|hshima|A|/pom.xml
+1664680895|hshima|A|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664680895|hshima|A|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664680895|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1664680895|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1664680895|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1664680895|hshima|A|/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1664680895|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1664680895|hshima|A|/src/main/resources/application.properties
+1664680895|hshima|A|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1665251078|hshima|M|/Dockerfile
+1665251078|hshima|M|/pom.xml
+1665251078|hshima|D|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1665251078|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665251078|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665251078|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665251078|hshima|A|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665251078|hshima|D|/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1665251078|hshima|D|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1665251078|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665251078|hshima|A|/src/main/resources/application-dev.yml
+1665251078|hshima|A|/src/main/resources/application-hom.yml
+1665251078|hshima|D|/src/main/resources/application.properties
+1665251078|hshima|A|/src/main/resources/application.yml
+1665287054|hshima|D|/.gitignore
+1665287054|hshima|D|/.mvn/wrapper/maven-wrapper.jar
+1665287054|hshima|D|/.mvn/wrapper/maven-wrapper.properties
+1665287054|hshima|D|/Dockerfile
+1665287054|hshima|D|/README.md
+1665287054|hshima|D|/mvnw
+1665287054|hshima|D|/mvnw.cmd
+1665287054|hshima|D|/pom.xml
+1665287054|hshima|D|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1665287054|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665287054|hshima|D|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665287054|hshima|D|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665287054|hshima|D|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665287054|hshima|D|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665287054|hshima|D|/src/main/resources/application-dev.yml
+1665287054|hshima|D|/src/main/resources/application-hom.yml
+1665287054|hshima|D|/src/main/resources/application.yml
+1665287054|hshima|D|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1665287155|hshima|A|/.gitignore
+1665287155|hshima|A|/Dockerfile
+1665287155|hshima|A|/docker-compose.yml
+1665287155|hshima|A|/pom.xml
+1665287155|hshima|A|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1665287155|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665287155|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665287155|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665287155|hshima|A|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665287155|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665287155|hshima|A|/src/main/resources/application-dev.yml
+1665287155|hshima|A|/src/main/resources/application.yml
+1665287475|hshima|M|/.gitignore
+1665287475|hshima|A|/.mvn/wrapper/maven-wrapper.jar
+1665287475|hshima|A|/.mvn/wrapper/maven-wrapper.properties
+1665287475|hshima|M|/Dockerfile
+1665287475|hshima|A|/README.md
+1665287475|hshima|A|/mvnw
+1665287475|hshima|A|/mvnw.cmd
+1665287475|hshima|M|/pom.xml
+1665287475|hshima|M|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1665287475|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665287475|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665287475|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665287475|hshima|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665287475|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665287475|hshima|M|/src/main/resources/application-dev.yml
+1665287475|hshima|A|/src/main/resources/application-hom.yml
+1665287475|hshima|M|/src/main/resources/application.yml
+1665287475|hshima|A|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1665364147|hshima|M|/Dockerfile
+1665364147|hshima|M|/docker-compose.yml
+1665364147|hshima|M|/pom.xml
+1665364147|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665364147|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665364147|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665364147|hshima|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665364147|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665364147|hshima|M|/src/main/resources/application-dev.yml
+1665364147|hshima|M|/src/main/resources/application-hom.yml
+1665364147|hshima|M|/src/main/resources/application.yml
+1665380081|hshima|M|/docker-compose.yml
+1665380081|hshima|M|/src/main/resources/application-dev.yml
+1665380081|hshima|M|/src/main/resources/application-hom.yml
+1665380081|hshima|M|/src/main/resources/application.yml
+1665445459|hshima|M|/docker-compose.yml
+1665445459|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/HiController.java
+1665717712|hshima|M|/Dockerfile
+1665717712|hshima|M|/docker-compose.yml
+1665717712|hshima|A|/flyway.conf
+1665717712|hshima|M|/pom.xml
+1665717712|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665717712|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665717712|hshima|M|/src/main/resources/application-dev.yml
+1665717712|hshima|M|/src/main/resources/application.yml
+1666052024|hshima|M|/Dockerfile
+1666052024|hshima|A|/docker-compose-deploy.yml
+1666052024|hshima|A|/docker-compose-dev.yml
+1666052024|hshima|D|/docker-compose.yml
+1666052024|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/HiController.java
+1666052024|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1666052775|hshima|M|/pom.xml
+1666052775|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/HiController.java
+1666320102|hshima|M|/docker-compose-dev.yml
+1666320102|hshima|M|/pom.xml
+1666320102|hshima|M|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/AuthorizationServerApp.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakApplication.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakConfig.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakRequestFilter.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/KeycloakServerProperties.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/RegularJsonConfigProviderFactory.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/Resteasy3Provider.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/SimplePlatformProvider.java
+1666320102|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/UserController.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/LoginDto.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/NewUserDto.java
+1666320102|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1666320102|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/service/LoginService.java
+1666320102|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/UserServiceImpl.java
+1666320102|hshima|A|/src/main/resources/META-INF/keycloak-server.json
+1666320102|hshima|A|/src/main/resources/META-INF/services/org.keycloak.common.util.ResteasyProvider
+1666320102|hshima|A|/src/main/resources/META-INF/services/org.keycloak.platform.PlatformProvider
+1666320102|hshima|M|/src/main/resources/application-dev.yml
+1666320102|hshima|A|/src/main/resources/jwt-config.json
+1666411014|hshima|M|/pom.xml
+1666411014|hshima|A|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666411014|hshima|A|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1666411014|hshima|A|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1666411014|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1666411014|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1666411014|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1666411014|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1666411014|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Perfil.java
+1666411014|hshima|A|/src/main/java/br/vet/sidekick/poc/model/dto/LoginForm.java
+1666411014|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1666411014|hshima|M|/src/main/resources/application-dev.yml
+1666411014|hshima|A|/src/main/resources/data.sql
+1666414121|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666414121|hshima|A|/src/main/java/br/vet/sidekick/poc/conf/security/filter/TokenAuthenticationFilter.java
+1666414121|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1666571391|hshima|M|/pom.xml
+1666571391|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1666571391|hshima|A|/src/main/java/br/vet/sidekick/poc/service/S3BucketService.java
+1666571506|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666663477|hshima|M|/src/main/java/br/vet/sidekick/poc/service/S3BucketService.java
+1666663477|hshima|M|/src/main/resources/application-dev.yml
+1666663638|hshima|M|/Dockerfile
+1666756764|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666756764|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1666756764|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroClinicaDto.java
+1666757194|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1666841993|hshima|M|/pom.xml
+1666841993|hshima|A|/src/main/java/br/vet/sidekick/poc/service/PdfService.java
+1666841993|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServiceITextImpl.java
+1666841993|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1666934739|hshima|M|/pom.xml
+1666934739|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1666934739|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1666934739|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1666934739|hshima|D|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServiceITextImpl.java
+1666934739|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1667018085|hshima|M|/pom.xml
+1667018085|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667018085|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/filter/TokenAuthenticationFilter.java
+1667018085|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/AuthorizationServerApp.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakApplication.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakConfig.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakRequestFilter.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/KeycloakServerProperties.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/RegularJsonConfigProviderFactory.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/Resteasy3Provider.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/SimplePlatformProvider.java
+1667018085|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667018085|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/UserController.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/dto/LoginDto.java
+1667018085|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/dto/NewUserDto.java
+1667018085|hshima|M|/src/main/java/br/vet/sidekick/poc/service/PdfService.java
+1667018085|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1667018085|hshima|D|/src/main/resources/META-INF/keycloak-server.json
+1667018085|hshima|D|/src/main/resources/META-INF/services/org.keycloak.common.util.ResteasyProvider
+1667018085|hshima|D|/src/main/resources/META-INF/services/org.keycloak.platform.PlatformProvider
+1667018085|hshima|M|/src/main/resources/application-dev.yml
+1667018085|hshima|D|/src/main/resources/jwt-config.json
+1667018564|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1667092197|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667092197|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667092197|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667092197|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/LoginForm.java
+1667092197|hshima|D|/src/main/java/br/vet/sidekick/poc/model/dto/LoginForm.java
+1667169715|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1667169715|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroTutorDto.java
+1667173922|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1667173922|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAgendamentoDto.java
+1667176757|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667176757|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroFuncionarioDto.java
+1667177465|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1667177465|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667177465|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667177465|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667177465|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1667177465|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAnimalDto.java
+1667177465|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroClinicaDto.java
+1667183485|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667183485|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1667183485|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667183485|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667183485|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667183485|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1667609914|Murilo Pires|M|/pom.xml
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Cirurgia.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Estoque.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Exame.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Medicamento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Procedimento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/TipoDocumento.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1667764370|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1667764370|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667764370|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1667764370|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667764370|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1667764370|hshima|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1667764370|hshima|A|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1667764370|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1667764370|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1667764370|hshima|M|/src/main/resources/application-dev.yml
+1667775539|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667775539|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667779465|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667779465|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1667880416|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667880416|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1667880416|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/DocumentoDto.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/PrescricaoDto.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ProcedimentoDto.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1667880416|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Cirurgia.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Prescricao.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Procedimento.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1667880416|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1667880416|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/CirurgiaRepository.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1667880416|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1667880416|hshima|M|/src/main/resources/data.sql
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667883333|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1667883333|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1667966002|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1667966002|Murilo Pires|M|/src/main/resources/data.sql
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668045588|Murilo Pires|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/ClinicaRepository.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1668134033|hshima|M|/pom.xml
+1668134033|hshima|M|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1668134033|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668134033|hshima|A|/src/main/java/br/vet/sidekick/poc/conf/swagger/SwaggerConfigurations.java
+1668134033|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1668134033|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Procedimento.java
+1668134033|hshima|M|/src/main/resources/application-dev.yml
+1668134033|hshima|A|/src/main/resources/application-local.yml
+1668134033|hshima|M|/src/main/resources/application.yml
+1668134033|hshima|M|/src/main/resources/data.sql
+1668136744|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1668136744|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1668224223|hshima|M|/pom.xml
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668224223|hshima|A|/src/main/java/br/vet/sidekick/poc/conf/swagger/OpenAPIConfigurations.java
+1668224223|hshima|A|/src/main/java/br/vet/sidekick/poc/conf/swagger/OpenAPISecurityConfiguration.java
+1668224223|hshima|D|/src/main/java/br/vet/sidekick/poc/conf/swagger/SwaggerConfigurations.java
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1668224223|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668224223|hshima|M|/src/main/resources/application-dev.yml
+1668224223|hshima|M|/src/main/resources/application-local.yml
+1668266340|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668267098|hshima|M|/res/mockSample.pdf
+1668267098|hshima|M|/src/main/resources/application-local.yml
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668290631|Murilo Pires|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668290631|Murilo Pires|M|/src/main/resources/data.sql
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668295308|Murilo Pires|M|/src/main/resources/data.sql
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/TutorService.java
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668383047|Murilo Pires|M|/src/main/resources/data.sql
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668465502|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668465502|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668465502|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668548987|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668567012|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668567012|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668567012|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668887570|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/dto/AnimalResponse.java
+1668887570|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/dto/TutorResponse.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1668896412|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668896412|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668896412|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668896950|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668897271|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668915017|Caique Daniel|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroFuncionarioDto.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668916672|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668916672|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemFuncionarioDto.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroClinicaDto.java
+1668955608|hshima|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ClinicaAlreadyExistsException.java
+1668955608|hshima|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/FuncionarioAlreadyExistsException.java
+1668955608|hshima|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1668955608|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668955608|hshima|A|/src/main/resources/application-local.yml
+1668966131|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668972253|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1668980088|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668984786|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1668984786|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668984786|hshima|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ResponsavelTecnicoAlreadyExistsException.java
+1668984786|hshima|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1668984786|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1668984786|hshima|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668984786|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668986897|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1668986897|hshima|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668986897|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668986897|hshima|M|/src/main/resources/data.sql
+1668990748|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668990748|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarFuncionarioDto.java
+1668990837|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarFuncionarioDto.java
+1668994816|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarFuncionarioDto.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1669000320|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1669000320|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemProntuarioDto.java
+1669000823|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1669000823|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemProntuarioDto.java
+1669000823|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarProntuarioDto.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ClinicaAlreadyExistsException.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1669002147|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1669002147|hshima|M|/src/main/resources/data.sql
+1669002840|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1669002840|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/ClinicaController.java
+1669002840|hshima|M|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1669002840|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1669090966|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroFuncionarioDto.java
+1669092904|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1669258601|hshima|A|/docker-compose-back.yml
+1669258601|hshima|M|/docker-compose-deploy.yml
+1669258601|hshima|A|/docker-compose-front.yml
+1669258601|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1669258601|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1669258601|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1669258601|hshima|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1669258601|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1669260565|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1669260565|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1669260565|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669260565|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1669262278|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1669262278|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669262278|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1669262278|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1669262278|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1669350161|hshima|M|/docker-compose-back.yml
+1669350161|hshima|M|/docker-compose-front.yml
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1669350161|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/BaseController.java
+1669350161|hshima|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/ClinicaController.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1669350161|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1669350161|hshima|A|/src/main/resources/schema.sql
+1669588805|hshima|M|/Dockerfile
+1669588805|hshima|M|/docker-compose-front.yml
+1669588805|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1669588805|hshima|M|/src/main/resources/application-local.yml
+1669588805|hshima|A|/src/main/resources/keystore/privatekey.pem
+1669588805|hshima|A|/src/main/resources/keystore/public.crt
+1669588916|hshima|M|/src/main/resources/application-dev.yml
+1669588916|hshima|M|/src/main/resources/application-local.yml
+1669605682|hshima|A|/.ebextensions/securelistener-alb.config
+1669605682|hshima|A|/.ebextensions/sg-ingressfromlb.config
+1669605682|hshima|M|/Dockerfile
+1669605682|hshima|M|/docker-compose-back.yml
+1669605682|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1669605682|hshima|A|/src/main/java/br/vet/sidekick/poc/controller/HelloController.java
+1669610638|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1669610638|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669610638|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroTutorDto.java
+1669610638|hshima|M|/src/main/java/br/vet/sidekick/poc/service/TutorService.java
+1669610638|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1669677996|hshima|M|/.ebextensions/securelistener-alb.config
+1669677996|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1669677996|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/HelloController.java
+1669677996|hshima|M|/src/main/resources/keystore/privatekey.pem
+1669677996|hshima|M|/src/main/resources/keystore/public.crt
+1669684031|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1669684031|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAnimalDto.java
+1669684031|hshima|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1669684031|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1669684998|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1670100315|hshima|A|/.run/PocApplication.run.xml
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670100315|hshima|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ProntuarioAlreadyExistsException.java
+1670100315|hshima|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ProntuarioNotFoundException.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1670100315|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/DocumentoRepository.java
+1670100315|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/PdfRepository.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1670100315|hshima|A|/src/main/java/br/vet/sidekick/poc/service/CertvetCodingService.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/service/PdfService.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1670100315|hshima|D|/src/main/java/br/vet/sidekick/poc/service/S3BucketService.java
+1670100315|hshima|A|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670100315|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/CertvetCodingServiceImpl.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670100315|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670100315|hshima|M|/src/main/resources/application-dev.yml
+1670100315|hshima|M|/src/main/resources/application-local.yml
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAgendamentoDto.java
+1670188076|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarAgendamentoDto.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAnimalDto.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/model/TipoDocumento.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1670199252|hshima|A|/src/main/java/br/vet/sidekick/poc/repository/TipoDocumentoRepository.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670199252|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670199252|hshima|M|/src/main/resources/data.sql
+1670200571|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1670200571|hshima|M|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1670200571|hshima|M|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670200571|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670200571|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670280258|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1670280258|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/AgendamentoCreateException.java
+1670280258|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/AgendamentoNotFound.java
+1670280258|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1670280258|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670281528|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1670281528|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670285661|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1670285661|hshima|M|/src/main/java/br/vet/sidekick/poc/conf/security/filter/TokenAuthenticationFilter.java
+1670285661|hshima|D|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670285661|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670285661|hshima|A|/src/main/java/br/vet/sidekick/poc/service/impl/S3BucketServiceRepository.java
+1670285661|hshima|M|/src/main/resources/data.sql
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1670286297|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemTutoresAnimalDto.java
+1670286297|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/AnimalNotFound.java
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/AnimalResponse.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemProntuarioDto.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/model/TipoDocumento.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670292806|hshima|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java

@@ -1,0 +1,1532 @@
+1661017277|Henrique Shimada|A|/PropostaInicial/PropostasDescartadas/Mensurador de finan\303\247as corporativas para pessoas f\303\255sicas e pequenas empresas.md
+1661017613|Henrique Shimada|A|/PropostaInicial/IdeiasInicialmenteApresentadas.html
+1661017866|Henrique Shimada|A|/EntregaFinal/apagar.txt
+1661017866|Henrique Shimada|A|/EntregaInicial/apagar.txt
+1661017866|Henrique Shimada|A|/LaTeX/apagar.txt
+1661017866|Henrique Shimada|A|/Notas/apagar.txt
+1661017866|Henrique Shimada|A|/POC/apagar.txt
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/00-comandos-modelo.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/00-info.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/anexos/acronym.pdf
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/anexos/if-beamer-modelo-de-apresentacao-ifes.pdf
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/anexos/pdfpages.pdf
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/anexos/pifont.pdf
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/anexos/todonotes.pdf
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/defs-glossario.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/defs-siglas.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/060911-scrumtoon.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/aviao_wald.png
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/conhecimento_h2o.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/erro_de_comunicacao_gabarito_prova.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/erros_lista_quadros.png
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/erros-comuns-documentos.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/erros-comuns-projetos.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/exemploVetorizacao.png
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/exploits_of_a_mom.png
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/lidar_com_falhas.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/password_strength.png
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/portugues_nao_eh_para_amador.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/projeto_balanca_na_arvore.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/quadros_login_usuario.png
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/revisao.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/uso_de_recursos_escada_1.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/uso_de_recursos_escada_2.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/erros/vendo_bolo_cenoura.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/abnt.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/abntex2-doc-abnt-6023.bib
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/ER.dia
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/ER.eps
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/ER.jpeg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/ER.svg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/ER.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/UML.dia
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/UML.eps
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/UML.jpeg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/UML.svg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/diagramas/UML.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/exemplo_diag_horizontal.png
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/exemploA3.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/exemplos.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/figuras.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/qrcode.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/referencias.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/tabelas.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/exemplos/todo.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp.cls
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo.cls
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo/logo-01.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo/logo-01-pb.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo/logo-02.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo/logo-02-pb.jpg
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo-inf.cls
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo-inf-cemi.cls
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo-inf-cpti.cls
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/ifsp-spo-inf-ctds.cls
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-monografia.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-texto-completo.idx
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-texto-completo.lof
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-texto-completo.loq
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-texto-completo.lot
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-texto-completo.pdf
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-texto-completo.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/main-texto-proposta.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pos-anexos.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pos-apendices.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pos-glossario.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-agradecimentos.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-aprovacao.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-dedicatoria.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-epigrafe.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-errata.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-fichacatalografica.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-resumos.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-siglas.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/pre-simbolos.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/referencias.bib
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/textos-conclusao.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/textos-desenvolvimento.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/textos-introducao.tex
+1661018052|Henrique Shimada|A|/LaTeX/modelo-ifsp-spo/textos-revisao-literatura.tex
+1661018052|Henrique Shimada|D|/LaTeX/apagar.txt
+1661018615|Henrique Shimada|A|/LaTeX/READ.md
+1661018615|Henrique Shimada|M|/PropostaInicial/IdeiasInicialmenteApresentadas.html
+1661018749|Henrique Shimada|A|/LaTeX/README.md
+1661018749|Henrique Shimada|D|/LaTeX/READ.md
+1661018830|Murilo Pires|A|/PropostaInicial/PropostasDescartadas/Geomapeamento de servi\303\247os de saude.md
+1661099648|Caique Daniel|A|/Tecnologias/Tecnologias.md
+1661143970|Henrique Shimada|M|/Tecnologias/Tecnologias.md
+1661718746|Marcos Querino|A|/DesenhoAplicacao/ViabilidadeFinanceira.md
+1662215831|Marcos Querino|M|/DesenhoAplicacao/ViabilidadeFinanceira.md
+1662218014|Marcos Querino|A|/DesenhoAplicacao/criteriosSeguranca.md
+1662221737|Caique Daniel|A|/Modelos/readme.md
+1662221774|Caique Daniel|A|/Modelos/ProjetoPI1.brM3
+1662260002|Caique Daniel|M|/Tecnologias/Tecnologias.md
+1662261168|Caique Daniel|A|/Tecnologias/Ferramentas de testes automatizados.md
+1662317093|Caique Daniel|A|/Modelos/Documentos.brM3
+1662339624|Marcos Querino|M|/DesenhoAplicacao/criteriosSeguranca.md
+1662407024|Luis da Costa|M|/DesenhoAplicacao/criteriosSeguranca.md
+1662432579|Henrique Shimada|M|/DesenhoAplicacao/criteriosSeguranca.md
+1662432695|Henrique Shimada|A|/PropostaInicial/apresentacaoEDocumento.txt
+1662432695|Henrique Shimada|A|/PropostaInicial/modelo_ifsp_spo__Version_4718_.pdf
+1662432695|Henrique Shimada|A|/PropostaInicial/Proposta_Inicial.pdf
+1662438411|Henrique Shimada|M|/DesenhoAplicacao/criteriosSeguranca.md
+1662483839|Marcos Querino|M|/DesenhoAplicacao/criteriosSeguranca.md
+1662499787|Marcos Querino|M|/DesenhoAplicacao/criteriosSeguranca.md
+1662499873|Marcos Querino|A|/DesenhoAplicacao/termos.md
+1662514082|Caique Daniel|A|/Modelos/Tabelas Extras.yml
+1662514153|Caique Daniel|M|/Modelos/Documentos.brM3
+1662514153|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1662838159|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1662843874|Henrique Shimada|M|/DesenhoAplicacao/criteriosSeguranca.md
+1662844374|Henrique Shimada|A|/Reunioes/2022-09-10.yml
+1662850322|Henrique Shimada|A|/DesenhoAplicacao/ArquiteturaAplicacao.drawio
+1662860705|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1662917344|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1662919356|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1662922097|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1662932906|Caique Daniel|A|/Modelos/Modelo L\303\263gico.brM3
+1662932906|Caique Daniel|A|/Modelos/Modelo L\303\263gico.png
+1662932906|Caique Daniel|A|/Modelos/ProjetoPI1.png
+1662932906|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1662949072|Irina Ferreira|A|/LINKS IMPORTANTES
+1662949121|Irina Ferreira|A|/LINKS IMPORTANTES.md
+1662949121|Irina Ferreira|D|/LINKS IMPORTANTES
+1662949454|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1662949483|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1662951070|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1663037707|Luis da Costa|M|/DesenhoAplicacao/criteriosSeguranca.md
+1663039137|Murilo Pires|A|/DesenhoAplicacao/Introdu\303\247\303\243o.md
+1663039137|Murilo Pires|A|/DesenhoAplicacao/Metodologia de gest\303\243o de projeto.md
+1663039137|Murilo Pires|A|/DesenhoAplicacao/Product Backlog.md
+1663039204|Murilo Pires|M|/DesenhoAplicacao/Metodologia de gest\303\243o de projeto.md
+1663039238|Murilo Pires|M|/DesenhoAplicacao/Metodologia de gest\303\243o de projeto.md
+1663040212|Irina Ferreira|M|/DesenhoAplicacao/Metodologia de gest\303\243o de projeto.md
+1663108651|Marcos Querino|A|/DesenhoAplicacao/modelo_ifsp_spo__Version_4718_.pdf
+1663119385|Marcos Querino|M|/Modelos/ProjetoPI1.brM3
+1663283912|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1663421793|Irina Ferreira|A|/Notas/notas.txt
+1663423785|Luis da Costa|M|/Notas/notas.txt
+1663428927|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1663432793|Caique Daniel|M|/Modelos/ProjetoPI1.brM3
+1663651019|Henrique Shimada|A|/DesenhoAplicacao/Viabilidade financeira - Custos.md
+1663651019|Henrique Shimada|A|/DesenhoAplicacao/Viabilidade Financeira Custos de Infraestrutura - AWS Pricing Calculator.pdf
+1663651019|Henrique Shimada|A|/DesenhoAplicacao/Viabilidade financeira.md
+1663651019|Henrique Shimada|M|/DesenhoAplicacao/ArquiteturaAplicacao.drawio
+1663715225|Irina Ferreira|A|/Modelos/ProjetoPI1.2.brM3
+1663715453|Irina Ferreira|M|/Modelos/Modelo L\303\263gico.brM3
+1663715669|Irina Ferreira|M|/Modelos/Modelo L\303\263gico.png
+1663716361|Irina Ferreira|A|/DesenhoAplicacao/desenho da aplica\303\247\303\243o Rocket_.pdf
+1663735178|Henrique Shimada|A|/DesenhoAplicacao/Quest\303\265es a serem discorridas.md
+1664050276|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1664057709|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1664057969|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1664058451|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1664059703|Caique Daniel|M|/Notas/notas.txt
+1664127797|Caique Daniel|M|/Modelos/Modelo L\303\263gico.brM3
+1664127797|Caique Daniel|M|/Modelos/ProjetoPI1.2.brM3
+1664142393|Caique Daniel|M|/Modelos/Modelo L\303\263gico.brM3
+1664142393|Caique Daniel|M|/Modelos/Modelo L\303\263gico.png
+1664142393|Caique Daniel|M|/Modelos/ProjetoPI1.2.brM3
+1664142393|Caique Daniel|M|/Modelos/ProjetoPI1.png
+1664144142|Henrique Shimada|A|/.gitignore
+1664144142|Henrique Shimada|A|/.mvn/wrapper/maven-wrapper.jar
+1664144142|Henrique Shimada|A|/.mvn/wrapper/maven-wrapper.properties
+1664144142|Henrique Shimada|A|/mvnw
+1664144142|Henrique Shimada|A|/mvnw.cmd
+1664144142|Henrique Shimada|A|/pom.xml
+1664144142|Henrique Shimada|A|/README.md
+1664144142|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664144142|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664144142|Henrique Shimada|A|/src/main/resources/application.properties
+1664144142|Henrique Shimada|A|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664279361|Irina Ferreira|M|/LINKS IMPORTANTES.md
+1664514444|Henrique Shimada|A|/docker-compose-dev.yml
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/.gitignore
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.jar
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.properties
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/mvnw
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/mvnw.cmd
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/pom.xml
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/README.md
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/main/resources/application.properties
+1664514444|Henrique Shimada|A|/mySqlApp/pocSpringApp/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664514444|Henrique Shimada|D|/.gitignore
+1664514444|Henrique Shimada|D|/.mvn/wrapper/maven-wrapper.jar
+1664514444|Henrique Shimada|D|/.mvn/wrapper/maven-wrapper.properties
+1664514444|Henrique Shimada|D|/mvnw
+1664514444|Henrique Shimada|D|/mvnw.cmd
+1664514444|Henrique Shimada|D|/pom.xml
+1664514444|Henrique Shimada|D|/README.md
+1664514444|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664514444|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664514444|Henrique Shimada|D|/src/main/resources/application.properties
+1664514444|Henrique Shimada|D|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664680895|Henrique Shimada|A|/.gitignore
+1664680895|Henrique Shimada|A|/.mvn/wrapper/maven-wrapper.jar
+1664680895|Henrique Shimada|A|/.mvn/wrapper/maven-wrapper.properties
+1664680895|Henrique Shimada|A|/Dockerfile
+1664680895|Henrique Shimada|A|/mvnw
+1664680895|Henrique Shimada|A|/mvnw.cmd
+1664680895|Henrique Shimada|A|/pom.xml
+1664680895|Henrique Shimada|A|/README.md
+1664680895|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1664680895|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1664680895|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664680895|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1664680895|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1664680895|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1664680895|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664680895|Henrique Shimada|A|/src/main/resources/application.properties
+1664680895|Henrique Shimada|A|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664680895|Henrique Shimada|D|/docker-compose-dev.yml
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/.gitignore
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.jar
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/.mvn/wrapper/maven-wrapper.properties
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/mvnw
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/mvnw.cmd
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/pom.xml
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/README.md
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/main/resources/application.properties
+1664680895|Henrique Shimada|D|/mySqlApp/pocSpringApp/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1664749030|Caique Daniel|M|/Modelos/ProjetoPI1.2.brM3
+1664750544|Caique Daniel|M|/Modelos/Modelo L\303\263gico.brM3
+1664750544|Caique Daniel|M|/Modelos/ProjetoPI1.2.brM3
+1664750877|Caique Daniel|M|/Modelos/Modelo L\303\263gico.brM3
+1664750877|Caique Daniel|M|/Modelos/ProjetoPI1.2.brM3
+1664750953|Caique Daniel|M|/Modelos/Modelo L\303\263gico.png
+1664750953|Caique Daniel|M|/Modelos/ProjetoPI1.png
+1664845355|Henrique Shimada|A|/DesenhoAplicacao/ArquiteturaAplicacao.png
+1664845355|Henrique Shimada|M|/DesenhoAplicacao/ArquiteturaAplicacao.drawio
+1665198883|Caique Daniel|A|/.gitignore
+1665198883|Caique Daniel|A|/README.md
+1665199131|Caique Daniel|A|/package.json
+1665199131|Caique Daniel|A|/package-lock.json
+1665199131|Caique Daniel|A|/public/favicon.ico
+1665199131|Caique Daniel|A|/public/index.html
+1665199131|Caique Daniel|A|/public/logo192.png
+1665199131|Caique Daniel|A|/public/logo512.png
+1665199131|Caique Daniel|A|/public/manifest.json
+1665199131|Caique Daniel|A|/public/robots.txt
+1665199131|Caique Daniel|A|/src/App.css
+1665199131|Caique Daniel|A|/src/App.test.tsx
+1665199131|Caique Daniel|A|/src/App.tsx
+1665199131|Caique Daniel|A|/src/index.css
+1665199131|Caique Daniel|A|/src/index.tsx
+1665199131|Caique Daniel|A|/src/logo.svg
+1665199131|Caique Daniel|A|/src/react-app-env.d.ts
+1665199131|Caique Daniel|A|/src/reportWebVitals.ts
+1665199131|Caique Daniel|A|/src/setupTests.ts
+1665199131|Caique Daniel|A|/tsconfig.json
+1665199131|Caique Daniel|M|/README.md
+1665204490|Caique Daniel|A|/src/components/Components.tsx
+1665204490|Caique Daniel|A|/src/components/fullbanner/fullbanner.scss
+1665204490|Caique Daniel|A|/src/components/fullbanner/Fullbanner.tsx
+1665204490|Caique Daniel|A|/src/components/navbar/Navbar.tsx
+1665204490|Caique Daniel|A|/src/fullbanner.jpg
+1665204490|Caique Daniel|A|/src/views/home/Home.tsx
+1665204490|Caique Daniel|A|/src/views/Layout.tsx
+1665204490|Caique Daniel|A|/src/views/Views.tsx
+1665204490|Caique Daniel|M|/package.json
+1665204490|Caique Daniel|M|/package-lock.json
+1665204490|Caique Daniel|M|/public/index.html
+1665204490|Caique Daniel|M|/src/App.tsx
+1665242787|Caique Daniel|A|/src/components/login/Login.tsx
+1665242787|Caique Daniel|M|/src/components/Components.tsx
+1665242787|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1665242787|Caique Daniel|M|/src/views/Layout.tsx
+1665246524|Caique Daniel|A|/src/views/home/home.scss
+1665246524|Caique Daniel|M|/src/App.tsx
+1665246524|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1665246524|Caique Daniel|M|/src/views/home/Home.tsx
+1665246524|Caique Daniel|M|/src/views/Layout.tsx
+1665248720|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1665248720|Caique Daniel|M|/src/views/home/home.scss
+1665248720|Caique Daniel|M|/src/views/home/Home.tsx
+1665251078|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665251078|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665251078|Henrique Shimada|A|/src/main/resources/application.yml
+1665251078|Henrique Shimada|A|/src/main/resources/application-dev.yml
+1665251078|Henrique Shimada|A|/src/main/resources/application-hom.yml
+1665251078|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/service/IFuncionarioService.java
+1665251078|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioService.java
+1665251078|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/ServletInitializer.java
+1665251078|Henrique Shimada|D|/src/main/resources/application.properties
+1665251078|Henrique Shimada|M|/Dockerfile
+1665251078|Henrique Shimada|M|/pom.xml
+1665251078|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665251078|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665251078|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665287054|Henrique Shimada|D|/.gitignore
+1665287054|Henrique Shimada|D|/.mvn/wrapper/maven-wrapper.jar
+1665287054|Henrique Shimada|D|/.mvn/wrapper/maven-wrapper.properties
+1665287054|Henrique Shimada|D|/Dockerfile
+1665287054|Henrique Shimada|D|/mvnw
+1665287054|Henrique Shimada|D|/mvnw.cmd
+1665287054|Henrique Shimada|D|/pom.xml
+1665287054|Henrique Shimada|D|/README.md
+1665287054|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665287054|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665287054|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1665287054|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665287054|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665287054|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665287054|Henrique Shimada|D|/src/main/resources/application.yml
+1665287054|Henrique Shimada|D|/src/main/resources/application-dev.yml
+1665287054|Henrique Shimada|D|/src/main/resources/application-hom.yml
+1665287054|Henrique Shimada|D|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1665287155|Henrique Shimada|A|/.gitignore
+1665287155|Henrique Shimada|A|/docker-compose.yml
+1665287155|Henrique Shimada|A|/Dockerfile
+1665287155|Henrique Shimada|A|/pom.xml
+1665287155|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665287155|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665287155|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1665287155|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665287155|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665287155|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665287155|Henrique Shimada|A|/src/main/resources/application.yml
+1665287155|Henrique Shimada|A|/src/main/resources/application-dev.yml
+1665287475|Henrique Shimada|A|/.mvn/wrapper/maven-wrapper.jar
+1665287475|Henrique Shimada|A|/.mvn/wrapper/maven-wrapper.properties
+1665287475|Henrique Shimada|A|/mvnw
+1665287475|Henrique Shimada|A|/mvnw.cmd
+1665287475|Henrique Shimada|A|/README.md
+1665287475|Henrique Shimada|A|/src/main/resources/application-hom.yml
+1665287475|Henrique Shimada|A|/src/test/java/br/vet/sidekick/poc/PocApplicationTests.java
+1665287475|Henrique Shimada|M|/.gitignore
+1665287475|Henrique Shimada|M|/Dockerfile
+1665287475|Henrique Shimada|M|/pom.xml
+1665287475|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665287475|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665287475|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1665287475|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665287475|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665287475|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665287475|Henrique Shimada|M|/src/main/resources/application.yml
+1665287475|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1665364147|Henrique Shimada|M|/docker-compose.yml
+1665364147|Henrique Shimada|M|/Dockerfile
+1665364147|Henrique Shimada|M|/pom.xml
+1665364147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665364147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665364147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1665364147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1665364147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1665364147|Henrique Shimada|M|/src/main/resources/application.yml
+1665364147|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1665364147|Henrique Shimada|M|/src/main/resources/application-hom.yml
+1665369874|Caique Daniel|A|/.dockerignore
+1665369874|Caique Daniel|A|/Dockerfile
+1665369874|Caique Daniel|A|/Dockerrun.aws.json
+1665369874|Caique Daniel|A|/nginx.conf
+1665380081|Henrique Shimada|M|/docker-compose.yml
+1665380081|Henrique Shimada|M|/src/main/resources/application.yml
+1665380081|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1665380081|Henrique Shimada|M|/src/main/resources/application-hom.yml
+1665445459|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/HiController.java
+1665445459|Henrique Shimada|M|/docker-compose.yml
+1665451863|Caique Daniel|A|/src/app.scss
+1665451863|Caique Daniel|A|/src/contracts/Contracts.ts
+1665451863|Caique Daniel|A|/src/helpers/LocalStorage.ts
+1665451863|Caique Daniel|A|/src/Routes.tsx
+1665451863|Caique Daniel|A|/src/Storages.ts
+1665451863|Caique Daniel|A|/src/views/painel/painel.scss
+1665451863|Caique Daniel|A|/src/views/painel/Painel.tsx
+1665451863|Caique Daniel|D|/src/App.css
+1665451863|Caique Daniel|M|/package.json
+1665451863|Caique Daniel|M|/package-lock.json
+1665451863|Caique Daniel|M|/public/index.html
+1665451863|Caique Daniel|M|/src/App.tsx
+1665451863|Caique Daniel|M|/src/components/login/Login.tsx
+1665451863|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1665451863|Caique Daniel|M|/src/views/Views.tsx
+1665452807|Caique Daniel|A|/src/components/signin/Signin.tsx
+1665452807|Caique Daniel|M|/src/components/Components.tsx
+1665452807|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1665452807|Caique Daniel|M|/src/views/home/Home.tsx
+1665452807|Caique Daniel|M|/src/views/Layout.tsx
+1665717712|Henrique Shimada|A|/flyway.conf
+1665717712|Henrique Shimada|M|/docker-compose.yml
+1665717712|Henrique Shimada|M|/Dockerfile
+1665717712|Henrique Shimada|M|/pom.xml
+1665717712|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1665717712|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1665717712|Henrique Shimada|M|/src/main/resources/application.yml
+1665717712|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1666052024|Henrique Shimada|A|/docker-compose-deploy.yml
+1666052024|Henrique Shimada|A|/docker-compose-dev.yml
+1666052024|Henrique Shimada|D|/docker-compose.yml
+1666052024|Henrique Shimada|M|/Dockerfile
+1666052024|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/HiController.java
+1666052024|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1666052775|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/HiController.java
+1666052775|Henrique Shimada|M|/pom.xml
+1666239458|Caique Daniel|A|/src/components/breadcrumbs/breadcrumbs.scss
+1666239458|Caique Daniel|A|/src/components/breadcrumbs/Breadcrumbs.tsx
+1666239458|Caique Daniel|A|/src/helpers/Address.ts
+1666239458|Caique Daniel|A|/src/helpers/Masks.ts
+1666239458|Caique Daniel|A|/src/views/cadastro-inicial/cadastro-inicial.scss
+1666239458|Caique Daniel|A|/src/views/cadastro-inicial/CadastroInicial.tsx
+1666239458|Caique Daniel|A|/src/views/cadastro-inicial/components/FormClinica.tsx
+1666239458|Caique Daniel|M|/package.json
+1666239458|Caique Daniel|M|/package-lock.json
+1666239458|Caique Daniel|M|/src/components/Components.tsx
+1666239458|Caique Daniel|M|/src/components/login/Login.tsx
+1666239458|Caique Daniel|M|/src/components/signin/Signin.tsx
+1666239458|Caique Daniel|M|/src/contracts/Contracts.ts
+1666239458|Caique Daniel|M|/src/Routes.tsx
+1666239458|Caique Daniel|M|/src/views/home/Home.tsx
+1666239458|Caique Daniel|M|/src/views/painel/Painel.tsx
+1666239458|Caique Daniel|M|/src/views/Views.tsx
+1666240031|Caique Daniel|A|/src/helpers/components/Address.ts
+1666240031|Caique Daniel|A|/src/helpers/components/LocalStorage.ts
+1666240031|Caique Daniel|A|/src/helpers/components/Masks.ts
+1666240031|Caique Daniel|A|/src/helpers/Helpers.ts
+1666240031|Caique Daniel|D|/src/helpers/Address.ts
+1666240031|Caique Daniel|D|/src/helpers/LocalStorage.ts
+1666240031|Caique Daniel|D|/src/helpers/Masks.ts
+1666240031|Caique Daniel|D|/src/views/painel/painel.scss
+1666240031|Caique Daniel|D|/src/views/painel/Painel.tsx
+1666240031|Caique Daniel|M|/src/components/login/Login.tsx
+1666240031|Caique Daniel|M|/src/Storages.ts
+1666240031|Caique Daniel|M|/src/views/cadastro-inicial/components/FormClinica.tsx
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/AuthorizationServerApp.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakApplication.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakConfig.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakRequestFilter.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/KeycloakServerProperties.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/RegularJsonConfigProviderFactory.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/Resteasy3Provider.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/SimplePlatformProvider.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/LoginDto.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/NewUserDto.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/UserController.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/UserServiceImpl.java
+1666320102|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/LoginService.java
+1666320102|Henrique Shimada|A|/src/main/resources/jwt-config.json
+1666320102|Henrique Shimada|A|/src/main/resources/META-INF/keycloak-server.json
+1666320102|Henrique Shimada|A|/src/main/resources/META-INF/services/org.keycloak.common.util.ResteasyProvider
+1666320102|Henrique Shimada|A|/src/main/resources/META-INF/services/org.keycloak.platform.PlatformProvider
+1666320102|Henrique Shimada|M|/docker-compose-dev.yml
+1666320102|Henrique Shimada|M|/pom.xml
+1666320102|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1666320102|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1666320102|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1666320102|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1666320102|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1666327193|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1666327193|Caique Daniel|M|/src/views/home/Home.tsx
+1666407979|Caique Daniel|A|/src/views/cadastro-inicial/components/FormClinic.tsx
+1666407979|Caique Daniel|A|/src/views/cadastro-inicial/components/FormOwner.tsx
+1666407979|Caique Daniel|D|/src/views/cadastro-inicial/components/FormClinica.tsx
+1666407979|Caique Daniel|M|/src/views/cadastro-inicial/cadastro-inicial.scss
+1666407979|Caique Daniel|M|/src/views/cadastro-inicial/CadastroInicial.tsx
+1666409106|Caique Daniel|A|/src/views/cadastro-inicial/components/FormTechnician.tsx
+1666409106|Caique Daniel|M|/src/views/cadastro-inicial/cadastro-inicial.scss
+1666409106|Caique Daniel|M|/src/views/cadastro-inicial/CadastroInicial.tsx
+1666409106|Caique Daniel|M|/src/views/cadastro-inicial/components/FormOwner.tsx
+1666411014|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666411014|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1666411014|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1666411014|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1666411014|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1666411014|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/dto/LoginForm.java
+1666411014|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Perfil.java
+1666411014|Henrique Shimada|A|/src/main/resources/data.sql
+1666411014|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1666411014|Henrique Shimada|M|/pom.xml
+1666411014|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1666411014|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1666411014|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1666414121|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/conf/security/filter/TokenAuthenticationFilter.java
+1666414121|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666414121|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1666416433|Caique Daniel|M|/src/contracts/Contracts.ts
+1666416433|Caique Daniel|M|/src/views/cadastro-inicial/cadastro-inicial.scss
+1666416433|Caique Daniel|M|/src/views/cadastro-inicial/CadastroInicial.tsx
+1666416433|Caique Daniel|M|/src/views/cadastro-inicial/components/FormClinic.tsx
+1666416433|Caique Daniel|M|/src/views/cadastro-inicial/components/FormOwner.tsx
+1666416433|Caique Daniel|M|/src/views/cadastro-inicial/components/FormTechnician.tsx
+1666416795|Caique Daniel|A|/src/views/cadastro-inicial/signin.scss
+1666416795|Caique Daniel|A|/src/views/cadastro-inicial/SignIn.tsx
+1666416795|Caique Daniel|D|/src/views/cadastro-inicial/cadastro-inicial.scss
+1666416795|Caique Daniel|D|/src/views/cadastro-inicial/CadastroInicial.tsx
+1666416795|Caique Daniel|M|/src/Routes.tsx
+1666416795|Caique Daniel|M|/src/views/cadastro-inicial/components/FormClinic.tsx
+1666416795|Caique Daniel|M|/src/views/cadastro-inicial/components/FormOwner.tsx
+1666416795|Caique Daniel|M|/src/views/cadastro-inicial/components/FormTechnician.tsx
+1666416795|Caique Daniel|M|/src/views/Views.tsx
+1666417130|Caique Daniel|M|/src/views/cadastro-inicial/components/FormOwner.tsx
+1666417130|Caique Daniel|M|/src/views/cadastro-inicial/components/FormTechnician.tsx
+1666418096|Caique Daniel|M|/src/views/cadastro-inicial/signin.scss
+1666452770|Caique Daniel|A|/src/views/signin/components/FormClinic.tsx
+1666452770|Caique Daniel|A|/src/views/signin/components/FormOwner.tsx
+1666452770|Caique Daniel|A|/src/views/signin/components/FormTechnician.tsx
+1666452770|Caique Daniel|A|/src/views/signin/signin.scss
+1666452770|Caique Daniel|A|/src/views/signin/SignIn.tsx
+1666452770|Caique Daniel|D|/src/views/cadastro-inicial/components/FormClinic.tsx
+1666452770|Caique Daniel|D|/src/views/cadastro-inicial/components/FormOwner.tsx
+1666452770|Caique Daniel|D|/src/views/cadastro-inicial/components/FormTechnician.tsx
+1666452770|Caique Daniel|D|/src/views/cadastro-inicial/signin.scss
+1666452770|Caique Daniel|D|/src/views/cadastro-inicial/SignIn.tsx
+1666452770|Caique Daniel|M|/src/views/Views.tsx
+1666455465|Caique Daniel|M|/src/views/signin/signin.scss
+1666467769|Caique Daniel|D|/src/components/signin/Signin.tsx
+1666467769|Caique Daniel|M|/src/components/Components.tsx
+1666467769|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1666467769|Caique Daniel|M|/src/views/Layout.tsx
+1666477639|Caique Daniel|A|/src/env.ts
+1666477639|Caique Daniel|M|/src/components/login/Login.tsx
+1666477639|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1666477639|Caique Daniel|M|/src/contracts/Contracts.ts
+1666477639|Caique Daniel|M|/src/Routes.tsx
+1666555164|Caique Daniel|A|/src/components/search-bar/search-bar.scss
+1666555164|Caique Daniel|A|/src/components/search-bar/SerachBar.tsx
+1666555164|Caique Daniel|A|/src/views/employees/Employees.tsx
+1666555164|Caique Daniel|A|/src/views/employees/form-employees/FormEmployees.tsx
+1666555164|Caique Daniel|A|/src/views/painel/painel.scss
+1666555164|Caique Daniel|A|/src/views/painel/Painel.tsx
+1666555164|Caique Daniel|A|/src/views/RestrictedLayout.tsx
+1666555164|Caique Daniel|M|/src/app.scss
+1666555164|Caique Daniel|M|/src/components/Components.tsx
+1666555164|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1666555164|Caique Daniel|M|/src/Routes.tsx
+1666555164|Caique Daniel|M|/src/views/signin/signin.scss
+1666555164|Caique Daniel|M|/src/views/Views.tsx
+1666555574|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1666571391|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/S3BucketService.java
+1666571391|Henrique Shimada|M|/pom.xml
+1666571391|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1666571506|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666663477|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/S3BucketService.java
+1666663477|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1666663638|Henrique Shimada|M|/Dockerfile
+1666663938|Caique Daniel|A|/src/views/schedule/form-schedule/FormSchedule.tsx
+1666663938|Caique Daniel|A|/src/views/schedule/Schedule.tsx
+1666663938|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1666663938|Caique Daniel|M|/src/Routes.tsx
+1666663938|Caique Daniel|M|/src/views/painel/Painel.tsx
+1666663938|Caique Daniel|M|/src/views/Views.tsx
+1666756764|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1666756764|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroClinicaDto.java
+1666756764|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1666757194|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1666841993|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServiceITextImpl.java
+1666841993|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1666841993|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/PdfService.java
+1666841993|Henrique Shimada|M|/pom.xml
+1666934739|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1666934739|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1666934739|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1666934739|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServiceITextImpl.java
+1666934739|Henrique Shimada|M|/pom.xml
+1666934739|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1667003317|Caique Daniel|A|/src/layouts/components/Layout.tsx
+1667003317|Caique Daniel|A|/src/layouts/components/RestrictedFormLayout.tsx
+1667003317|Caique Daniel|A|/src/layouts/components/RestrictedLayout.tsx
+1667003317|Caique Daniel|A|/src/layouts/Layouts.ts
+1667003317|Caique Daniel|D|/src/views/Layout.tsx
+1667003317|Caique Daniel|D|/src/views/RestrictedLayout.tsx
+1667003317|Caique Daniel|M|/src/views/employees/Employees.tsx
+1667003317|Caique Daniel|M|/src/views/employees/form-employees/FormEmployees.tsx
+1667003317|Caique Daniel|M|/src/views/home/Home.tsx
+1667003317|Caique Daniel|M|/src/views/painel/Painel.tsx
+1667003317|Caique Daniel|M|/src/views/schedule/form-schedule/FormSchedule.tsx
+1667003317|Caique Daniel|M|/src/views/schedule/Schedule.tsx
+1667003317|Caique Daniel|M|/src/views/signin/SignIn.tsx
+1667006669|Caique Daniel|A|/src/views/tutor/form-tutor/FormTutor.tsx
+1667006669|Caique Daniel|A|/src/views/tutor/Tutor.tsx
+1667006669|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1667006669|Caique Daniel|M|/src/Routes.tsx
+1667006669|Caique Daniel|M|/src/views/Views.tsx
+1667007970|Caique Daniel|A|/src/views/animal/Animal.tsx
+1667007970|Caique Daniel|A|/src/views/animal/form-animal/FormAnimal.tsx
+1667007970|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1667007970|Caique Daniel|M|/src/Routes.tsx
+1667007970|Caique Daniel|M|/src/views/tutor/form-tutor/FormTutor.tsx
+1667007970|Caique Daniel|M|/src/views/Views.tsx
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/AuthorizationServerApp.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakApplication.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakConfig.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/EmbeddedKeycloakRequestFilter.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/KeycloakServerProperties.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/RegularJsonConfigProviderFactory.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/Resteasy3Provider.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/config/auth/jwtConfig/SimplePlatformProvider.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/dto/LoginDto.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/dto/NewUserDto.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/LoginController.java
+1667018085|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/UserController.java
+1667018085|Henrique Shimada|D|/src/main/resources/jwt-config.json
+1667018085|Henrique Shimada|D|/src/main/resources/META-INF/keycloak-server.json
+1667018085|Henrique Shimada|D|/src/main/resources/META-INF/services/org.keycloak.common.util.ResteasyProvider
+1667018085|Henrique Shimada|D|/src/main/resources/META-INF/services/org.keycloak.platform.PlatformProvider
+1667018085|Henrique Shimada|M|/pom.xml
+1667018085|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/filter/TokenAuthenticationFilter.java
+1667018085|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667018085|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1667018085|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667018085|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667018085|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1667018085|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/PdfService.java
+1667018085|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1667018564|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1667059526|Irina Ferreira|M|/Modelos/ProjetoPI1.brM3
+1667060418|Irina Ferreira|M|/Modelos/ProjetoPI1.png
+1667060736|Marcos Querino|M|/.gitignore
+1667061671|Irina Ferreira|A|/Modelos/ProjetoPI1.2 .brM3
+1667061671|Irina Ferreira|A|/Modelos/ProjetoPI1.2 .png
+1667061749|Irina Ferreira|D|/Modelos/ProjetoPI1.png
+1667061774|Irina Ferreira|D|/Modelos/ProjetoPI1.brM3
+1667063226|Caique Daniel|M|/src/views/signin/SignIn.tsx
+1667063888|Caique Daniel|M|/src/views/signin/components/FormClinic.tsx
+1667063888|Caique Daniel|M|/src/views/signin/components/FormOwner.tsx
+1667063888|Caique Daniel|M|/src/views/signin/components/FormTechnician.tsx
+1667065205|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1667065205|Caique Daniel|M|/src/views/schedule/form-schedule/FormSchedule.tsx
+1667065205|Caique Daniel|M|/src/views/tutor/form-tutor/FormTutor.tsx
+1667065389|Marcos Querino|M|/src/views/signin/SignIn.tsx
+1667092197|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/LoginForm.java
+1667092197|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/model/dto/LoginForm.java
+1667092197|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667092197|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667092197|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667169715|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1667169715|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroTutorDto.java
+1667173922|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1667173922|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAgendamentoDto.java
+1667176757|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667176757|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroFuncionarioDto.java
+1667177465|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667177465|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAnimalDto.java
+1667177465|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1667177465|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667177465|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667177465|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1667177465|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroClinicaDto.java
+1667183485|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667183485|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1667183485|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667183485|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1667183485|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667183485|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1667274459|Caique Daniel|M|/src/contracts/Contracts.ts
+1667274459|Caique Daniel|M|/src/layouts/components/RestrictedFormLayout.tsx
+1667274459|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1667274459|Caique Daniel|M|/src/views/employees/Employees.tsx
+1667274459|Caique Daniel|M|/src/views/employees/form-employees/FormEmployees.tsx
+1667274459|Caique Daniel|M|/src/views/schedule/form-schedule/FormSchedule.tsx
+1667274459|Caique Daniel|M|/src/views/tutor/form-tutor/FormTutor.tsx
+1667337807|Caique Daniel|M|/Modelos/Modelo L\303\263gico.brM3
+1667337807|Caique Daniel|M|/Modelos/Modelo L\303\263gico.png
+1667347697|Caique Daniel|A|/src/components/listing/Listing.tsx
+1667347697|Caique Daniel|A|/src/views/employees/components/ListItemEmployee.tsx
+1667347697|Caique Daniel|M|/src/components/Components.tsx
+1667347697|Caique Daniel|M|/src/components/search-bar/SerachBar.tsx
+1667347697|Caique Daniel|M|/src/views/animal/Animal.tsx
+1667347697|Caique Daniel|M|/src/views/employees/Employees.tsx
+1667347697|Caique Daniel|M|/src/views/schedule/Schedule.tsx
+1667347697|Caique Daniel|M|/src/views/tutor/Tutor.tsx
+1667348529|Caique Daniel|M|/src/views/tutor/form-tutor/FormTutor.tsx
+1667348546|Caique Daniel|A|/src/views/tutor/components/ListItemTutor.tsx
+1667348546|Caique Daniel|M|/src/contracts/Contracts.ts
+1667348546|Caique Daniel|M|/src/views/tutor/Tutor.tsx
+1667434612|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1667434993|Caique Daniel|A|/src/views/animal/components/ListItemAnimal.tsx
+1667434993|Caique Daniel|M|/src/contracts/Contracts.ts
+1667434993|Caique Daniel|M|/src/views/animal/Animal.tsx
+1667436057|Caique Daniel|M|/src/components/listing/Listing.tsx
+1667439111|Caique Daniel|M|/src/views/signin/components/FormOwner.tsx
+1667439111|Caique Daniel|M|/src/views/signin/components/FormTechnician.tsx
+1667439111|Caique Daniel|M|/src/views/signin/SignIn.tsx
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Cirurgia.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Estoque.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Exame.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Medicamento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Procedimento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/model/TipoDocumento.java
+1667609914|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1667609914|Murilo Pires|M|/pom.xml
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667609914|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1667666550|Caique Daniel|M|/.gitignore
+1667666550|Caique Daniel|M|/src/contracts/Contracts.ts
+1667666550|Caique Daniel|M|/src/views/animal/components/ListItemAnimal.tsx
+1667666550|Caique Daniel|M|/src/views/employees/components/ListItemEmployee.tsx
+1667666550|Caique Daniel|M|/src/views/employees/form-employees/FormEmployees.tsx
+1667666550|Caique Daniel|M|/src/views/tutor/components/ListItemTutor.tsx
+1667669838|Caique Daniel|A|/src/views/medical-record-vets/form-medical-record-vets/FormMedicalRecordVets.tsx
+1667669838|Caique Daniel|A|/src/views/medical-record-vets/MedicalRecordVets.tsx
+1667669838|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1667669838|Caique Daniel|M|/src/Routes.tsx
+1667669838|Caique Daniel|M|/src/views/Views.tsx
+1667764370|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1667764370|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1667764370|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1667764370|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1667764370|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667764370|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1667764370|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667764370|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1667764370|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1667764370|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1667775539|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667775539|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667779465|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667779465|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1667871676|Irina Ferreira|M|/LaTeX/modelo-ifsp-spo/main-texto-proposta.tex
+1667873208|Irina Ferreira|M|/LaTeX/modelo-ifsp-spo/main-texto-proposta.tex
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/DocumentoDto.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/PrescricaoDto.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ProcedimentoDto.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Cirurgia.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Prescricao.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Procedimento.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/CirurgiaRepository.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1667880416|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1667880416|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1667880416|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1667880416|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1667880416|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1667880416|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1667880416|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1667880416|Henrique Shimada|M|/src/main/resources/data.sql
+1667881989|Caique Daniel|M|/src/views/medical-record-vets/form-medical-record-vets/FormMedicalRecordVets.tsx
+1667882914|Caique Daniel|M|/src/components/listing/Listing.tsx
+1667882914|Caique Daniel|M|/src/views/painel/Painel.tsx
+1667883333|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1667883333|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1667883333|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1667933515|Murilo Pires|A|/EntregaFinal/secao_Manutenibilidade.md
+1667937210|Murilo Pires|A|/EntregaFinal/secao_Manutenibilidade_cont.md
+1667938070|Murilo Pires|M|/EntregaFinal/secao_Manutenibilidade.md
+1667939471|Murilo Pires|A|/EntregaFinal/Analise_Comparativa.md
+1667939471|Murilo Pires|A|/EntregaFinal/cont_Analise_Comparativa.md
+1667939509|Murilo Pires|A|/EntregaFinal/Metodologia_1.md
+1667939548|Murilo Pires|A|/EntregaFinal/Funcionalidades_rascunho.md
+1667966002|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1667966002|Murilo Pires|M|/src/main/resources/data.sql
+1667966065|Caique Daniel|M|/src/contracts/Contracts.ts
+1667966497|Caique Daniel|A|/src/views/prontuario/form-prontuario/FormProntuario.tsx
+1667966497|Caique Daniel|A|/src/views/prontuario/Prontuario.tsx
+1667966497|Caique Daniel|D|/src/views/medical-record-vets/form-medical-record-vets/FormMedicalRecordVets.tsx
+1667966497|Caique Daniel|D|/src/views/medical-record-vets/MedicalRecordVets.tsx
+1667966497|Caique Daniel|M|/src/Routes.tsx
+1667966497|Caique Daniel|M|/src/views/Views.tsx
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/ClinicaRepository.java
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1668045588|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668045588|Murilo Pires|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668045588|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1668052771|Caique Daniel|A|/src/views/funcionario/components/ListItemEmployee.tsx
+1668052771|Caique Daniel|A|/src/views/funcionario/form-funcionario/FormFuncionario.tsx
+1668052771|Caique Daniel|A|/src/views/funcionario/Funcionario.tsx
+1668052771|Caique Daniel|D|/src/views/employees/components/ListItemEmployee.tsx
+1668052771|Caique Daniel|D|/src/views/employees/Employees.tsx
+1668052771|Caique Daniel|D|/src/views/employees/form-employees/FormEmployees.tsx
+1668052771|Caique Daniel|M|/src/Routes.tsx
+1668052771|Caique Daniel|M|/src/views/prontuario/Prontuario.tsx
+1668052771|Caique Daniel|M|/src/views/Views.tsx
+1668054935|Caique Daniel|M|/src/helpers/components/Masks.ts
+1668054935|Caique Daniel|M|/src/views/funcionario/form-funcionario/FormFuncionario.tsx
+1668054935|Caique Daniel|M|/src/views/signin/components/FormClinic.tsx
+1668134033|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/conf/swagger/SwaggerConfigurations.java
+1668134033|Henrique Shimada|A|/src/main/resources/application-local.yml
+1668134033|Henrique Shimada|M|/pom.xml
+1668134033|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668134033|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1668134033|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Procedimento.java
+1668134033|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/PocApplication.java
+1668134033|Henrique Shimada|M|/src/main/resources/application.yml
+1668134033|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1668134033|Henrique Shimada|M|/src/main/resources/data.sql
+1668136744|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1668136744|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/TokenDto.java
+1668224223|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/conf/swagger/OpenAPIConfigurations.java
+1668224223|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/conf/swagger/OpenAPISecurityConfiguration.java
+1668224223|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/conf/swagger/SwaggerConfigurations.java
+1668224223|Henrique Shimada|M|/pom.xml
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroAnimalController.java
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1668224223|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668224223|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1668224223|Henrique Shimada|M|/src/main/resources/application-local.yml
+1668266340|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668267098|Henrique Shimada|M|/res/mockSample.pdf
+1668267098|Henrique Shimada|M|/src/main/resources/application-local.yml
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/00-comandos-modelo.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/00-info.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/acronym.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo1.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo10.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo11.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo12.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo2.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo3.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo4.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo5.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo6.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo7.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo8.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/anexo9.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/EquipeRocketBlog.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/if-beamer-modelo-de-apresentacao-ifes.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/pdfpages.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/pifont.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/anexos/todonotes.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/defs-glossario.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/defs-siglas.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/diff.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/060911-scrumtoon.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/aviao_wald.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/conhecimento_h2o.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/erro_de_comunicacao_gabarito_prova.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/erros_lista_quadros.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/erros-comuns-documentos.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/erros-comuns-projetos.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/exemploVetorizacao.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/exploits_of_a_mom.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/lidar_com_falhas.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/password_strength.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/portugues_nao_eh_para_amador.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/projeto_balanca_na_arvore.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/quadros_login_usuario.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/revisao.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/uso_de_recursos_escada_1.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/uso_de_recursos_escada_2.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/erros/vendo_bolo_cenoura.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/abnt.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/abntex2-doc-abnt-6023.bib
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/ER.dia
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/ER.eps
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/ER.jpeg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/ER.svg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/ER.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/UML.dia
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/UML.eps
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/UML.jpeg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/UML.svg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/diagramas/UML.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/exemplo_diag_horizontal.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/exemploA3.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/exemplos.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/figuras.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/qrcode.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/referencias.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/tabelas.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/exemplos/todo.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp.cls
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo.cls
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo/logo-01.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo/logo-01-pb.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo/logo-02.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo/logo-02-pb.jpg
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo-inf.cls
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo-inf-cemi.cls
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo-inf-cpti.cls
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/ifsp-spo-inf-ctds.cls
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/ArquiteturaAplicacao.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/Cen\303\241rioRealista.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/grafico_censopet.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/grafico_estabelecimento.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/grafico_profissionais.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/Mao-de-obra.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/Modelo L\303\263gico.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/ProjetoPI1.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/images/REALISTA.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-monografia.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-texto-completo.idx
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-texto-completo.lof
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-texto-completo.loq
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-texto-completo.lot
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-texto-completo.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-texto-completo.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/main-texto-proposta.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/MANUAL_RT_CRMV-SP.pdf
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pos-anexos.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pos-apendices.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pos-glossario.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-agradecimentos.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-aprovacao.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-dedicatoria.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-epigrafe.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-errata.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-fichacatalografica.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-resumos.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-siglas.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/pre-simbolos.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/qrcode/qrcode_BLOG.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/qrcode/qrcode_GIT.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/qrcode/qrcode_YT.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/qrcode/svn.png
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/referencias.bib
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/textos-conclusao.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/textos-desenvolvimento.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/textos-introducao.tex
+1668271107|Luis da Costa|A|/LaTeX/modelo-ifsp-spo-version4718/textos-revisao-literatura.tex
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1668290631|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668290631|Murilo Pires|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroAgendamentoController.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1668290631|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668290631|Murilo Pires|M|/src/main/resources/data.sql
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668295308|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668295308|Murilo Pires|M|/src/main/resources/data.sql
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1668338667|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/service/TutorService.java
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1668338667|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668374003|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668383047|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668383047|Murilo Pires|M|/src/main/resources/data.sql
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668463953|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668465502|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668465502|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668465502|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1668473533|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668548987|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668567012|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668567012|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668567012|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1668830417|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1668887570|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/dto/AnimalResponse.java
+1668887570|Murilo Pires|A|/src/main/java/br/vet/sidekick/poc/controller/dto/TutorResponse.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1668887570|Murilo Pires|M|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1668896412|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1668896412|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1668896412|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1668896950|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1668897271|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668915017|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668915017|Caique Daniel|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroFuncionarioController.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroFuncionarioDto.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1668915017|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1668916672|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemFuncionarioDto.java
+1668916672|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668955608|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ClinicaAlreadyExistsException.java
+1668955608|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/FuncionarioAlreadyExistsException.java
+1668955608|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1668955608|Henrique Shimada|A|/src/main/resources/application-local.yml
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroClinicaDto.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668955608|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668962475|Caique Daniel|M|/src/views/tutor/form-tutor/FormTutor.tsx
+1668962475|Caique Daniel|M|/src/views/tutor/Tutor.tsx
+1668965473|Caique Daniel|M|/src/views/animal/components/ListItemAnimal.tsx
+1668965473|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1668965473|Caique Daniel|M|/src/views/tutor/components/ListItemTutor.tsx
+1668965502|Caique Daniel|M|/src/views/animal/Animal.tsx
+1668966131|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1668967349|Caique Daniel|A|/src/views/schedule/components/ListItemAgendamento.tsx
+1668967349|Caique Daniel|M|/src/views/schedule/form-schedule/FormSchedule.tsx
+1668967349|Caique Daniel|M|/src/views/schedule/Schedule.tsx
+1668967358|Caique Daniel|M|/src/contracts/Contracts.ts
+1668967632|Caique Daniel|A|/src/views/agendamento/Agendamento.tsx
+1668967632|Caique Daniel|A|/src/views/agendamento/components/ListItemAgendamento.tsx
+1668967632|Caique Daniel|A|/src/views/agendamento/form-agendamento/FormAgendamento.tsx
+1668967632|Caique Daniel|D|/src/views/schedule/components/ListItemAgendamento.tsx
+1668967632|Caique Daniel|D|/src/views/schedule/form-schedule/FormSchedule.tsx
+1668967632|Caique Daniel|D|/src/views/schedule/Schedule.tsx
+1668967632|Caique Daniel|M|/src/Routes.tsx
+1668967632|Caique Daniel|M|/src/views/Views.tsx
+1668969413|Caique Daniel|A|/src/views/funcionario/components/ListItemFuncionario.tsx
+1668969413|Caique Daniel|D|/src/views/funcionario/components/ListItemEmployee.tsx
+1668969413|Caique Daniel|M|/package.json
+1668969413|Caique Daniel|M|/package-lock.json
+1668969413|Caique Daniel|M|/src/views/funcionario/form-funcionario/FormFuncionario.tsx
+1668969413|Caique Daniel|M|/src/views/funcionario/Funcionario.tsx
+1668972253|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668975664|Caique Daniel|A|/src/helpers/components/BrowserStorage.ts
+1668975664|Caique Daniel|A|/src/helpers/components/SessionStorage.ts
+1668975664|Caique Daniel|M|/src/helpers/components/LocalStorage.ts
+1668975664|Caique Daniel|M|/src/helpers/Helpers.ts
+1668975664|Caique Daniel|M|/src/Storages.ts
+1668975664|Caique Daniel|M|/src/views/agendamento/form-agendamento/FormAgendamento.tsx
+1668975664|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1668979913|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1668980088|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1668984786|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ResponsavelTecnicoAlreadyExistsException.java
+1668984786|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1668984786|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1668984786|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1668984786|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1668984786|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668984786|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668986897|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1668986897|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1668986897|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1668986897|Henrique Shimada|M|/src/main/resources/data.sql
+1668990748|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarFuncionarioDto.java
+1668990748|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1668990837|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarFuncionarioDto.java
+1668993369|Welen Souza|A|/gitstats/.arquivo
+1668993393|Welen Souza|D|/gitstats/.arquivo
+1668993477|Welen Souza|A|/gitstats/arquivo
+1668993722|Welen Souza|A|/gitstats/backend/activity.html
+1668993722|Welen Souza|A|/gitstats/backend/arrow-down.gif
+1668993722|Welen Souza|A|/gitstats/backend/arrow-none.gif
+1668993722|Welen Souza|A|/gitstats/backend/arrow-up.gif
+1668993722|Welen Souza|A|/gitstats/backend/authors.html
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_author.dat
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_author.plot
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_author.png
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_year.dat
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_year.plot
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_year.png
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_year_month.dat
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_year_month.plot
+1668993722|Welen Souza|A|/gitstats/backend/commits_by_year_month.png
+1668993722|Welen Souza|A|/gitstats/backend/day_of_week.dat
+1668993722|Welen Souza|A|/gitstats/backend/day_of_week.plot
+1668993722|Welen Souza|A|/gitstats/backend/day_of_week.png
+1668993722|Welen Souza|A|/gitstats/backend/domains.dat
+1668993722|Welen Souza|A|/gitstats/backend/domains.plot
+1668993722|Welen Souza|A|/gitstats/backend/domains.png
+1668993722|Welen Souza|A|/gitstats/backend/files.html
+1668993722|Welen Souza|A|/gitstats/backend/files_by_date.dat
+1668993722|Welen Souza|A|/gitstats/backend/files_by_date.plot
+1668993722|Welen Souza|A|/gitstats/backend/files_by_date.png
+1668993722|Welen Souza|A|/gitstats/backend/gitstats.cache
+1668993722|Welen Souza|A|/gitstats/backend/gitstats.css
+1668993722|Welen Souza|A|/gitstats/backend/hour_of_day.dat
+1668993722|Welen Souza|A|/gitstats/backend/hour_of_day.plot
+1668993722|Welen Souza|A|/gitstats/backend/hour_of_day.png
+1668993722|Welen Souza|A|/gitstats/backend/index.html
+1668993722|Welen Souza|A|/gitstats/backend/lines.html
+1668993722|Welen Souza|A|/gitstats/backend/lines_of_code.dat
+1668993722|Welen Souza|A|/gitstats/backend/lines_of_code.plot
+1668993722|Welen Souza|A|/gitstats/backend/lines_of_code.png
+1668993722|Welen Souza|A|/gitstats/backend/lines_of_code_by_author.dat
+1668993722|Welen Souza|A|/gitstats/backend/lines_of_code_by_author.plot
+1668993722|Welen Souza|A|/gitstats/backend/lines_of_code_by_author.png
+1668993722|Welen Souza|A|/gitstats/backend/month_of_year.dat
+1668993722|Welen Souza|A|/gitstats/backend/month_of_year.plot
+1668993722|Welen Souza|A|/gitstats/backend/month_of_year.png
+1668993722|Welen Souza|A|/gitstats/backend/sortable.js
+1668993722|Welen Souza|A|/gitstats/backend/tags.html
+1668993722|Welen Souza|A|/gitstats/documento/activity.html
+1668993722|Welen Souza|A|/gitstats/documento/arrow-down.gif
+1668993722|Welen Souza|A|/gitstats/documento/arrow-none.gif
+1668993722|Welen Souza|A|/gitstats/documento/arrow-up.gif
+1668993722|Welen Souza|A|/gitstats/documento/authors.html
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_author.dat
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_author.plot
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_author.png
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_year.dat
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_year.plot
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_year.png
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_year_month.dat
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_year_month.plot
+1668993722|Welen Souza|A|/gitstats/documento/commits_by_year_month.png
+1668993722|Welen Souza|A|/gitstats/documento/day_of_week.dat
+1668993722|Welen Souza|A|/gitstats/documento/day_of_week.plot
+1668993722|Welen Souza|A|/gitstats/documento/day_of_week.png
+1668993722|Welen Souza|A|/gitstats/documento/domains.dat
+1668993722|Welen Souza|A|/gitstats/documento/domains.plot
+1668993722|Welen Souza|A|/gitstats/documento/domains.png
+1668993722|Welen Souza|A|/gitstats/documento/files.html
+1668993722|Welen Souza|A|/gitstats/documento/files_by_date.dat
+1668993722|Welen Souza|A|/gitstats/documento/files_by_date.plot
+1668993722|Welen Souza|A|/gitstats/documento/files_by_date.png
+1668993722|Welen Souza|A|/gitstats/documento/gitstats.cache
+1668993722|Welen Souza|A|/gitstats/documento/gitstats.css
+1668993722|Welen Souza|A|/gitstats/documento/hour_of_day.dat
+1668993722|Welen Souza|A|/gitstats/documento/hour_of_day.plot
+1668993722|Welen Souza|A|/gitstats/documento/hour_of_day.png
+1668993722|Welen Souza|A|/gitstats/documento/index.html
+1668993722|Welen Souza|A|/gitstats/documento/lines.html
+1668993722|Welen Souza|A|/gitstats/documento/lines_of_code.dat
+1668993722|Welen Souza|A|/gitstats/documento/lines_of_code.plot
+1668993722|Welen Souza|A|/gitstats/documento/lines_of_code.png
+1668993722|Welen Souza|A|/gitstats/documento/lines_of_code_by_author.dat
+1668993722|Welen Souza|A|/gitstats/documento/lines_of_code_by_author.plot
+1668993722|Welen Souza|A|/gitstats/documento/lines_of_code_by_author.png
+1668993722|Welen Souza|A|/gitstats/documento/month_of_year.dat
+1668993722|Welen Souza|A|/gitstats/documento/month_of_year.plot
+1668993722|Welen Souza|A|/gitstats/documento/month_of_year.png
+1668993722|Welen Souza|A|/gitstats/gitstatfront/activity.html
+1668993722|Welen Souza|A|/gitstats/gitstatfront/arrow-down.gif
+1668993722|Welen Souza|A|/gitstats/gitstatfront/arrow-none.gif
+1668993722|Welen Souza|A|/gitstats/gitstatfront/arrow-up.gif
+1668993722|Welen Souza|A|/gitstats/gitstatfront/authors.html
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_author.dat
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_author.plot
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_author.png
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_year.dat
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_year.plot
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_year.png
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_year_month.dat
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_year_month.plot
+1668993722|Welen Souza|A|/gitstats/gitstatfront/commits_by_year_month.png
+1668993722|Welen Souza|A|/gitstats/gitstatfront/day_of_week.dat
+1668993722|Welen Souza|A|/gitstats/gitstatfront/day_of_week.plot
+1668993722|Welen Souza|A|/gitstats/gitstatfront/day_of_week.png
+1668993722|Welen Souza|A|/gitstats/gitstatfront/domains.dat
+1668993764|Welen Souza|D|/gitstats/arquivo
+1668994497|Caique Daniel|A|/src/components/listing/components/ListItem.tsx
+1668994497|Caique Daniel|A|/src/views/agendamento/components/ModalExibirDados.tsx
+1668994497|Caique Daniel|A|/src/views/animal/components/ModalExibirDados.tsx
+1668994497|Caique Daniel|A|/src/views/funcionario/components/ModalExibirDados.tsx
+1668994497|Caique Daniel|A|/src/views/tutor/components/ModalExibirDados.tsx
+1668994497|Caique Daniel|D|/src/views/animal/components/ListItemAnimal.tsx
+1668994497|Caique Daniel|D|/src/views/funcionario/components/ListItemFuncionario.tsx
+1668994497|Caique Daniel|D|/src/views/tutor/components/ListItemTutor.tsx
+1668994497|Caique Daniel|M|/src/components/listing/Listing.tsx
+1668994497|Caique Daniel|M|/src/contracts/Contracts.ts
+1668994497|Caique Daniel|M|/src/index.tsx
+1668994497|Caique Daniel|M|/src/views/agendamento/Agendamento.tsx
+1668994497|Caique Daniel|M|/src/views/agendamento/components/ListItemAgendamento.tsx
+1668994497|Caique Daniel|M|/src/views/agendamento/form-agendamento/FormAgendamento.tsx
+1668994497|Caique Daniel|M|/src/views/animal/Animal.tsx
+1668994497|Caique Daniel|M|/src/views/funcionario/Funcionario.tsx
+1668994497|Caique Daniel|M|/src/views/prontuario/Prontuario.tsx
+1668994497|Caique Daniel|M|/src/views/tutor/Tutor.tsx
+1668994816|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarFuncionarioDto.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1668999170|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1669000320|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemProntuarioDto.java
+1669000320|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1669000823|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarProntuarioDto.java
+1669000823|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemProntuarioDto.java
+1669000823|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ClinicaAlreadyExistsException.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/VeterinarioRepository.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1669002147|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/VeterinarioService.java
+1669002147|Henrique Shimada|M|/src/main/resources/data.sql
+1669002840|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/ClinicaController.java
+1669002840|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroClinicaController.java
+1669002840|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1669002840|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ClinicaServiceImpl.java
+1669074362|Irina Ferreira|A|/metricasEquipeRocket.rar
+1669074419|Irina Ferreira|D|/metricasEquipeRocket.rar
+1669074495|Irina Ferreira|A|/M\303\251tricas SVN/metricasEquipeRocket.rar
+1669074728|Irina Ferreira|M|/Notas/notas.txt
+1669085910|Irina Ferreira|M|/LaTeX/modelo-ifsp-spo-version4718/main-texto-proposta.tex
+1669087923|Caique Daniel|A|/src/enums/Enums.ts
+1669087923|Caique Daniel|A|/src/views/prontuario/components/ListItemProntuario.tsx
+1669087923|Caique Daniel|A|/src/views/prontuario/components/ModalExibirDados.tsx
+1669087923|Caique Daniel|M|/src/contracts/Contracts.ts
+1669087923|Caique Daniel|M|/src/views/prontuario/Prontuario.tsx
+1669090307|Caique Daniel|M|/src/views/prontuario/components/ModalExibirDados.tsx
+1669090307|Caique Daniel|M|/src/views/prontuario/form-prontuario/FormProntuario.tsx
+1669090684|Caique Daniel|M|/src/components/listing/components/ListItem.tsx
+1669090684|Caique Daniel|M|/src/components/search-bar/SerachBar.tsx
+1669090684|Caique Daniel|M|/src/views/agendamento/components/ListItemAgendamento.tsx
+1669090684|Caique Daniel|M|/src/views/agendamento/components/ModalExibirDados.tsx
+1669090684|Caique Daniel|M|/src/views/prontuario/components/ListItemProntuario.tsx
+1669090966|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroFuncionarioDto.java
+1669092830|Caique Daniel|M|/src/views/signin/components/FormTechnician.tsx
+1669092830|Caique Daniel|M|/src/views/signin/SignIn.tsx
+1669092904|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/VeterinarioServiceImpl.java
+1669093715|Caique Daniel|M|/src/contracts/Contracts.ts
+1669093747|Caique Daniel|M|/src/views/prontuario/form-prontuario/FormProntuario.tsx
+1669093786|Caique Daniel|M|/src/components/navbar/Navbar.tsx
+1669136968|Murilo Pires|M|/Notas/notas.txt
+1669141609|Henrique Shimada|M|/src/env.ts
+1669258601|Henrique Shimada|A|/docker-compose-back.yml
+1669258601|Henrique Shimada|A|/docker-compose-front.yml
+1669258601|Henrique Shimada|M|/docker-compose-deploy.yml
+1669258601|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1669258601|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1669258601|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/FuncionarioRepository.java
+1669258601|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/FuncionarioService.java
+1669258601|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/FuncionarioServiceImpl.java
+1669260565|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/TokenService.java
+1669260565|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1669260565|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669260565|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1669262278|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1669262278|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669262278|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1669262278|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1669262278|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1669336598|Murilo Pires|M|/Notas/notas.txt
+1669350161|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/BaseController.java
+1669350161|Henrique Shimada|A|/src/main/resources/schema.sql
+1669350161|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/controller/CadastroTutorController.java
+1669350161|Henrique Shimada|M|/docker-compose-back.yml
+1669350161|Henrique Shimada|M|/docker-compose-front.yml
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AuthenticationController.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/ClinicaController.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1669350161|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1669421273|Henrique Shimada|M|/Notas/notas.txt
+1669427722|Henrique Shimada|M|/src/env.ts
+1669437156|Henrique Shimada|M|/DesenhoAplicacao/ArquiteturaAplicacao.drawio
+1669437236|Henrique Shimada|A|/DesenhoAplicacao/ArquiteturaAplicacao_v3.png
+1669437236|Henrique Shimada|A|/EntregaInicial/ssl/ImplementacaoSegurancaSSL.md
+1669437236|Henrique Shimada|A|/EntregaInicial/ssl/SSL Server Test_ frontend-certvet.us-east-1.elasticbeanstalk.com (Powered by Qualys SSL Labs).pdf
+1669476894|Henrique Shimada|M|/DesenhoAplicacao/ArquiteturaAplicacao.drawio
+1669476938|Henrique Shimada|A|/DesenhoAplicacao/ArquiteturaAplicacao_v4.png
+1669487939|Henrique Shimada|M|/EntregaInicial/ssl/ImplementacaoSegurancaSSL.md
+1669490984|Henrique Shimada|A|/DesenhoAplicacao/ArquiteturaAplicacao_v5.png
+1669490984|Henrique Shimada|M|/DesenhoAplicacao/ArquiteturaAplicacao.drawio
+1669490984|Henrique Shimada|M|/EntregaInicial/ssl/ImplementacaoSegurancaSSL.md
+1669493679|Henrique Shimada|M|/EntregaInicial/ssl/ImplementacaoSegurancaSSL.md
+1669493738|Henrique Shimada|A|/EntregaInicial/ssl/certificate.png
+1669493738|Henrique Shimada|A|/EntregaInicial/ssl/cipher.png
+1669493738|Henrique Shimada|A|/EntregaInicial/ssl/protocol.png
+1669493738|Henrique Shimada|A|/EntregaInicial/ssl/rating.png
+1669493738|Henrique Shimada|A|/EntregaInicial/ssl/SSL Server Test_ certvet-front.us-east-1.elasticbeanstalk.com (Powered by Qualys SSL Labs).pdf
+1669508261|Murilo Pires|A|/EntregaFinal/Escolhas e Descartes.md
+1669508362|Murilo Pires|M|/EntregaFinal/Escolhas e Descartes.md
+1669518846|Caique Daniel|M|/nginx.conf
+1669524016|Caique Daniel|M|/src/contracts/Contracts.ts
+1669524016|Caique Daniel|M|/src/layouts/components/RestrictedFormLayout.tsx
+1669524016|Caique Daniel|M|/src/views/agendamento/form-agendamento/FormAgendamento.tsx
+1669524016|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1669524016|Caique Daniel|M|/src/views/funcionario/form-funcionario/FormFuncionario.tsx
+1669524016|Caique Daniel|M|/src/views/prontuario/form-prontuario/FormProntuario.tsx
+1669524016|Caique Daniel|M|/src/views/tutor/form-tutor/FormTutor.tsx
+1669524362|Caique Daniel|M|/src/layouts/components/RestrictedFormLayout.tsx
+1669524900|Caique Daniel|M|/nginx.conf
+1669588805|Henrique Shimada|A|/src/main/resources/keystore/privatekey.pem
+1669588805|Henrique Shimada|A|/src/main/resources/keystore/public.crt
+1669588805|Henrique Shimada|M|/docker-compose-front.yml
+1669588805|Henrique Shimada|M|/Dockerfile
+1669588805|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1669588805|Henrique Shimada|M|/src/main/resources/application-local.yml
+1669588916|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1669588916|Henrique Shimada|M|/src/main/resources/application-local.yml
+1669605682|Henrique Shimada|A|/.ebextensions/securelistener-alb.config
+1669605682|Henrique Shimada|A|/.ebextensions/sg-ingressfromlb.config
+1669605682|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/controller/HelloController.java
+1669605682|Henrique Shimada|M|/docker-compose-back.yml
+1669605682|Henrique Shimada|M|/Dockerfile
+1669605682|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1669607241|Henrique Shimada|D|/EntregaInicial/ssl/SSL Server Test_ frontend-certvet.us-east-1.elasticbeanstalk.com (Powered by Qualys SSL Labs).pdf
+1669607241|Henrique Shimada|M|/EntregaInicial/ssl/ImplementacaoSegurancaSSL.md
+1669607241|Henrique Shimada|M|/EntregaInicial/ssl/SSL Server Test_ certvet-front.us-east-1.elasticbeanstalk.com (Powered by Qualys SSL Labs).pdf
+1669608829|Caique Daniel|M|/src/env.ts
+1669608829|Caique Daniel|M|/src/views/painel/Painel.tsx
+1669610638|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/service/AuthenticationService.java
+1669610638|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroTutorDto.java
+1669610638|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/TutorController.java
+1669610638|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/TutorServiceImpl.java
+1669610638|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/TutorService.java
+1669652340|Caique Daniel|M|/nginx.conf
+1669677996|Henrique Shimada|M|/.ebextensions/securelistener-alb.config
+1669677996|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1669677996|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/HelloController.java
+1669677996|Henrique Shimada|M|/src/main/resources/keystore/privatekey.pem
+1669677996|Henrique Shimada|M|/src/main/resources/keystore/public.crt
+1669681602|Caique Daniel|M|/nginx.conf
+1669681602|Caique Daniel|M|/src/helpers/components/Masks.ts
+1669681602|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1669681602|Caique Daniel|M|/src/views/funcionario/form-funcionario/FormFuncionario.tsx
+1669681602|Caique Daniel|M|/src/views/prontuario/form-prontuario/FormProntuario.tsx
+1669681602|Caique Daniel|M|/src/views/signin/components/FormClinic.tsx
+1669681602|Caique Daniel|M|/src/views/signin/components/FormOwner.tsx
+1669681602|Caique Daniel|M|/src/views/signin/components/FormTechnician.tsx
+1669681602|Caique Daniel|M|/src/views/tutor/form-tutor/FormTutor.tsx
+1669684031|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1669684031|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAnimalDto.java
+1669684031|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1669684031|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1669684998|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1669939110|Henrique Shimada|D|/DesenhoAplicacao/ArquiteturaAplicacao_v5.png
+1669939110|Henrique Shimada|M|/DesenhoAplicacao/ArquiteturaAplicacao.drawio
+1669939164|Henrique Shimada|A|/DesenhoAplicacao/ArquiteturaAplicacao_v6.png
+1669939164|Henrique Shimada|A|/EntregaFinal/Scan results for https___certvet-front.us-east-1.elasticbeanstalk.com_.pdf
+1669939164|Henrique Shimada|A|/EntregaInicial/An\303\241lise do processo/An\303\241lise do processo.md
+1669939164|Henrique Shimada|A|/EntregaInicial/An\303\241lise do processo/CertVet_PI1 - Prof-1.pdf
+1669939164|Henrique Shimada|A|/EntregaInicial/An\303\241lise do processo/CertVet_PI1-1.pdf
+1669939164|Henrique Shimada|A|/EntregaInicial/An\303\241lise do processo/Modelo de mini mundo.md
+1669939164|Henrique Shimada|A|/EntregaInicial/An\303\241lise do processo/ProjetoPI1.png
+1669939164|Henrique Shimada|A|/EntregaInicial/apresentacao.pdf
+1669939164|Henrique Shimada|A|/EntregaInicial/modelo_ifsp_spo.pdf
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715.zip
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/cfn-hup.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/cfn-init.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/cfn-init-cmd.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/cfn-wire.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/cloud-init.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/cloud-init-output.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/cron
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/docker
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/docker-compose-events.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/docker-events.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/eb-cfn-init.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/eb-cfn-init-call.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/eb-docker/containers/eb-current-app/eb-stdouterr.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/eb-engine.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/eb-hooks.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/eb-publish.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/eb-tools.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/healthd/daemon.log
+1669939164|Henrique Shimada|A|/EntregaInicial/ssl/BundleLogs-1669674552715/var/log/messages
+1669939164|Henrique Shimada|A|/Modelos/Processo/process.drawio
+1670100315|Henrique Shimada|A|/.run/PocApplication.run.xml
+1670100315|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ProntuarioAlreadyExistsException.java
+1670100315|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/ProntuarioNotFoundException.java
+1670100315|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/DocumentoRepository.java
+1670100315|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/PdfRepository.java
+1670100315|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/CertvetCodingService.java
+1670100315|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/CertvetCodingServiceImpl.java
+1670100315|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670100315|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/service/S3BucketService.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/ProntuarioRepository.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/ClinicaService.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/PdfService.java
+1670100315|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1670100315|Henrique Shimada|M|/src/main/resources/application-dev.yml
+1670100315|Henrique Shimada|M|/src/main/resources/application-local.yml
+1670174337|Caique Daniel|M|/src/env.ts
+1670174337|Caique Daniel|M|/src/views/animal/form-animal/FormAnimal.tsx
+1670183307|Caique Daniel|M|/package.json
+1670183307|Caique Daniel|M|/package-lock.json
+1670183307|Caique Daniel|M|/src/views/agendamento/form-agendamento/FormAgendamento.tsx
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1670183541|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670188076|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/RecuperarAgendamentoDto.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAgendamentoDto.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Agendamento.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/AgendamentoService.java
+1670188076|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670188111|Caique Daniel|M|/src/contracts/Contracts.ts
+1670188111|Caique Daniel|M|/src/views/agendamento/Agendamento.tsx
+1670188111|Caique Daniel|M|/src/views/agendamento/components/ModalExibirDados.tsx
+1670199252|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/repository/TipoDocumentoRepository.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/CadastroAnimalDto.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/FuncionarioController.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/TipoDocumento.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Tutor.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Veterinario.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670199252|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670199252|Henrique Shimada|M|/src/main/resources/data.sql
+1670200571|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/ProntuarioController.java
+1670200571|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670200571|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670200571|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/ProntuarioService.java
+1670200571|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670280258|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/AgendamentoCreateException.java
+1670280258|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/AgendamentoNotFound.java
+1670280258|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AgendamentoController.java
+1670280258|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/exceptionResolver/handler/CustomExceptionHandler.java
+1670280258|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670281528|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/AgendamentoRepository.java
+1670281528|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AgendamentoServiceImpl.java
+1670281916|Caique Daniel|M|/src/layouts/components/RestrictedFormLayout.tsx
+1670285661|Henrique Shimada|A|/src/main/java/br/vet/sidekick/poc/service/impl/S3BucketServiceRepository.java
+1670285661|Henrique Shimada|D|/src/main/java/br/vet/sidekick/poc/service/S3BucketServiceRepository.java
+1670285661|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/filter/TokenAuthenticationFilter.java
+1670285661|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/conf/security/SecurityConfiguration.java
+1670285661|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670285661|Henrique Shimada|M|/src/main/resources/data.sql
+1670286297|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemTutoresAnimalDto.java
+1670286297|Caique Daniel|A|/src/main/java/br/vet/sidekick/poc/exceptionResolver/exception/AnimalNotFound.java
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/TutorRepository.java
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/AnimalService.java
+1670286297|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/AnimalResponse.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ListagemProntuarioDto.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/repository/AnimalRepository.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/AnimalServiceImpl.java
+1670288725|Caique Daniel|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+1670289079|Caique Daniel|M|/src/views/prontuario/form-prontuario/FormProntuario.tsx
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/AnimalController.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/controller/dto/ProntuarioDto.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Animal.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Clinica.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Documento.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Funcionario.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/Prontuario.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/model/TipoDocumento.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/PdfServicePdfBoxImpl.java
+1670292806|Henrique Shimada|M|/src/main/java/br/vet/sidekick/poc/service/impl/ProntuarioServiceImpl.java
+
